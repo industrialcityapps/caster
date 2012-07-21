@@ -1,0 +1,388 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Kiwi 1.0.0 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">Kiwi 1.0.0 </a></h1>
+				<a id="developerHome" href="index.html">Allen Ding, Luke Redpath</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">Kiwi 1.0.0 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">Kiwi 1.0.0 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<h1>Simple BDD for iOS</h1>
+
+<p>Kiwi is a Behavior Driven Development library for iOS development.
+The goal is to provide a BDD library that is exquisitely simple to setup and use.</p>
+
+<p>Ping us at @alding or @lukeredpath and let us know what you are using Kiwi for.</p>
+
+<p>Requirements:</p>
+
+<ul>
+<li>Xcode 4.x</li>
+<li>LLVM compiler recommended</li>
+</ul>
+
+
+<h1>Why?</h1>
+
+<p>The idea behind Kiwi is to have tests that are more readable that what is possible with the bundled test framework.</p>
+
+<p>Tests (or rather specs) are written in Objective-C and run within the comfort of Xcode to provide a test environment that is as unobtrusive and seamless as possible in terms of running tests and error reporting.</p>
+
+<p>Specs look like this:</p>
+
+<p>```objective-c
+describe(@&ldquo;Team&rdquo;, ^{</p>
+
+<pre><code>context(@"when newly created", ^{
+    it(@"should have a name", ^{
+        id team = [Team team];
+        [[team.name should] equal:@"Black Hawks"];
+    });
+
+    it(@"should have 11 players", ^{
+        id team = [Team team];
+        [[[team should] have:11] players];
+    });
+});
+</code></pre>
+
+<p>});
+```</p>
+
+<p>To some of you, this might seem like an abomination. To the rest, read on&hellip;</p>
+
+<h1>License</h1>
+
+<p>Kiwi is open source software. You may freely distribute it under the terms of
+the license agreement found in <strong>License.txt</strong>.</p>
+
+<h1>Contributing</h1>
+
+<p>Kiwi is maintained by:</p>
+
+<ul>
+<li>Allen Ding (@alding)</li>
+<li>Luke Redpath (@lukeredpath)</li>
+</ul>
+
+
+<p>Pull requests welcome. Significant contributors are listed in <strong>Contributors.txt</strong>.</p>
+
+<h1>Getting it</h1>
+
+<p>The best way to get Kiwi is by cloning the git repository: <code>git clone git://github.com/allending/Kiwi.git</code></p>
+
+<h1>Project file structure</h1>
+
+<p><strong>Kiwi.xcodeproject</strong> has two runnable targets: <strong>Kiwi</strong> and <strong>KiwiExamples</strong>. Both of these targets are set up to be test targets.</p>
+
+<ul>
+<li>To run tests in Xcode 4, run <strong>Product->Test</strong>, or use the <strong>Cmd-U</strong> shortcut.</li>
+<li>Running tests when <strong>Kiwi</strong> is the current target runs the SenTestKit tests used to test Kiwi itself. The tests are located in the <strong>Tests</strong> group in the Xcode project navigator.</li>
+<li>Running tests when <strong>KiwiExamples</strong> is the current target runs the example Kiwi specs meant to serve as sample Kiwi usage. The specs are located in the <strong>Examples</strong> group in the Xcode project navigator.</li>
+</ul>
+
+
+<h1>Using Kiwi in your project</h1>
+
+<p>The essential point to understand about using Kiwi in your own project is that:</p>
+
+<ul>
+<li>You have to have a test target.</li>
+<li>The Kiwi library code has to be added to the test target.</li>
+<li>Tests are run in the same way regular Xcode tests are run: Perform the <strong>Test</strong> action on the test target.</li>
+</ul>
+
+
+<p>It is highly recommended (and probably a future requirement) that you set the compiler for the test target to the latest version of the LLVM compiler. It is also easy to set up Kiwi as a static library or separate project within a workspace. Instructions will come when I have time.</p>
+
+<p>Example scenarios are provided below for the simplest use cases.</p>
+
+<h2>For a new Xcode project</h2>
+
+<ol>
+<li>Create a new iOS project (we will use <strong>Foobar</strong> as a sample project <a href="Classes/name.html">name</a>) and ensure that <strong>&ldquo;Include Unit Tests&rdquo;</strong> is selected during the new project wizard process.</li>
+<li>This should result in a <strong>Tests</strong> group in your new project.</li>
+<li><p>You should also have a test target named something like <strong>FoobarTests</strong>.</p></li>
+<li><p>Remove the sample <strong>FoobarTest.(h|m)</strong> files Xcode generated.</p></li>
+<li><p>Add all the Kiwi sources (.h and .m) to your test target.</p></li>
+<li>The files are located in the <strong>Kiwi/Kiwi</strong> directory you cloned with git.</li>
+<li>Just to be clear, this is the directory that contains the <strong>Kiwi.h</strong> file.</li>
+<li><p>An easy way to do this is to add the entire Kiwi directory with Xcode with the options <strong>&ldquo;Copy items into destination group&rsquo;s folder&rdquo;</strong> and <strong>&ldquo;Add to target: FoobarTests&rdquo;</strong>.</p></li>
+<li><p>Add a new <strong>FoobarSpec.m</strong> file to the test target, and make sure that it belongs to the <strong>FoobarTests</strong> test target. You can use the contents of <strong>FoobarSpec.m</strong> below.</p></li>
+<li><p>Run the <strong>FoobarTests</strong> test target (<strong>Product->Test</strong> or <strong>Cmd-U</strong>). The spec/tests should now run.</p></li>
+<li><p>Try changing <code>should</code> to <code>shouldNot</code> in the spec and rerun the test. You should now see a test failure.</p></li>
+<li><p>Start adding your own specs.</p></li>
+</ol>
+
+
+<h2>For an existing project with an existing test target</h2>
+
+<ol>
+<li>Start from step (3) in the instructions given in the <strong>&ldquo;For a new Xcode project&rdquo;</strong> section above.</li>
+</ol>
+
+
+<h2>For an existing project without a test target</h2>
+
+<ol>
+<li><p>Add a new <strong>&ldquo;Cocoa Touch Unit Testing Bundle&rdquo;</strong> target to your project (<strong>File->New->New Target&hellip;&ndash;>Other</strong>).</p></li>
+<li><p>Continue from step (3) in the instructions given in the <strong>&ldquo;For a new Xcode project&rdquo;</strong> section above.</p></li>
+</ol>
+
+
+<h2>FoobarSpec.m</h2>
+
+<p>```objective-c</p>
+
+<h1>import &ldquo;Kiwi.h&rdquo;</h1>
+
+<p>SPEC_BEGIN(FoobarSpec)</p>
+
+<p>describe(@&ldquo;Foobar&rdquo;, ^{</p>
+
+<pre><code>it(@"a simple test", ^{
+    NSString *greeting = [NSString stringWithFormat:@"%@ %@", @"Hello", @"world"];
+    [[greeting should] equal:@"Hello world"];
+});
+</code></pre>
+
+<p>});</p>
+
+<p>SPEC_END
+```</p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/KWAfterAllNode.html">KWAfterAllNode</a></li>
+							
+							<li><a href="Classes/KWAfterEachNode.html">KWAfterEachNode</a></li>
+							
+							<li><a href="Classes/KWAsyncMatcherProbe.html">KWAsyncMatcherProbe</a></li>
+							
+							<li><a href="Classes/KWAsyncVerifier.html">KWAsyncVerifier</a></li>
+							
+							<li><a href="Classes/KWBeBetweenMatcher.html">KWBeBetweenMatcher</a></li>
+							
+							<li><a href="Classes/KWBeEmptyMatcher.html">KWBeEmptyMatcher</a></li>
+							
+							<li><a href="Classes/KWBeIdenticalToMatcher.html">KWBeIdenticalToMatcher</a></li>
+							
+							<li><a href="Classes/KWBeKindOfClassMatcher.html">KWBeKindOfClassMatcher</a></li>
+							
+							<li><a href="Classes/KWBeMemberOfClassMatcher.html">KWBeMemberOfClassMatcher</a></li>
+							
+							<li><a href="Classes/KWBeNilMatcher.html">KWBeNilMatcher</a></li>
+							
+							<li><a href="Classes/KWBeNonNilMatcher.html">KWBeNonNilMatcher</a></li>
+							
+							<li><a href="Classes/KWBeTrueMatcher.html">KWBeTrueMatcher</a></li>
+							
+							<li><a href="Classes/KWBeWithinMatcher.html">KWBeWithinMatcher</a></li>
+							
+							<li><a href="Classes/KWBeZeroMatcher.html">KWBeZeroMatcher</a></li>
+							
+							<li><a href="Classes/KWBeforeAllNode.html">KWBeforeAllNode</a></li>
+							
+							<li><a href="Classes/KWBeforeEachNode.html">KWBeforeEachNode</a></li>
+							
+							<li><a href="Classes/KWBlock.html">KWBlock</a></li>
+							
+							<li><a href="Classes/KWBlockNode.html">KWBlockNode</a></li>
+							
+							<li><a href="Classes/KWBlockRaiseMatcher.html">KWBlockRaiseMatcher</a></li>
+							
+							<li><a href="Classes/KWCallSite.html">KWCallSite</a></li>
+							
+							<li><a href="Classes/KWConformToProtocolMatcher.html">KWConformToProtocolMatcher</a></li>
+							
+							<li><a href="Classes/KWContainMatcher.html">KWContainMatcher</a></li>
+							
+							<li><a href="Classes/KWContextNode.html">KWContextNode</a></li>
+							
+							<li><a href="Classes/KWDeviceInfo.html">KWDeviceInfo</a></li>
+							
+							<li><a href="Classes/KWEqualMatcher.html">KWEqualMatcher</a></li>
+							
+							<li><a href="Classes/KWExampleGroup.html">KWExampleGroup</a></li>
+							
+							<li><a href="Classes/KWExampleGroupBuilder.html">KWExampleGroupBuilder</a></li>
+							
+							<li><a href="Classes/KWExistVerifier.html">KWExistVerifier</a></li>
+							
+							<li><a href="Classes/KWFailure.html">KWFailure</a></li>
+							
+							<li><a href="Classes/KWFormatter.html">KWFormatter</a></li>
+							
+							<li><a href="Classes/KWFutureObject.html">KWFutureObject</a></li>
+							
+							<li><a href="Classes/KWHamcrestMatcher.html">KWHamcrestMatcher</a></li>
+							
+							<li><a href="Classes/KWHaveMatcher.html">KWHaveMatcher</a></li>
+							
+							<li><a href="Classes/KWHaveValueMatcher.html">KWHaveValueMatcher</a></li>
+							
+							<li><a href="Classes/KWInequalityMatcher.html">KWInequalityMatcher</a></li>
+							
+							<li><a href="Classes/KWInvocationCapturer.html">KWInvocationCapturer</a></li>
+							
+							<li><a href="Classes/KWItNode.html">KWItNode</a></li>
+							
+							<li><a href="Classes/KWMatchVerifier.html">KWMatchVerifier</a></li>
+							
+							<li><a href="Classes/KWMatcher.html">KWMatcher</a></li>
+							
+							<li><a href="Classes/KWMatcherFactory.html">KWMatcherFactory</a></li>
+							
+							<li><a href="Classes/KWMatchers.html">KWMatchers</a></li>
+							
+							<li><a href="Classes/KWMessagePattern.html">KWMessagePattern</a></li>
+							
+							<li><a href="Classes/KWMessageTracker.html">KWMessageTracker</a></li>
+							
+							<li><a href="Classes/KWMock.html">KWMock</a></li>
+							
+							<li><a href="Classes/KWNull.html">KWNull</a></li>
+							
+							<li><a href="Classes/KWPendingNode.html">KWPendingNode</a></li>
+							
+							<li><a href="Classes/KWProbePoller.html">KWProbePoller</a></li>
+							
+							<li><a href="Classes/KWRaiseMatcher.html">KWRaiseMatcher</a></li>
+							
+							<li><a href="Classes/KWReceiveMatcher.html">KWReceiveMatcher</a></li>
+							
+							<li><a href="Classes/KWRegisterMatchersNode.html">KWRegisterMatchersNode</a></li>
+							
+							<li><a href="Classes/KWRespondToSelectorMatcher.html">KWRespondToSelectorMatcher</a></li>
+							
+							<li><a href="Classes/KWSpec.html">KWSpec</a></li>
+							
+							<li><a href="Classes/KWStub.html">KWStub</a></li>
+							
+							<li><a href="Classes/KWTestCase.html">KWTestCase</a></li>
+							
+							<li><a href="Classes/KWUserDefinedMatcher.html">KWUserDefinedMatcher</a></li>
+							
+							<li><a href="Classes/KWUserDefinedMatcherBuilder.html">KWUserDefinedMatcherBuilder</a></li>
+							
+							<li><a href="Classes/KWValue.html">KWValue</a></li>
+							
+							<li><a href="Classes/name.html">name</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/HCMatcher.html">HCMatcher</a></li>
+							
+							<li><a href="Protocols/KWContainmentCountMatcherTerminals.html">KWContainmentCountMatcherTerminals</a></li>
+							
+							<li><a href="Protocols/KWExampleGroupDelegate.html">KWExampleGroupDelegate</a></li>
+							
+							<li><a href="Protocols/KWExampleNode.html">KWExampleNode</a></li>
+							
+							<li><a href="Protocols/KWExampleNodeVisitor.html">KWExampleNodeVisitor</a></li>
+							
+							<li><a href="Protocols/KWInvocationCapturerDelegate.html">KWInvocationCapturerDelegate</a></li>
+							
+							<li><a href="Protocols/KWMatching.html">KWMatching</a></li>
+							
+							<li><a href="Protocols/KWMessageSpying.html">KWMessageSpying</a></li>
+							
+							<li><a href="Protocols/KWProbe.html">KWProbe</a></li>
+							
+							<li><a href="Protocols/KWReporting.html">KWReporting</a></li>
+							
+							<li><a href="Protocols/KWVerifying.html">KWVerifying</a></li>
+							
+						</ul>
+						
+						
+						<h2 class="index-title">Category References</h2>
+						<ul>
+							
+							<li><a href="Categories/NSArray+KiwiHamcrestAdditions.html">NSArray(KiwiHamcrestAdditions)</a></li>
+							
+							<li><a href="Categories/NSInvocation+KiwiAdditions.html">NSInvocation(KiwiAdditions)</a></li>
+							
+							<li><a href="Categories/NSMethodSignature+KiwiAdditions.html">NSMethodSignature(KiwiAdditions)</a></li>
+							
+							<li><a href="Categories/NSNumber+KiwiAdditions.html">NSNumber(KiwiAdditions)</a></li>
+							
+							<li><a href="Categories/NSObject+KWUserDefinedMatchersDefinitions.html">NSObject(KWUserDefinedMatchersDefinitions)</a></li>
+							
+							<li><a href="Categories/NSObject+KiwiHamcrestAdditions.html">NSObject(KiwiHamcrestAdditions)</a></li>
+							
+							<li><a href="Categories/NSObject+KiwiMockAdditions.html">NSObject(KiwiMockAdditions)</a></li>
+							
+							<li><a href="Categories/NSObject+KiwiStubAdditions.html">NSObject(KiwiStubAdditions)</a></li>
+							
+							<li><a href="Categories/NSObject+KiwiVerifierAdditions.html">NSObject(KiwiVerifierAdditions)</a></li>
+							
+							<li><a href="Categories/NSValue+KiwiAdditions.html">NSValue(KiwiAdditions)</a></li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Allen Ding, Luke Redpath. All rights reserved. (Last updated: 2012-07-21)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>
