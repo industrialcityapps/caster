@@ -1,5 +1,5 @@
 //
-//  ICViewController.h
+//  ICGestureRecognizer.h
 //  caster
 //
 //  Created by Jonah Williams on 7/21/12.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class ICPathView;
+@interface ICGestureRecognizer : UIGestureRecognizer
 
-@interface ICViewController : UIViewController
-
-@property(nonatomic, strong) IBOutlet ICPathView *pathView;
+- (NSArray *)paths;
 
 @end

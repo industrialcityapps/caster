@@ -1,5 +1,5 @@
 //
-//  ICViewController.h
+//  ICPathView.h
 //  caster
 //
 //  Created by Jonah Williams on 7/21/12.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@class ICPathView;
+@interface ICPathView : UIView
 
-@interface ICViewController : UIViewController
-
-@property(nonatomic, strong) IBOutlet ICPathView *pathView;
+@property(nonatomic, strong) NSArray *paths;
 
 @end
