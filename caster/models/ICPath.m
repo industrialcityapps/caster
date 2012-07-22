@@ -186,7 +186,7 @@
             [bzPath addLineToPoint:point];
         }
     }
-    self.reconstructedBezierPath = bzPath;
+    //self.reconstructedBezierPath = bzPath;
     
     vDSP_destroy_fftsetup(setup);
     free(x_magnitudes);
