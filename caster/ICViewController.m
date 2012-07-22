@@ -16,6 +16,7 @@
 
 @property(nonatomic, strong) ICGestureRecognizer *gestureRecognizer;
 @property(nonatomic, strong) NSArray *graphedPaths;
+@property(nonatomic, strong) UIImageView *imageView;
 
 - (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer;
 
@@ -28,6 +29,7 @@
 @synthesize xGraphHostingView = _IC_xGraphHostingView;
 @synthesize yGraphHostingView = _IC_yGraphHostingView;
 @synthesize graphedPaths = _IC_graphedPaths;
+@synthesize imageView = _IC_imageView;
 
 - (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer 
 {
@@ -84,6 +86,34 @@
         
         plot.dataSource = path;
         [self.yGraphHostingView.hostedGraph addPlot:plot];
+        
+        //add spell effects
+        NSLog(@"v=%@, x=%@, y=%@", path.velocityMagnitude, path.xEnergy, path.yEnergy);
+        NSString *imageName = nil;
+        if ([path.velocityMagnitude floatValue] > 100.0) {
+            imageName = @"Gem Orange.png";
+        }
+        else if (fabsf(([path.xEnergy floatValue] - [path.yEnergy floatValue])) < 100.0) {
+            imageName = @"Gem Green.png";
+        }
+        else {
+            imageName = @"Gem Blue.png";
+        }
+        CGPoint effectCenter = [gestureRecognizer locationInView:self.view];
+        [UIView animateWithDuration:1.0 delay:0.0 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+            self.imageView.alpha = 0.0;
+        } completion:^(BOOL finished) {
+            [self.imageView removeFromSuperview];
+            self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:imageName]];
+            self.imageView.alpha = 0.0;
+            [self.view addSubview:self.imageView];
+            self.imageView.center = effectCenter;
+            [UIView animateWithDuration:1.0 delay:0.0 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+                self.imageView.alpha = 1.0;
+            } completion:^(BOOL finished) {
+                
+            }];
+        }];
     }
     [self.pathView setGeneratedPaths:generatedPaths];
 }
@@ -94,7 +124,7 @@
 {
     [super viewDidLoad];
     
-    self.title = @"Data";
+    self.title = @"Data";    
     
 	self.gestureRecognizer = [[ICGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
     self.pathView.multipleTouchEnabled = YES;
@@ -154,6 +184,7 @@
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    self.imageView = nil;
     self.gestureRecognizer = nil;
     self.pathView = nil;
     self.xGraphHostingView = nil;

@@ -30,7 +30,17 @@
 		8C19FAD915BB9EDD0096B5B1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C19FAD515BB7F560096B5B1 /* Accelerate.framework */; };
 		8C19FADD15BBC4A40096B5B1 /* ICTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FADC15BBC4A40096B5B1 /* ICTouch.m */; };
 		8C19FAE015BBC9860096B5B1 /* ICPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FADF15BBC9860096B5B1 /* ICPath.m */; };
-		8C61190E15BC5AB80082DAB3 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61190D15BC5AB80082DAB3 /* wizard.png */; };
+		8C61191B15BC6B200082DAB3 /* Character Princess Girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191015BC6B200082DAB3 /* Character Princess Girl.png */; };
+		8C61191C15BC6B200082DAB3 /* Dirt Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191115BC6B200082DAB3 /* Dirt Block.png */; };
+		8C61191D15BC6B200082DAB3 /* Gem Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191215BC6B200082DAB3 /* Gem Blue.png */; };
+		8C61191E15BC6B200082DAB3 /* Gem Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191315BC6B200082DAB3 /* Gem Green.png */; };
+		8C61191F15BC6B200082DAB3 /* Gem Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191415BC6B200082DAB3 /* Gem Orange.png */; };
+		8C61192015BC6B200082DAB3 /* Grass Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191515BC6B200082DAB3 /* Grass Block.png */; };
+		8C61192115BC6B200082DAB3 /* Plain Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191615BC6B200082DAB3 /* Plain Block.png */; };
+		8C61192215BC6B200082DAB3 /* Rock.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191715BC6B200082DAB3 /* Rock.png */; };
+		8C61192315BC6B200082DAB3 /* Stone Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191815BC6B200082DAB3 /* Stone Block.png */; };
+		8C61192415BC6B200082DAB3 /* Tree Ugly.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191915BC6B200082DAB3 /* Tree Ugly.png */; };
+		8C61192515BC6B200082DAB3 /* Water Block.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C61191A15BC6B200082DAB3 /* Water Block.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +86,17 @@
 		8C19FADC15BBC4A40096B5B1 /* ICTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICTouch.m; sourceTree = "<group>"; };
 		8C19FADE15BBC9860096B5B1 /* ICPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPath.h; sourceTree = "<group>"; };
 		8C19FADF15BBC9860096B5B1 /* ICPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICPath.m; sourceTree = "<group>"; };
-		8C61190D15BC5AB80082DAB3 /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
+		8C61191015BC6B200082DAB3 /* Character Princess Girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Character Princess Girl.png"; sourceTree = "<group>"; };
+		8C61191115BC6B200082DAB3 /* Dirt Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dirt Block.png"; sourceTree = "<group>"; };
+		8C61191215BC6B200082DAB3 /* Gem Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gem Blue.png"; sourceTree = "<group>"; };
+		8C61191315BC6B200082DAB3 /* Gem Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gem Green.png"; sourceTree = "<group>"; };
+		8C61191415BC6B200082DAB3 /* Gem Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gem Orange.png"; sourceTree = "<group>"; };
+		8C61191515BC6B200082DAB3 /* Grass Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Grass Block.png"; sourceTree = "<group>"; };
+		8C61191615BC6B200082DAB3 /* Plain Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plain Block.png"; sourceTree = "<group>"; };
+		8C61191715BC6B200082DAB3 /* Rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rock.png; sourceTree = "<group>"; };
+		8C61191815BC6B200082DAB3 /* Stone Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stone Block.png"; sourceTree = "<group>"; };
+		8C61191915BC6B200082DAB3 /* Tree Ugly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tree Ugly.png"; sourceTree = "<group>"; };
+		8C61191A15BC6B200082DAB3 /* Water Block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Water Block.png"; sourceTree = "<group>"; };
 		B830F169D6014513B04D8335 /* libPods-casterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-casterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -146,7 +166,7 @@
 		8C19FA7615BB3F340096B5B1 /* caster */ = {
 			isa = PBXGroup;
 			children = (
-				8C61190D15BC5AB80082DAB3 /* wizard.png */,
+				8C61190F15BC6B200082DAB3 /* Resources */,
 				8C19FADA15BBC48A0096B5B1 /* models */,
 				8C19FACE15BB69A60096B5B1 /* views */,
 				8C19FAC615BB4A220096B5B1 /* gestures */,
@@ -218,6 +238,24 @@
 				8C19FADF15BBC9860096B5B1 /* ICPath.m */,
 			);
 			path = models;
+			sourceTree = "<group>";
+		};
+		8C61190F15BC6B200082DAB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C61191015BC6B200082DAB3 /* Character Princess Girl.png */,
+				8C61191115BC6B200082DAB3 /* Dirt Block.png */,
+				8C61191215BC6B200082DAB3 /* Gem Blue.png */,
+				8C61191315BC6B200082DAB3 /* Gem Green.png */,
+				8C61191415BC6B200082DAB3 /* Gem Orange.png */,
+				8C61191515BC6B200082DAB3 /* Grass Block.png */,
+				8C61191615BC6B200082DAB3 /* Plain Block.png */,
+				8C61191715BC6B200082DAB3 /* Rock.png */,
+				8C61191815BC6B200082DAB3 /* Stone Block.png */,
+				8C61191915BC6B200082DAB3 /* Tree Ugly.png */,
+				8C61191A15BC6B200082DAB3 /* Water Block.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +335,17 @@
 				8C19FA7B15BB3F340096B5B1 /* InfoPlist.strings in Resources */,
 				8C19FA8715BB3F340096B5B1 /* ICViewController_iPhone.xib in Resources */,
 				8C19FA8A15BB3F340096B5B1 /* ICViewController_iPad.xib in Resources */,
-				8C61190E15BC5AB80082DAB3 /* wizard.png in Resources */,
+				8C61191B15BC6B200082DAB3 /* Character Princess Girl.png in Resources */,
+				8C61191C15BC6B200082DAB3 /* Dirt Block.png in Resources */,
+				8C61191D15BC6B200082DAB3 /* Gem Blue.png in Resources */,
+				8C61191E15BC6B200082DAB3 /* Gem Green.png in Resources */,
+				8C61191F15BC6B200082DAB3 /* Gem Orange.png in Resources */,
+				8C61192015BC6B200082DAB3 /* Grass Block.png in Resources */,
+				8C61192115BC6B200082DAB3 /* Plain Block.png in Resources */,
+				8C61192215BC6B200082DAB3 /* Rock.png in Resources */,
+				8C61192315BC6B200082DAB3 /* Stone Block.png in Resources */,
+				8C61192415BC6B200082DAB3 /* Tree Ugly.png in Resources */,
+				8C61192515BC6B200082DAB3 /* Water Block.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
