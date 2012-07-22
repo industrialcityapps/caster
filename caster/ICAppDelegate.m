@@ -24,7 +24,11 @@
     } else {
         self.viewController = [[ICViewController alloc] initWithNibName:@"ICViewController_iPad" bundle:nil];
     }
-    self.window.rootViewController = self.viewController;
+    
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    [tabController setViewControllers:[NSArray arrayWithObjects:self.viewController, nil]];
+    self.window.rootViewController = tabController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

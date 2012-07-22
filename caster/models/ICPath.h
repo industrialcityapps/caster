@@ -14,6 +14,9 @@
 @interface ICPath : NSObject <CPTPlotDataSource>
 
 @property(nonatomic, readonly, strong) UIBezierPath *reconstructedBezierPath;
+@property(nonatomic, readonly, strong) NSNumber *velocityMagnitude;
+@property(nonatomic, readonly, strong) NSNumber *xEnergy;
+@property(nonatomic, readonly, strong) NSNumber *yEnergy;
 
 - (id)initWithTouches:(NSArray *)touches;
 

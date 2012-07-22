@@ -93,6 +93,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.title = @"Data";
+    
 	self.gestureRecognizer = [[ICGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
     self.pathView.multipleTouchEnabled = YES;
     [self.pathView addGestureRecognizer:self.gestureRecognizer];

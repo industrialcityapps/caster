@@ -16,6 +16,9 @@
 @property(nonatomic, strong) NSMutableArray *fftXValues;
 @property(nonatomic, strong) NSMutableArray *fftYValues;
 @property(nonatomic, readwrite, strong) UIBezierPath *reconstructedBezierPath;
+@property(nonatomic, readwrite, strong) NSNumber *velocityMagnitude;
+@property(nonatomic, readwrite, strong) NSNumber *xEnergy;
+@property(nonatomic, readwrite, strong) NSNumber *yEnergy;
 
 @end
 
@@ -25,6 +28,9 @@
 @synthesize fftXValues = _IC_fftXValues;
 @synthesize fftYValues = _IC_fftYValues;
 @synthesize reconstructedBezierPath = _IC_reconstructedBezierPath;
+@synthesize velocityMagnitude = _IC_velocityMagnitude;
+@synthesize xEnergy = _IC_xEnergy;
+@synthesize yEnergy = _IC_yEnergy;
 
 - (id)init
 {
@@ -197,6 +203,33 @@
     free(inverse_y_sinusoid);
     free(A.realp);
     free(A.imagp);
+    
+    //energy
+    float xEnergy = 0;
+    for (uint32_t index = 2; index < [self.fftXValues count]; index++) {
+        xEnergy += [[self.fftXValues objectAtIndex:index] floatValue];
+    }
+    self.xEnergy = [NSNumber numberWithFloat:xEnergy];
+    
+    float yEnergy = 0;
+    for (uint32_t index = 2; index < [self.fftYValues count]; index++) {
+        yEnergy += [[self.fftYValues objectAtIndex:index] floatValue];
+    }
+    self.yEnergy = [NSNumber numberWithFloat:yEnergy];
+    
+    //velocity
+    float xVelocity = 0;
+    float yVelocity = 0;
+    float x = positions[0].x;
+    float y = positions[0].y;
+    for (int32_t index = 0; index < numPositions; index++) {
+        CGPoint point = positions[index];
+        xVelocity += (point.x - x);
+        x = point.x;
+        yVelocity += (point.y - y);
+        y = point.y;
+    }
+    self.velocityMagnitude = [NSNumber numberWithFloat:sqrtf(powf(xVelocity, 2) + powf(yVelocity, 2))];
     
     free(positions);
 }
