@@ -10,11 +10,18 @@
 
 @implementation ICPathView
 
-@synthesize paths = _CI_paths;
+@synthesize paths = _IC_paths;
+@synthesize generatedPaths = _IC_generatedPaths;
 
 - (void)setPaths:(NSArray *)paths
 {
-    _CI_paths = paths;
+    _IC_paths = paths;
+    [self setNeedsDisplay];
+}
+
+- (void)setGeneratedPaths:(NSArray *)generatedPaths
+{
+    _IC_generatedPaths = generatedPaths;
     [self setNeedsDisplay];
 }
 
@@ -26,6 +33,13 @@
     
     for (UIBezierPath *path in self.paths) {
         path.lineWidth = 5;
+        [[UIColor darkGrayColor] setStroke];
+        [path stroke];
+    }
+    
+    for (UIBezierPath *path in self.generatedPaths) {
+        path.lineWidth = 2;
+        [[UIColor redColor] setStroke];
         [path stroke];
     }
 }

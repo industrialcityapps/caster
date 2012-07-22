@@ -21,7 +21,7 @@
     if (self) {
         self.x = [NSNumber numberWithInteger:point.x];
         self.y = [NSNumber numberWithInteger:point.y];
-        self.timestamp = [NSNumber numberWithInteger:interval];
+        self.timestamp = [NSNumber numberWithDouble:interval];
     }
     return self;
 }

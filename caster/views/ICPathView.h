@@ -11,5 +11,6 @@
 @interface ICPathView : UIView
 
 @property(nonatomic, strong) NSArray *paths;
+@property(nonatomic, strong) NSArray *generatedPaths;
 
 @end

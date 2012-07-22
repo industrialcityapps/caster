@@ -46,10 +46,16 @@
     
     self.graphedPaths = [(ICGestureRecognizer *)gestureRecognizer paths];
 
+    NSMutableArray *generatedPaths = [NSMutableArray array];
+    
     for (ICPath *path in self.graphedPaths) {
         NSInteger index = [self.graphedPaths indexOfObject:path];
         
         [path computeAttributes];
+        
+        if ([path reconstructedBezierPath]) {
+            [generatedPaths addObject:[path reconstructedBezierPath]];
+        }
         
         NSArray *colors = [NSArray arrayWithObjects:[CPTColor redColor], [CPTColor blueColor], [CPTColor orangeColor], [CPTColor greenColor], [CPTColor yellowColor], [CPTColor purpleColor], [CPTColor magentaColor], [CPTColor grayColor], [CPTColor brownColor], nil];
 
@@ -79,6 +85,7 @@
         plot.dataSource = path;
         [self.yGraphHostingView.hostedGraph addPlot:plot];
     }
+    [self.pathView setGeneratedPaths:generatedPaths];
 }
 
 #pragma mark -

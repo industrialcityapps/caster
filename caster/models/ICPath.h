@@ -13,6 +13,8 @@
 
 @interface ICPath : NSObject <CPTPlotDataSource>
 
+@property(nonatomic, readonly, strong) UIBezierPath *reconstructedBezierPath;
+
 - (id)initWithTouches:(NSArray *)touches;
 
 - (void)addTouch:(ICTouch *)touch;

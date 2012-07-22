@@ -15,6 +15,7 @@
 @property(nonatomic, strong) NSMutableArray *touches;
 @property(nonatomic, strong) NSMutableArray *fftXValues;
 @property(nonatomic, strong) NSMutableArray *fftYValues;
+@property(nonatomic, readwrite, strong) UIBezierPath *reconstructedBezierPath;
 
 @end
 
@@ -23,6 +24,7 @@
 @synthesize touches = _IC_touches;
 @synthesize fftXValues = _IC_fftXValues;
 @synthesize fftYValues = _IC_fftYValues;
+@synthesize reconstructedBezierPath = _IC_reconstructedBezierPath;
 
 - (id)init
 {
@@ -75,7 +77,7 @@
 
 - (void)computeAttributes
 {
-    NSTimeInterval stepInterval = 0.05;
+    NSTimeInterval stepInterval = 0.005;
     NSTimeInterval maxDuration = 10.0;
     
     NSTimeInterval startTime = [[(ICTouch *)[self.touches objectAtIndex:0] timestamp] doubleValue];
@@ -86,26 +88,22 @@
         return;
     }
     CGPoint *positions = (CGPoint *)malloc(numPositions * sizeof(CGPoint));
-    
-    NSTimeInterval currentTime = startTime;
-    NSUInteger currentTouchIndex = 0;
+
+    NSUInteger touchIndex = 0;
+
     for (NSUInteger index = 0; index < numPositions; index++) {
-        ICTouch *touch = [self.touches objectAtIndex:currentTouchIndex];
-        if ([[touch timestamp] doubleValue] <= currentTime) {
-            positions[index] = [touch point];
-            currentTouchIndex++;
+        
+        NSTimeInterval windowStart = startTime + index * stepInterval;
+        
+        while (touchIndex < [[self touches] count] - 1 && [[(ICTouch *)[self.touches objectAtIndex:touchIndex + 1] timestamp] doubleValue] <= windowStart) {
+            touchIndex++;
         }
-        else if (currentTouchIndex < [self.touches count] - 1) {
-            ICTouch *nextTouch = [self.touches objectAtIndex:currentTouchIndex + 1];
-            CGPoint nextPoint = [nextTouch point];
-            NSTimeInterval nextTime = [[nextTouch timestamp] doubleValue];
-            NSUInteger nextIndex = (nextTime - currentTime) / stepInterval + index;
-            positions[index] = CGPointMake(
-                                           [touch.x integerValue] + (nextPoint.x - [touch.x integerValue])/(nextIndex - index), 
-                                           [touch.y integerValue] + (nextPoint.y - [touch.y integerValue])/(nextIndex - index)
-                                           );
-        }
-        currentTime += stepInterval;
+        
+        ICTouch *touch = [[self touches] objectAtIndex:touchIndex];
+        double x = [[touch x] doubleValue];
+        double y = [[touch y] doubleValue];
+        
+        positions[index] = CGPointMake(x, y);
     }
     
     UInt32 sampleSize = numPositions;        
@@ -124,8 +122,10 @@
     FFTSetup setup;
     setup = vDSP_create_fftsetup(log2FFTSize, kFFTRadix2);
     
-    float *x_sinusoid = (float *) malloc(sampleSize * sizeof(float));;
-    float *y_sinusoid = (float *) malloc(sampleSize * sizeof(float));;
+    float *x_sinusoid = (float *) malloc(sampleSize * sizeof(float));
+    float *y_sinusoid = (float *) malloc(sampleSize * sizeof(float));
+    float *inverse_x_sinusoid = (float *) malloc(sampleSize * sizeof(float));
+    float *inverse_y_sinusoid = (float *) malloc(sampleSize * sizeof(float));
     for (int32_t index = 0; index < sampleSize; index++) {
         CGPoint point = (CGPoint)positions[index];
         x_sinusoid[index] = point.x;
@@ -139,11 +139,23 @@
     vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_FORWARD);
     
     vDSP_zvabs(&A, stride, x_magnitudes, stride, bins);
+    
+    //reverse the FFT
+    vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_INVERSE);
+    float scale = (float) 1.0 / (2 * sampleSize);
+    vDSP_vsmul(A.realp, 1, &scale, A.realp, 1, bins);
+    vDSP_vsmul(A.imagp, 1, &scale, A.imagp, 1, bins);
+    vDSP_ztoc(&A, stride, (COMPLEX *)inverse_x_sinusoid, stride, bins);
 
     // Repeat for y axis
     vDSP_ctoz((COMPLEX *) y_sinusoid, stride, &A, stride, bins);
     vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_FORWARD);
     vDSP_zvabs(&A, stride, y_magnitudes, stride, bins);
+    
+    vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_INVERSE);
+    vDSP_vsmul(A.realp, 1, &scale, A.realp, 1, bins);
+    vDSP_vsmul(A.imagp, 1, &scale, A.imagp, 1, bins);
+    vDSP_ztoc(&A, stride, (COMPLEX *)inverse_y_sinusoid, stride, bins);
     
     // get and scale the magnitudes of the complex result
     float *scaleFactors = malloc(bins * sizeof(float));
@@ -163,11 +175,26 @@
         [self.fftYValues addObject:[NSNumber numberWithFloat:y_magnitudes[index]]];
     }
     
+    //rebuild a sequence of points as a bezier path
+    UIBezierPath *bzPath = [[UIBezierPath alloc] init];
+    for (NSUInteger index = 0; index < sampleSize; index++) {
+        CGPoint point = CGPointMake(inverse_x_sinusoid[index], inverse_y_sinusoid[index]);
+        if ([bzPath isEmpty]) {
+            [bzPath moveToPoint:point];
+        }
+        else {
+            [bzPath addLineToPoint:point];
+        }
+    }
+    self.reconstructedBezierPath = bzPath;
+    
     vDSP_destroy_fftsetup(setup);
     free(x_magnitudes);
     free(y_magnitudes);
     free(x_sinusoid);
     free(y_sinusoid);
+    free(inverse_x_sinusoid);
+    free(inverse_y_sinusoid);
     free(A.realp);
     free(A.imagp);
     
