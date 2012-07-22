@@ -9,6 +9,8 @@
 #import "ICGestureRecognizer.h"
 #import "UIKit/UIGestureRecognizerSubclass.h"
 #import <Accelerate/Accelerate.h>
+#import "ICTouch.h"
+#import "ICPath.h"
 
 @interface ICGestureRecognizer ()
 
@@ -29,40 +31,18 @@
     return self;
 }
 
-- (NSArray *)paths
+- (NSArray *)bezierPaths
 {
     NSMutableArray *paths = [NSMutableArray arrayWithCapacity:[self.touchPaths count]];
-    for (NSArray *path in self.touchPaths) {
-        UIBezierPath *bezierPath = [[UIBezierPath alloc] init];
-        for (NSString *pointString in path) {
-            CGPoint point = CGPointFromString(pointString);
-            if ([bezierPath isEmpty]) {
-                [bezierPath moveToPoint:point];
-            }
-            else {
-                [bezierPath addLineToPoint:point];
-            }
-        }
-        [paths addObject:bezierPath];
+    for (ICPath *path in self.touchPaths) {
+        [paths addObject:[path bezierPath]];
     }
     return paths;
 }
 
-- (void)fft
+- (NSArray *)paths
 {
-    NSArray *touches = [self.touchPaths objectAtIndex:0];
-    CGFloat yValues [[touches count]];
-    for (NSUInteger i = 0; i < [touches count]; i++) {
-        yValues[i] = CGPointFromString([touches objectAtIndex:i]).y;
-    }
-    
-    FFTSetup setup;
-    setup = vDSP_create_fftsetup( 11, 0 );
-    if (setup == 0) {
-        NSLog(@"Failed to setup DSP!");
-        return;
-    }
-    
+    return [self.touchPaths copy];
 }
 
 #pragma mark - UIGestureRecognizer methods
@@ -76,13 +56,13 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
-        NSString *previousPointString = NSStringFromCGPoint([touch previousLocationInView:self.view]);
-        NSString *currentPointString = NSStringFromCGPoint([touch locationInView:self.view]);
+        CGPoint previousPoint = [touch previousLocationInView:self.view];
+        CGPoint currentPoint = [touch locationInView:self.view];
         
         // find the path for this touch, if any
-        NSMutableArray *path = nil;
-        for (NSMutableArray *currentPath in self.touchPaths) {
-            if ([[currentPath lastObject] isEqualToString:previousPointString]) {
+        ICPath *path = nil;
+        for (ICPath *currentPath in self.touchPaths) {
+            if (CGPointEqualToPoint([(ICTouch *)[currentPath lastTouch] point], previousPoint)) {
                 path = currentPath;
                 break;
             }
@@ -90,14 +70,11 @@
         
         // create a new path if no path was found for this point
         if (nil == path) {
-            path = [NSMutableArray array];        
-            [path addObject:currentPointString];
+            path = [[ICPath alloc] init];        
             [self.touchPaths addObject:path];
         }
-        else {
-            // add the new touch location to its path
-            [path addObject:currentPointString];
-        }
+        // add the new touch location to its path
+        [path addTouch:[[ICTouch alloc] initWithPoint:currentPoint atTime:touch.timestamp]];
     }   
     
     self.state = UIGestureRecognizerStateChanged;

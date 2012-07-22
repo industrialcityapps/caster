@@ -27,6 +27,8 @@
 		8C19FAD615BB7F560096B5B1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C19FAD515BB7F560096B5B1 /* Accelerate.framework */; };
 		8C19FAD815BB9E460096B5B1 /* ICGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FAD715BB9E460096B5B1 /* ICGestureRecognizerSpec.m */; };
 		8C19FAD915BB9EDD0096B5B1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C19FAD515BB7F560096B5B1 /* Accelerate.framework */; };
+		8C19FADD15BBC4A40096B5B1 /* ICTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FADC15BBC4A40096B5B1 /* ICTouch.m */; };
+		8C19FAE015BBC9860096B5B1 /* ICPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FADF15BBC9860096B5B1 /* ICPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,10 @@
 		8C19FAD315BB6CBC0096B5B1 /* ICGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGestureRecognizer.m; sourceTree = "<group>"; };
 		8C19FAD515BB7F560096B5B1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		8C19FAD715BB9E460096B5B1 /* ICGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGestureRecognizerSpec.m; sourceTree = "<group>"; };
+		8C19FADB15BBC4A40096B5B1 /* ICTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICTouch.h; sourceTree = "<group>"; };
+		8C19FADC15BBC4A40096B5B1 /* ICTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICTouch.m; sourceTree = "<group>"; };
+		8C19FADE15BBC9860096B5B1 /* ICPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPath.h; sourceTree = "<group>"; };
+		8C19FADF15BBC9860096B5B1 /* ICPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICPath.m; sourceTree = "<group>"; };
 		B830F169D6014513B04D8335 /* libPods-casterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-casterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,6 +138,7 @@
 		8C19FA7615BB3F340096B5B1 /* caster */ = {
 			isa = PBXGroup;
 			children = (
+				8C19FADA15BBC48A0096B5B1 /* models */,
 				8C19FACE15BB69A60096B5B1 /* views */,
 				8C19FAC615BB4A220096B5B1 /* gestures */,
 				8C19FA7F15BB3F340096B5B1 /* ICAppDelegate.h */,
@@ -191,6 +198,17 @@
 				8C19FAD015BB69C30096B5B1 /* ICPathView.m */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		8C19FADA15BBC48A0096B5B1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8C19FADB15BBC4A40096B5B1 /* ICTouch.h */,
+				8C19FADC15BBC4A40096B5B1 /* ICTouch.m */,
+				8C19FADE15BBC9860096B5B1 /* ICPath.h */,
+				8C19FADF15BBC9860096B5B1 /* ICPath.m */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +340,8 @@
 				8C19FA8415BB3F340096B5B1 /* ICViewController.m in Sources */,
 				8C19FAD115BB69C30096B5B1 /* ICPathView.m in Sources */,
 				8C19FAD415BB6CBC0096B5B1 /* ICGestureRecognizer.m in Sources */,
+				8C19FADD15BBC4A40096B5B1 /* ICTouch.m in Sources */,
+				8C19FAE015BBC9860096B5B1 /* ICPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

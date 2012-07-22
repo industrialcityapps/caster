@@ -9,6 +9,8 @@
 #import "ICViewController.h"
 #import "ICGestureRecognizer.h"
 #import "ICPathView.h"
+#import "ICTouch.h"
+#import "ICPath.h"
 
 @interface ICViewController ()
 
@@ -25,8 +27,25 @@
 
 - (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer 
 {
-    self.pathView.paths = [(ICGestureRecognizer *)gestureRecognizer paths];
-    [(ICGestureRecognizer *)gestureRecognizer fft];
+    self.pathView.paths = [(ICGestureRecognizer *)gestureRecognizer bezierPaths];
+    
+    NSArray *icPaths = [(ICGestureRecognizer *)gestureRecognizer paths];
+    NSTimeInterval minTime = 0;
+    NSTimeInterval maxTime = 0;
+    for (ICPath *path in icPaths) {
+        for (ICTouch *touch in [path allTouches]) {
+            if (minTime == 0 || [touch.timestamp doubleValue] < minTime) {
+                minTime = [touch.timestamp doubleValue];
+            }
+            if (maxTime == 0 || [touch.timestamp doubleValue] > maxTime) {
+                maxTime = [touch.timestamp doubleValue];
+            }
+        }
+    }
+    
+    for (ICPath *path in icPaths) {
+        [path computeAttributes];
+    }
 }
 
 #pragma mark -

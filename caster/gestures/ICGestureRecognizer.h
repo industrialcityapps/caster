@@ -10,8 +10,7 @@
 
 @interface ICGestureRecognizer : UIGestureRecognizer
 
+- (NSArray *)bezierPaths;
 - (NSArray *)paths;
-
-- (void)fft;
 
 @end
