@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTBorderedLayer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTBorderedLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBorderedLayer.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBorderedLayer/setBorderLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBorderedLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *borderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBorderedLayer/borderLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBorderedLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *borderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBorderedLayer/setFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBorderedLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBorderedLayer/fill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBorderedLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

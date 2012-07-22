@@ -1,0 +1,541 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTTheme Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTTheme Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/graphClass">&nbsp;&nbsp;&nbsp;&nbsp;graphClass</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;+ name</option>
+	
+	<option value="//api/name/registerTheme:">&nbsp;&nbsp;&nbsp;&nbsp;+ registerTheme:</option>
+	
+	<option value="//api/name/themeClasses">&nbsp;&nbsp;&nbsp;&nbsp;+ themeClasses</option>
+	
+	<option value="//api/name/themeNamed:">&nbsp;&nbsp;&nbsp;&nbsp;+ themeNamed:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/applyThemeToAxisSet:">&nbsp;&nbsp;&nbsp;&nbsp;- applyThemeToAxisSet:</option>
+	
+	<option value="//api/name/applyThemeToBackground:">&nbsp;&nbsp;&nbsp;&nbsp;- applyThemeToBackground:</option>
+	
+	<option value="//api/name/applyThemeToGraph:">&nbsp;&nbsp;&nbsp;&nbsp;- applyThemeToGraph:</option>
+	
+	<option value="//api/name/applyThemeToPlotArea:">&nbsp;&nbsp;&nbsp;&nbsp;- applyThemeToPlotArea:</option>
+	
+	<option value="//api/name/newGraph">&nbsp;&nbsp;&nbsp;&nbsp;- newGraph</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Theme Management">Theme Management</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Theme Usage">Theme Usage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AbstractMethods Methods">AbstractMethods Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/graphClass">graphClass</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerTheme:">registerTheme:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/themeClasses">themeClasses</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/themeNamed:">themeNamed:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyThemeToAxisSet:">applyThemeToAxisSet:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyThemeToBackground:">applyThemeToBackground:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyThemeToGraph:">applyThemeToGraph:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyThemeToPlotArea:">applyThemeToPlotArea:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newGraph">newGraph</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTTheme Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTTheme Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTTheme.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@}</p>
+
+<pre><code>@category CPTTheme(AbstractMethods)
+@brief CPTTheme abstract methods—must be overridden by subclasses
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/graphClass">&nbsp;&nbsp;graphClass</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Theme Management" name="task_Theme Management"></a>
+						<h3 class="subsubtitle task-title">Theme Management</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerTheme:">+&nbsp;registerTheme:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/themeClasses">+&nbsp;themeClasses</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/themeNamed:">+&nbsp;themeNamed:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">+&nbsp;name</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Theme Usage" name="task_Theme Usage"></a>
+						<h3 class="subsubtitle task-title">Theme Usage</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyThemeToGraph:">&ndash;&nbsp;applyThemeToGraph:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="AbstractMethods Methods" name="task_AbstractMethods Methods"></a>
+						<h3 class="subsubtitle task-title">AbstractMethods Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newGraph">&ndash;&nbsp;newGraph</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyThemeToBackground:">&ndash;&nbsp;applyThemeToBackground:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyThemeToPlotArea:">&ndash;&nbsp;applyThemeToPlotArea:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyThemeToAxisSet:">&ndash;&nbsp;applyThemeToAxisSet:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/graphClass" title="graphClass"></a>
+	<h3 class="subsubtitle method-title">graphClass</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) Class graphClass</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)name</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerTheme:" title="registerTheme:"></a>
+	<h3 class="subsubtitle method-title">registerTheme:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (void)registerTheme:(Class)<em>themeClass</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/themeClasses" title="themeClasses"></a>
+	<h3 class="subsubtitle method-title">themeClasses</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSArray *)themeClasses</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/themeNamed:" title="themeNamed:"></a>
+	<h3 class="subsubtitle method-title">themeNamed:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTTheme *)themeNamed:(NSString *)<em>theme</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/applyThemeToAxisSet:" title="applyThemeToAxisSet:"></a>
+	<h3 class="subsubtitle method-title">applyThemeToAxisSet:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyThemeToAxisSet:(CPTAxisSet *)<em>axisSet</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyThemeToBackground:" title="applyThemeToBackground:"></a>
+	<h3 class="subsubtitle method-title">applyThemeToBackground:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyThemeToBackground:(CPTGraph *)<em>graph</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyThemeToGraph:" title="applyThemeToGraph:"></a>
+	<h3 class="subsubtitle method-title">applyThemeToGraph:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyThemeToGraph:(CPTGraph *)<em>graph</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyThemeToPlotArea:" title="applyThemeToPlotArea:"></a>
+	<h3 class="subsubtitle method-title">applyThemeToPlotArea:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyThemeToPlotArea:(CPTPlotAreaFrame *)<em>plotAreaFrame</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newGraph" title="newGraph"></a>
+	<h3 class="subsubtitle method-title">newGraph</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)newGraph</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

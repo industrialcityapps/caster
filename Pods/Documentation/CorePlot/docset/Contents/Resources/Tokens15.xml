@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTGradient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTGradient</TokenIdentifier>
+			<Abstract type="html">&lt; Radial gradient</Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/setBlendingMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTGradientBlendingMode blendingMode</Declaration>
+			
+			
+			<Anchor>//api/name/blendingMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGradient/blendingMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTGradientBlendingMode blendingMode</Declaration>
+			
+			
+			<Anchor>//api/name/blendingMode</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/setAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGradient/angle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/setGradientType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTGradientType gradientType</Declaration>
+			
+			
+			<Anchor>//api/name/gradientType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGradient/gradientType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTGradientType gradientType</Declaration>
+			
+			
+			<Anchor>//api/name/gradientType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/gradientWithBeginningColor:endingColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)gradientWithBeginningColor:(CPTColor *)begin endingColor:(CPTColor *)end</Declaration>
+			
+			
+			<Anchor>//api/name/gradientWithBeginningColor:endingColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)gradientWithBeginningColor:(CPTColor *)begin endingColor:(CPTColor *)end beginningPosition:(CGFloat)beginningPosition endingPosition:(CGFloat)endingPosition</Declaration>
+			
+			
+			<Anchor>//api/name/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/aquaSelectedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)aquaSelectedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/aquaSelectedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/aquaNormalGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)aquaNormalGradient</Declaration>
+			
+			
+			<Anchor>//api/name/aquaNormalGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/aquaPressedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)aquaPressedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/aquaPressedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/unifiedSelectedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)unifiedSelectedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/unifiedSelectedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/unifiedNormalGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)unifiedNormalGradient</Declaration>
+			
+			
+			<Anchor>//api/name/unifiedNormalGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/unifiedPressedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)unifiedPressedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/unifiedPressedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/unifiedDarkGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)unifiedDarkGradient</Declaration>
+			
+			
+			<Anchor>//api/name/unifiedDarkGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/sourceListSelectedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)sourceListSelectedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/sourceListSelectedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/sourceListUnselectedGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)sourceListUnselectedGradient</Declaration>
+			
+			
+			<Anchor>//api/name/sourceListUnselectedGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/rainbowGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)rainbowGradient</Declaration>
+			
+			
+			<Anchor>//api/name/rainbowGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTGradient/hydrogenSpectrumGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTGradient *)hydrogenSpectrumGradient</Declaration>
+			
+			
+			<Anchor>//api/name/hydrogenSpectrumGradient</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/gradientWithAlphaComponent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CPTGradient *)gradientWithAlphaComponent:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/gradientWithAlphaComponent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/gradientWithBlendingMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CPTGradient *)gradientWithBlendingMode:(CPTGradientBlendingMode)mode</Declaration>
+			
+			
+			<Anchor>//api/name/gradientWithBlendingMode:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/addColorStop:atPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CPTGradient *)addColorStop:(CPTColor *)color atPosition:(CGFloat)position</Declaration>
+			
+			
+			<Anchor>//api/name/addColorStop:atPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/removeColorStopAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CPTGradient *)removeColorStopAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/removeColorStopAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/removeColorStopAtPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CPTGradient *)removeColorStopAtPosition:(CGFloat)position</Declaration>
+			
+			
+			<Anchor>//api/name/removeColorStopAtPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/newColorStopAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CGColorRef)newColorStopAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/newColorStopAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/newColorAtPosition:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (CGColorRef)newColorAtPosition:(CGFloat)position</Declaration>
+			
+			
+			<Anchor>//api/name/newColorAtPosition:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/drawSwatchInRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawSwatchInRect:(CGRect)rect inContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/drawSwatchInRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/fillRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillRect:(CGRect)rect inContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/fillRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGradient/fillPathInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGradient.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillPathInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/fillPathInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTNumericData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTNumericData</TokenIdentifier>
+			<Abstract type="html">	@category CPTNumericData(TypeConversion)
+	@brief Type conversion methods for CPTNumericData.</Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>
+			
+			<NodeRef refid="33"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readonly) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readonly) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) const void *bytes</Declaration>
+			
+			
+			<Anchor>//api/name/bytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/bytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) const void *bytes</Declaration>
+			
+			
+			<Anchor>//api/name/bytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setDataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readonly) CPTNumericDataType dataType</Declaration>
+			
+			
+			<Anchor>//api/name/dataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/dataType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readonly) CPTNumericDataType dataType</Declaration>
+			
+			
+			<Anchor>//api/name/dataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setDataTypeFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) CPTDataTypeFormat dataTypeFormat</Declaration>
+			
+			
+			<Anchor>//api/name/dataTypeFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/dataTypeFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) CPTDataTypeFormat dataTypeFormat</Declaration>
+			
+			
+			<Anchor>//api/name/dataTypeFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setSampleBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) size_t sampleBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/sampleBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) size_t sampleBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setByteOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) CFByteOrder byteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/byteOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/byteOrder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) CFByteOrder byteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/byteOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setShape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readonly) NSArray *shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/shape</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readonly) NSArray *shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setNumberOfDimensions:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger numberOfDimensions</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/numberOfDimensions</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger numberOfDimensions</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfDimensions</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/setNumberOfSamples:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger numberOfSamples</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSamples</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTNumericData/numberOfSamples</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSUInteger numberOfSamples</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfSamples</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTNumericData/numericDataWithData:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTNumericData *)numericDataWithData:(NSData *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithData:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTNumericData/numericDataWithData:dataTypeString:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTNumericData *)numericDataWithData:(NSData *)newData dataTypeString:(NSString *)newDataTypeString shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithData:dataTypeString:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTNumericData/numericDataWithArray:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTNumericData *)numericDataWithArray:(NSArray *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithArray:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTNumericData/numericDataWithArray:dataTypeString:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTNumericData *)numericDataWithArray:(NSArray *)newData dataTypeString:(NSString *)newDataTypeString shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithArray:dataTypeString:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/initWithData:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithData:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/initWithData:dataTypeString:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)newData dataTypeString:(NSString *)newDataTypeString shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithData:dataTypeString:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/initWithArray:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithArray:(NSArray *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithArray:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/initWithArray:dataTypeString:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithArray:(NSArray *)newData dataTypeString:(NSString *)newDataTypeString shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithArray:dataTypeString:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/samplePointer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (void *)samplePointer:(NSUInteger)sample</Declaration>
+			
+			
+			<Anchor>//api/name/samplePointer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/sampleValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (NSNumber *)sampleValue:(NSUInteger)sample</Declaration>
+			
+			
+			<Anchor>//api/name/sampleValue:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/sampleArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)sampleArray</Declaration>
+			
+			
+			<Anchor>//api/name/sampleArray</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/dataByConvertingToDataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>- (CPTNumericData *)dataByConvertingToDataType:(CPTNumericDataType)newDataType</Declaration>
+			
+			
+			<Anchor>//api/name/dataByConvertingToDataType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/dataByConvertingToType:sampleBytes:byteOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>- (CPTNumericData *)dataByConvertingToType:(CPTDataTypeFormat)newDataType sampleBytes:(size_t)newSampleBytes byteOrder:(CFByteOrder)newByteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/dataByConvertingToType:sampleBytes:byteOrder:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/convertData:dataType:toData:dataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>- (void)convertData:(NSData *)sourceData dataType:(CPTNumericDataType *)sourceDataType toData:(NSMutableData *)destData dataType:(CPTNumericDataType *)destDataType</Declaration>
+			
+			
+			<Anchor>//api/name/convertData:dataType:toData:dataType:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTNumericData/swapByteOrderForData:sampleSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>- (void)swapByteOrderForData:(NSMutableData *)sourceData sampleSize:(size_t)sampleSize</Declaration>
+			
+			
+			<Anchor>//api/name/swapByteOrderForData:sampleSize:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPlotSpace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPlotSpace</TokenIdentifier>
+			<Abstract type="html">@}
+	@category CPTPlotSpace(AbstractMethods)
+	@brief CPTPlotSpace abstract methods—must be overridden by subclasses</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpace/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setAllowsUserInteraction:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL allowsUserInteraction</Declaration>
+			
+			
+			<Anchor>//api/name/allowsUserInteraction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpace/allowsUserInteraction</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL allowsUserInteraction</Declaration>
+			
+			
+			<Anchor>//api/name/allowsUserInteraction</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setGraph:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</Declaration>
+			
+			
+			<Anchor>//api/name/graph</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpace/graph</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</Declaration>
+			
+			
+			<Anchor>//api/name/graph</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id&lt;&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpace/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id&lt;&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/plotAreaViewPointForPlotPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)plotAreaViewPointForPlotPoint:(NSDecimal *)plotPoint</Declaration>
+			
+			
+			<Anchor>//api/name/plotAreaViewPointForPlotPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/plotAreaViewPointForDoublePrecisionPlotPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)plotAreaViewPointForDoublePrecisionPlotPoint:(double *)plotPoint</Declaration>
+			
+			
+			<Anchor>//api/name/plotAreaViewPointForDoublePrecisionPlotPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/plotPoint:forPlotAreaViewPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)plotPoint:(NSDecimal *)plotPoint forPlotAreaViewPoint:(CGPoint)point</Declaration>
+			
+			
+			<Anchor>//api/name/plotPoint:forPlotAreaViewPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/doublePrecisionPlotPoint:forPlotAreaViewPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)doublePrecisionPlotPoint:(double *)plotPoint forPlotAreaViewPoint:(CGPoint)point</Declaration>
+			
+			
+			<Anchor>//api/name/doublePrecisionPlotPoint:forPlotAreaViewPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setPlotRange:forCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)setPlotRange:(CPTPlotRange *)newRange forCoordinate:(CPTCoordinate)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/setPlotRange:forCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/plotRangeForCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRange *)plotRangeForCoordinate:(CPTCoordinate)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/plotRangeForCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/setScaleType:forCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)setScaleType:(CPTScaleType)newType forCoordinate:(CPTCoordinate)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/setScaleType:forCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/scaleTypeForCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CPTScaleType)scaleTypeForCoordinate:(CPTCoordinate)coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/scaleTypeForCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/scaleToFitPlots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)scaleToFitPlots:(NSArray *)plots</Declaration>
+			
+			
+			<Anchor>//api/name/scaleToFitPlots:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpace/scaleBy:aboutPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)scaleBy:(CGFloat)interactionScale aboutPoint:(CGPoint)interactionPoint</Declaration>
+			
+			
+			<Anchor>//api/name/scaleBy:aboutPoint:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

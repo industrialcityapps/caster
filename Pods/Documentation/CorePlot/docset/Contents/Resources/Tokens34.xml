@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPieChart.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPieChart</TokenIdentifier>
+			<Abstract type="html">	@}</Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setPieRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat pieRadius</Declaration>
+			
+			
+			<Anchor>//api/name/pieRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/pieRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat pieRadius</Declaration>
+			
+			
+			<Anchor>//api/name/pieRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setPieInnerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat pieInnerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/pieInnerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/pieInnerRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat pieInnerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/pieInnerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setStartAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat startAngle</Declaration>
+			
+			
+			<Anchor>//api/name/startAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/startAngle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat startAngle</Declaration>
+			
+			
+			<Anchor>//api/name/startAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setSliceDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CPTPieDirection sliceDirection</Declaration>
+			
+			
+			<Anchor>//api/name/sliceDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/sliceDirection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CPTPieDirection sliceDirection</Declaration>
+			
+			
+			<Anchor>//api/name/sliceDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setCenterAnchor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint centerAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/centerAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/centerAnchor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGPoint centerAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/centerAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setBorderLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *borderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/borderLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *borderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/borderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPieChart/setOverlayFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *overlayFill</Declaration>
+			
+			
+			<Anchor>//api/name/overlayFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPieChart/overlayFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *overlayFill</Declaration>
+			
+			
+			<Anchor>//api/name/overlayFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPieChart/defaultPieSliceColorForIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)defaultPieSliceColorForIndex:(NSUInteger)pieSliceIndex</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPieSliceColorForIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

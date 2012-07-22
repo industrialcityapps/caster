@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDecimalNumber+CPTExtensions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDecimalNumber(CPTExtensions)</TokenIdentifier>
+			<Abstract type="html">	@category NSDecimalNumber(CPTExtensions)
+	@brief Core Plot extensions to NSDecimalNumber.</Abstract>
+			<DeclaredIn>NSDecimalNumberExtensions.h</DeclaredIn>
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

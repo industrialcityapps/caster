@@ -13,6 +13,7 @@
 @synthesize x = _IC_x;
 @synthesize y = _IC_y;
 @synthesize timestamp = _IC_timestamp;
+@synthesize touch = _IC_touch;
 
 - (id)initWithPoint:(CGPoint)point atTime:(NSTimeInterval)interval
 {

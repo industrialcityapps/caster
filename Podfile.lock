@@ -1,5 +1,7 @@
 PODS:
+  - CorePlot (1.0)
   - Kiwi (1.0.0)
 
 DEPENDENCIES:
+  - CorePlot (~> 1.0)
   - Kiwi (~> 1.0.0)

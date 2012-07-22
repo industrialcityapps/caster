@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSCoder+CPTExtensions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSCoder(CPTExtensions)</TokenIdentifier>
+			<Abstract type="html">	@category NSCoder(CPTExtensions)
+	@brief Core Plot extensions to NSCoder.</Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>
+			
+			<NodeRef refid="67"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCGFloat:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCGFloat:(CGFloat)number forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCGFloat:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCPTPoint:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCPTPoint:(CGPoint)point forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCPTPoint:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCPTSize:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCPTSize:(CGSize)size forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCPTSize:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCPTRect:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCPTRect:(CGRect)rect forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCPTRect:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCGColorSpace:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCGColorSpace:(CGColorSpaceRef)colorSpace forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCGColorSpace:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCGPath:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCGPath:(CGPathRef)path forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCGPath:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeCGImage:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeCGImage:(CGImageRef)image forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeCGImage:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/encodeDecimal:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (void)encodeDecimal:(NSDecimal)number forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/encodeDecimal:forKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/decodeCGFloatForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)decodeCGFloatForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/decodeCGFloatForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/decodeCPTPointForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)decodeCPTPointForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/decodeCPTPointForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/decodeCPTSizeForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGSize)decodeCPTSizeForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/decodeCPTSizeForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/decodeCPTRectForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGRect)decodeCPTRectForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/decodeCPTRectForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/newCGColorSpaceDecodeForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGColorSpaceRef)newCGColorSpaceDecodeForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/newCGColorSpaceDecodeForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/newCGPathDecodeForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGPathRef)newCGPathDecodeForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/newCGPathDecodeForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/newCGImageDecodeForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (CGImageRef)newCGImageDecodeForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/newCGImageDecodeForKey:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSCoder(CPTExtensions)/decodeDecimalForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSCoderExtensions.h</DeclaredIn>			
+			
+			<Declaration>- (NSDecimal)decodeDecimalForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/decodeDecimalForKey:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

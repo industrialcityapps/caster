@@ -1,0 +1,445 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTMutablePlotRange Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTMutablePlotRange Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/length">&nbsp;&nbsp;&nbsp;&nbsp;length</option>
+	
+	<option value="//api/name/location">&nbsp;&nbsp;&nbsp;&nbsp;location</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/expandRangeByFactor:">&nbsp;&nbsp;&nbsp;&nbsp;- expandRangeByFactor:</option>
+	
+	<option value="//api/name/intersectionPlotRange:">&nbsp;&nbsp;&nbsp;&nbsp;- intersectionPlotRange:</option>
+	
+	<option value="//api/name/shiftEndToFitInRange:">&nbsp;&nbsp;&nbsp;&nbsp;- shiftEndToFitInRange:</option>
+	
+	<option value="//api/name/shiftLocationToFitInRange:">&nbsp;&nbsp;&nbsp;&nbsp;- shiftLocationToFitInRange:</option>
+	
+	<option value="//api/name/unionPlotRange:">&nbsp;&nbsp;&nbsp;&nbsp;- unionPlotRange:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Range Limits">Range Limits</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Combining Ranges">Combining Ranges</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Shifting Ranges">Shifting Ranges</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Expanding/Contracting Ranges">Expanding/Contracting Ranges</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/length">length</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/location">location</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expandRangeByFactor:">expandRangeByFactor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/intersectionPlotRange:">intersectionPlotRange:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shiftEndToFitInRange:">shiftEndToFitInRange:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shiftLocationToFitInRange:">shiftLocationToFitInRange:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unionPlotRange:">unionPlotRange:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTMutablePlotRange Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTMutablePlotRange Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/CPTPlotRange.html">CPTPlotRange</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTMutablePlotRange.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Range Limits" name="task_Range Limits"></a>
+						<h3 class="subsubtitle task-title">Range Limits</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/location">&nbsp;&nbsp;location</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/length">&nbsp;&nbsp;length</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Combining Ranges" name="task_Combining Ranges"></a>
+						<h3 class="subsubtitle task-title">Combining Ranges</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unionPlotRange:">&ndash;&nbsp;unionPlotRange:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/intersectionPlotRange:">&ndash;&nbsp;intersectionPlotRange:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Shifting Ranges" name="task_Shifting Ranges"></a>
+						<h3 class="subsubtitle task-title">Shifting Ranges</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shiftLocationToFitInRange:">&ndash;&nbsp;shiftLocationToFitInRange:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shiftEndToFitInRange:">&ndash;&nbsp;shiftEndToFitInRange:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Expanding/Contracting Ranges" name="task_Expanding/Contracting Ranges"></a>
+						<h3 class="subsubtitle task-title">Expanding/Contracting Ranges</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expandRangeByFactor:">&ndash;&nbsp;expandRangeByFactor:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/length" title="length"></a>
+	<h3 class="subsubtitle method-title">length</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) NSDecimal length</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/location" title="location"></a>
+	<h3 class="subsubtitle method-title">location</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) NSDecimal location</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/expandRangeByFactor:" title="expandRangeByFactor:"></a>
+	<h3 class="subsubtitle method-title">expandRangeByFactor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)expandRangeByFactor:(NSDecimal)<em>factor</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/intersectionPlotRange:" title="intersectionPlotRange:"></a>
+	<h3 class="subsubtitle method-title">intersectionPlotRange:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)intersectionPlotRange:(CPTPlotRange *)<em>otherRange</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shiftEndToFitInRange:" title="shiftEndToFitInRange:"></a>
+	<h3 class="subsubtitle method-title">shiftEndToFitInRange:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)shiftEndToFitInRange:(CPTPlotRange *)<em>otherRange</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shiftLocationToFitInRange:" title="shiftLocationToFitInRange:"></a>
+	<h3 class="subsubtitle method-title">shiftLocationToFitInRange:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)shiftLocationToFitInRange:(CPTPlotRange *)<em>otherRange</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unionPlotRange:" title="unionPlotRange:"></a>
+	<h3 class="subsubtitle method-title">unionPlotRange:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)unionPlotRange:(CPTPlotRange *)<em>otherRange</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

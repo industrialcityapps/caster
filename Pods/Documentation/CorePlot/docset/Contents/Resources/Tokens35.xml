@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPlot</TokenIdentifier>
+			<Abstract type="html">	@}
+	@category CPTPlot(AbstractMethods)
+	@brief CPTPlot abstract methods—must be overridden by subclasses</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDataSource:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id&lt;&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/dataSource</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id&lt;&gt; dataSource</Declaration>
+			
+			
+			<Anchor>//api/name/dataSource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/plotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setPlotArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/plotArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDataNeedsReloading:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL dataNeedsReloading</Declaration>
+			
+			
+			<Anchor>//api/name/dataNeedsReloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/dataNeedsReloading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL dataNeedsReloading</Declaration>
+			
+			
+			<Anchor>//api/name/dataNeedsReloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setCachedDataCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSUInteger cachedDataCount</Declaration>
+			
+			
+			<Anchor>//api/name/cachedDataCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/cachedDataCount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSUInteger cachedDataCount</Declaration>
+			
+			
+			<Anchor>//api/name/cachedDataCount</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDoublePrecisionCache:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL doublePrecisionCache</Declaration>
+			
+			
+			<Anchor>//api/name/doublePrecisionCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/doublePrecisionCache</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL doublePrecisionCache</Declaration>
+			
+			
+			<Anchor>//api/name/doublePrecisionCache</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setCachePrecision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTPlotCachePrecision cachePrecision</Declaration>
+			
+			
+			<Anchor>//api/name/cachePrecision</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/cachePrecision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTPlotCachePrecision cachePrecision</Declaration>
+			
+			
+			<Anchor>//api/name/cachePrecision</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDoubleDataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTNumericDataType doubleDataType</Declaration>
+			
+			
+			<Anchor>//api/name/doubleDataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/doubleDataType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTNumericDataType doubleDataType</Declaration>
+			
+			
+			<Anchor>//api/name/doubleDataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDecimalDataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTNumericDataType decimalDataType</Declaration>
+			
+			
+			<Anchor>//api/name/decimalDataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/decimalDataType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CPTNumericDataType decimalDataType</Declaration>
+			
+			
+			<Anchor>//api/name/decimalDataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setNeedsRelabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL needsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/needsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/needsRelabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL needsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/needsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/labelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelRotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/labelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger labelField</Declaration>
+			
+			
+			<Anchor>//api/name/labelField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelField</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger labelField</Declaration>
+			
+			
+			<Anchor>//api/name/labelField</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *labelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *labelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelFormatter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setLabelShadow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTShadow *labelShadow</Declaration>
+			
+			
+			<Anchor>//api/name/labelShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/labelShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTShadow *labelShadow</Declaration>
+			
+			
+			<Anchor>//api/name/labelShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setAlignsPointsToPixels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL alignsPointsToPixels</Declaration>
+			
+			
+			<Anchor>//api/name/alignsPointsToPixels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlot/alignsPointsToPixels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL alignsPointsToPixels</Declaration>
+			
+			
+			<Anchor>//api/name/alignsPointsToPixels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setNeedsRelabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)setNeedsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/setNeedsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/relabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)relabel</Declaration>
+			
+			
+			<Anchor>//api/name/relabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/relabelIndexRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)relabelIndexRange:(NSRange)indexRange</Declaration>
+			
+			
+			<Anchor>//api/name/relabelIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/repositionAllLabelAnnotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)repositionAllLabelAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/repositionAllLabelAnnotations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/setDataNeedsReloading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)setDataNeedsReloading</Declaration>
+			
+			
+			<Anchor>//api/name/setDataNeedsReloading</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/reloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/reloadDataIfNeeded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadDataIfNeeded</Declaration>
+			
+			
+			<Anchor>//api/name/reloadDataIfNeeded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/reloadDataInIndexRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadDataInIndexRange:(NSRange)indexRange</Declaration>
+			
+			
+			<Anchor>//api/name/reloadDataInIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/insertDataAtIndex:numberOfRecords:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertDataAtIndex:(NSUInteger)index numberOfRecords:(NSUInteger)numberOfRecords</Declaration>
+			
+			
+			<Anchor>//api/name/insertDataAtIndex:numberOfRecords:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/deleteDataInIndexRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)deleteDataInIndexRange:(NSRange)indexRange</Declaration>
+			
+			
+			<Anchor>//api/name/deleteDataInIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/numbersFromDataSourceForField:recordIndexRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (id)numbersFromDataSourceForField:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange</Declaration>
+			
+			
+			<Anchor>//api/name/numbersFromDataSourceForField:recordIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cachedNumbersForField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTMutableNumericData *)cachedNumbersForField:(NSUInteger)fieldEnum</Declaration>
+			
+			
+			<Anchor>//api/name/cachedNumbersForField:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cachedNumberForField:recordIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSNumber *)cachedNumberForField:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/cachedNumberForField:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cachedDoubleForField:recordIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (double)cachedDoubleForField:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/cachedDoubleForField:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cachedDecimalForField:recordIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSDecimal)cachedDecimalForField:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/cachedDecimalForField:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cacheNumbers:forField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)cacheNumbers:(id)numbers forField:(NSUInteger)fieldEnum</Declaration>
+			
+			
+			<Anchor>//api/name/cacheNumbers:forField:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/cacheNumbers:forField:atRecordIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)cacheNumbers:(id)numbers forField:(NSUInteger)fieldEnum atRecordIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/cacheNumbers:forField:atRecordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/plotRangeForField:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRange *)plotRangeForField:(NSUInteger)fieldEnum</Declaration>
+			
+			
+			<Anchor>//api/name/plotRangeForField:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/plotRangeForCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRange *)plotRangeForCoordinate:(CPTCoordinate)coord</Declaration>
+			
+			
+			<Anchor>//api/name/plotRangeForCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/numberOfLegendEntries</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)numberOfLegendEntries</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfLegendEntries</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/titleForLegendEntryAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)titleForLegendEntryAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/titleForLegendEntryAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/drawSwatchForLegend:atIndex:inRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawSwatchForLegend:(CPTLegend *)legend atIndex:(NSUInteger)index inRect:(CGRect)rect inContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/drawSwatchForLegend:atIndex:inRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/numberOfFields</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)numberOfFields</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfFields</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/fieldIdentifiers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)fieldIdentifiers</Declaration>
+			
+			
+			<Anchor>//api/name/fieldIdentifiers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/fieldIdentifiersForCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)fieldIdentifiersForCoordinate:(CPTCoordinate)coord</Declaration>
+			
+			
+			<Anchor>//api/name/fieldIdentifiersForCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlot/positionLabelAnnotation:forIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)positionLabelAnnotation:(CPTPlotSpaceAnnotation *)label forIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/positionLabelAnnotation:forIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

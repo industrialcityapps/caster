@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTLegendDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTLegendDelegate</TokenIdentifier>
+			<Abstract type="html">	@brief Axis labeling delegate.</Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTLegendDelegate/legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</TokenIdentifier>
+			<Abstract type="html">	@brief (Required) This method gives the delegate a chance to draw custom swatches for each legend entry.</Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)legend:(CPTLegend *)legend shouldDrawSwatchAtIndex:(NSUInteger)index forPlot:(CPTPlot *)plot inRect:(CGRect)rect inContext:(CGContextRef)context</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>legend</Name>
+					<Abstract type="html">The legend.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The zero-based index of the legend entry for the given plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>rect</Name>
+					<Abstract type="html">The bounding rectangle to use when drawing the swatch.</Abstract>
+				</Parameter><Parameter>
+					<Name>context</Name>
+					<Abstract type="html">The graphics context to draw into.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the legend should draw the default swatch or NO if the delegate handled the drawing.</Abstract></ReturnValue>
+			<Anchor>//api/name/legend:shouldDrawSwatchAtIndex:forPlot:inRect:inContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

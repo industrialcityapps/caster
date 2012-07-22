@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLineCap.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLineCap</TokenIdentifier>
+			<Abstract type="html">&lt; Custom line cap.</Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setLineCapType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTLineCapType lineCapType</Declaration>
+			
+			
+			<Anchor>//api/name/lineCapType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/lineCapType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTLineCapType lineCapType</Declaration>
+			
+			
+			<Anchor>//api/name/lineCapType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/lineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/fill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setCustomLineCapPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef customLineCapPath</Declaration>
+			
+			
+			<Anchor>//api/name/customLineCapPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/customLineCapPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef customLineCapPath</Declaration>
+			
+			
+			<Anchor>//api/name/customLineCapPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/setUsesEvenOddClipRule:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL usesEvenOddClipRule</Declaration>
+			
+			
+			<Anchor>//api/name/usesEvenOddClipRule</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineCap/usesEvenOddClipRule</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL usesEvenOddClipRule</Declaration>
+			
+			
+			<Anchor>//api/name/usesEvenOddClipRule</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/lineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)lineCap</Declaration>
+			
+			
+			<Anchor>//api/name/lineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/openArrowPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)openArrowPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/openArrowPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/solidArrowPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)solidArrowPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/solidArrowPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/sweptArrowPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)sweptArrowPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/sweptArrowPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/rectanglePlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)rectanglePlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/rectanglePlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/ellipsePlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)ellipsePlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/ellipsePlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/diamondPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)diamondPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/diamondPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/pentagonPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)pentagonPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/pentagonPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/hexagonPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)hexagonPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/hexagonPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/barPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)barPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/barPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/crossPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)crossPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/crossPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/snowPlotLineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)snowPlotLineCap</Declaration>
+			
+			
+			<Anchor>//api/name/snowPlotLineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineCap/customLineCapWithPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLineCap *)customLineCapWithPath:(CGPathRef)aPath</Declaration>
+			
+			
+			<Anchor>//api/name/customLineCapWithPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineCap/renderAsVectorInContext:atPoint:inDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineCap.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderAsVectorInContext:(CGContextRef)theContext atPoint:(CGPoint)center inDirection:(CGPoint)direction</Declaration>
+			
+			
+			<Anchor>//api/name/renderAsVectorInContext:atPoint:inDirection:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

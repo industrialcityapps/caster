@@ -1,0 +1,769 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTPlotRange Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTPlotRange Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/end">&nbsp;&nbsp;&nbsp;&nbsp;end</option>
+	
+	<option value="//api/name/endDouble">&nbsp;&nbsp;&nbsp;&nbsp;endDouble</option>
+	
+	<option value="//api/name/length">&nbsp;&nbsp;&nbsp;&nbsp;length</option>
+	
+	<option value="//api/name/lengthDouble">&nbsp;&nbsp;&nbsp;&nbsp;lengthDouble</option>
+	
+	<option value="//api/name/location">&nbsp;&nbsp;&nbsp;&nbsp;location</option>
+	
+	<option value="//api/name/locationDouble">&nbsp;&nbsp;&nbsp;&nbsp;locationDouble</option>
+	
+	<option value="//api/name/maxLimit">&nbsp;&nbsp;&nbsp;&nbsp;maxLimit</option>
+	
+	<option value="//api/name/maxLimitDouble">&nbsp;&nbsp;&nbsp;&nbsp;maxLimitDouble</option>
+	
+	<option value="//api/name/midPoint">&nbsp;&nbsp;&nbsp;&nbsp;midPoint</option>
+	
+	<option value="//api/name/midPointDouble">&nbsp;&nbsp;&nbsp;&nbsp;midPointDouble</option>
+	
+	<option value="//api/name/minLimit">&nbsp;&nbsp;&nbsp;&nbsp;minLimit</option>
+	
+	<option value="//api/name/minLimitDouble">&nbsp;&nbsp;&nbsp;&nbsp;minLimitDouble</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/plotRangeWithLocation:length:">&nbsp;&nbsp;&nbsp;&nbsp;+ plotRangeWithLocation:length:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/compareToDecimal:">&nbsp;&nbsp;&nbsp;&nbsp;- compareToDecimal:</option>
+	
+	<option value="//api/name/compareToDouble:">&nbsp;&nbsp;&nbsp;&nbsp;- compareToDouble:</option>
+	
+	<option value="//api/name/compareToNumber:">&nbsp;&nbsp;&nbsp;&nbsp;- compareToNumber:</option>
+	
+	<option value="//api/name/contains:">&nbsp;&nbsp;&nbsp;&nbsp;- contains:</option>
+	
+	<option value="//api/name/containsDouble:">&nbsp;&nbsp;&nbsp;&nbsp;- containsDouble:</option>
+	
+	<option value="//api/name/initWithLocation:length:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithLocation:length:</option>
+	
+	<option value="//api/name/isEqualToRange:">&nbsp;&nbsp;&nbsp;&nbsp;- isEqualToRange:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Range Limits">Range Limits</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Checking Ranges">Checking Ranges</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Range Comparison">Range Comparison</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/end">end</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/endDouble">endDouble</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/length">length</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lengthDouble">lengthDouble</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/location">location</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/locationDouble">locationDouble</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxLimit">maxLimit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maxLimitDouble">maxLimitDouble</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/midPoint">midPoint</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/midPointDouble">midPointDouble</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minLimit">minLimit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minLimitDouble">minLimitDouble</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotRangeWithLocation:length:">plotRangeWithLocation:length:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/compareToDecimal:">compareToDecimal:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/compareToDouble:">compareToDouble:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/compareToNumber:">compareToNumber:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contains:">contains:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/containsDouble:">containsDouble:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithLocation:length:">initWithLocation:length:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isEqualToRange:">isEqualToRange:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTPlotRange Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTPlotRange Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying<br />NSMutableCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTPlotRange.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>&lt; Number is above the range.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Range Limits" name="task_Range Limits"></a>
+						<h3 class="subsubtitle task-title">Range Limits</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/location">&nbsp;&nbsp;location</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/length">&nbsp;&nbsp;length</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/end">&nbsp;&nbsp;end</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/locationDouble">&nbsp;&nbsp;locationDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lengthDouble">&nbsp;&nbsp;lengthDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/endDouble">&nbsp;&nbsp;endDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minLimit">&nbsp;&nbsp;minLimit</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/midPoint">&nbsp;&nbsp;midPoint</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxLimit">&nbsp;&nbsp;maxLimit</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minLimitDouble">&nbsp;&nbsp;minLimitDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/midPointDouble">&nbsp;&nbsp;midPointDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maxLimitDouble">&nbsp;&nbsp;maxLimitDouble</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotRangeWithLocation:length:">+&nbsp;plotRangeWithLocation:length:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithLocation:length:">&ndash;&nbsp;initWithLocation:length:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Checking Ranges" name="task_Checking Ranges"></a>
+						<h3 class="subsubtitle task-title">Checking Ranges</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contains:">&ndash;&nbsp;contains:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/containsDouble:">&ndash;&nbsp;containsDouble:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isEqualToRange:">&ndash;&nbsp;isEqualToRange:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Range Comparison" name="task_Range Comparison"></a>
+						<h3 class="subsubtitle task-title">Range Comparison</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/compareToNumber:">&ndash;&nbsp;compareToNumber:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/compareToDecimal:">&ndash;&nbsp;compareToDecimal:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/compareToDouble:">&ndash;&nbsp;compareToDouble:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/end" title="end"></a>
+	<h3 class="subsubtitle method-title">end</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal end</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/endDouble" title="endDouble"></a>
+	<h3 class="subsubtitle method-title">endDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double endDouble</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/length" title="length"></a>
+	<h3 class="subsubtitle method-title">length</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal length</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lengthDouble" title="lengthDouble"></a>
+	<h3 class="subsubtitle method-title">lengthDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double lengthDouble</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/location" title="location"></a>
+	<h3 class="subsubtitle method-title">location</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal location</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/locationDouble" title="locationDouble"></a>
+	<h3 class="subsubtitle method-title">locationDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double locationDouble</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxLimit" title="maxLimit"></a>
+	<h3 class="subsubtitle method-title">maxLimit</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal maxLimit</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maxLimitDouble" title="maxLimitDouble"></a>
+	<h3 class="subsubtitle method-title">maxLimitDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double maxLimitDouble</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/midPoint" title="midPoint"></a>
+	<h3 class="subsubtitle method-title">midPoint</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal midPoint</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/midPointDouble" title="midPointDouble"></a>
+	<h3 class="subsubtitle method-title">midPointDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double midPointDouble</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minLimit" title="minLimit"></a>
+	<h3 class="subsubtitle method-title">minLimit</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSDecimal minLimit</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minLimitDouble" title="minLimitDouble"></a>
+	<h3 class="subsubtitle method-title">minLimitDouble</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double minLimitDouble</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/plotRangeWithLocation:length:" title="plotRangeWithLocation:length:"></a>
+	<h3 class="subsubtitle method-title">plotRangeWithLocation:length:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (id)plotRangeWithLocation:(NSDecimal)<em>loc</em> length:(NSDecimal)<em>len</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/compareToDecimal:" title="compareToDecimal:"></a>
+	<h3 class="subsubtitle method-title">compareToDecimal:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotRangeComparisonResult)compareToDecimal:(NSDecimal)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/compareToDouble:" title="compareToDouble:"></a>
+	<h3 class="subsubtitle method-title">compareToDouble:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotRangeComparisonResult)compareToDouble:(double)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/compareToNumber:" title="compareToNumber:"></a>
+	<h3 class="subsubtitle method-title">compareToNumber:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotRangeComparisonResult)compareToNumber:(NSNumber *)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/contains:" title="contains:"></a>
+	<h3 class="subsubtitle method-title">contains:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)contains:(NSDecimal)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/containsDouble:" title="containsDouble:"></a>
+	<h3 class="subsubtitle method-title">containsDouble:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)containsDouble:(double)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithLocation:length:" title="initWithLocation:length:"></a>
+	<h3 class="subsubtitle method-title">initWithLocation:length:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithLocation:(NSDecimal)<em>loc</em> length:(NSDecimal)<em>len</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isEqualToRange:" title="isEqualToRange:"></a>
+	<h3 class="subsubtitle method-title">isEqualToRange:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isEqualToRange:(CPTPlotRange *)<em>otherRange</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLimitBand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLimitBand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLimitBand/setRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotRange *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLimitBand/range</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotRange *range</Declaration>
+			
+			
+			<Anchor>//api/name/range</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLimitBand/setFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLimitBand/fill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLimitBand/limitBandWithRange:fill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTLimitBand *)limitBandWithRange:(CPTPlotRange *)newRange fill:(CPTFill *)newFill</Declaration>
+			
+			
+			<Anchor>//api/name/limitBandWithRange:fill:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLimitBand/initWithRange:fill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLimitBand.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithRange:(CPTPlotRange *)newRange fill:(CPTFill *)newFill</Declaration>
+			
+			
+			<Anchor>//api/name/initWithRange:fill:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

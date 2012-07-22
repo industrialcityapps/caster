@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTAnnotationHostLayer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTAnnotationHostLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAnnotationHostLayer/setAnnotations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *annotations</Declaration>
+			
+			
+			<Anchor>//api/name/annotations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAnnotationHostLayer/annotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *annotations</Declaration>
+			
+			
+			<Anchor>//api/name/annotations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAnnotationHostLayer/addAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)addAnnotation:(CPTAnnotation *)annotation</Declaration>
+			
+			
+			<Anchor>//api/name/addAnnotation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAnnotationHostLayer/removeAnnotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAnnotation:(CPTAnnotation *)annotation</Declaration>
+			
+			
+			<Anchor>//api/name/removeAnnotation:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAnnotationHostLayer/removeAllAnnotations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAnnotationHostLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeAllAnnotations</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllAnnotations</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

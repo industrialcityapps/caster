@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTAxisLabel.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTAxisLabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/setContentLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLayer *contentLayer</Declaration>
+			
+			
+			<Anchor>//api/name/contentLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxisLabel/contentLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLayer *contentLayer</Declaration>
+			
+			
+			<Anchor>//api/name/contentLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/setOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxisLabel/offset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/setRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxisLabel/rotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat rotation</Declaration>
+			
+			
+			<Anchor>//api/name/rotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/setAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment alignment</Declaration>
+			
+			
+			<Anchor>//api/name/alignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxisLabel/alignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment alignment</Declaration>
+			
+			
+			<Anchor>//api/name/alignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/setTickLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal tickLocation</Declaration>
+			
+			
+			<Anchor>//api/name/tickLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxisLabel/tickLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal tickLocation</Declaration>
+			
+			
+			<Anchor>//api/name/tickLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/initWithText:textStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithText:(NSString *)newText textStyle:(CPTTextStyle *)style</Declaration>
+			
+			
+			<Anchor>//api/name/initWithText:textStyle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/initWithContentLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithContentLayer:(CPTLayer *)layer</Declaration>
+			
+			
+			<Anchor>//api/name/initWithContentLayer:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/positionRelativeToViewPoint:forCoordinate:inDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)positionRelativeToViewPoint:(CGPoint)point forCoordinate:(CPTCoordinate)coordinate inDirection:(CPTSign)direction</Declaration>
+			
+			
+			<Anchor>//api/name/positionRelativeToViewPoint:forCoordinate:inDirection:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxisLabel/positionBetweenViewPoint:andViewPoint:forCoordinate:inDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxisLabel.h</DeclaredIn>			
+			
+			<Declaration>- (void)positionBetweenViewPoint:(CGPoint)firstPoint andViewPoint:(CGPoint)secondPoint forCoordinate:(CPTCoordinate)coordinate inDirection:(CPTSign)direction</Declaration>
+			
+			
+			<Anchor>//api/name/positionBetweenViewPoint:andViewPoint:forCoordinate:inDirection:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

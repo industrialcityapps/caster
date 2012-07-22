@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLegend.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLegend</TokenIdentifier>
+			<Abstract type="html">	@}</Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *textStyle</Declaration>
+			
+			
+			<Anchor>//api/name/textStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/textStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *textStyle</Declaration>
+			
+			
+			<Anchor>//api/name/textStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setSwatchSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize swatchSize</Declaration>
+			
+			
+			<Anchor>//api/name/swatchSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/swatchSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize swatchSize</Declaration>
+			
+			
+			<Anchor>//api/name/swatchSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setSwatchBorderLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *swatchBorderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/swatchBorderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/swatchBorderLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *swatchBorderLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/swatchBorderLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setSwatchCornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat swatchCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/swatchCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/swatchCornerRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat swatchCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/swatchCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setSwatchFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *swatchFill</Declaration>
+			
+			
+			<Anchor>//api/name/swatchFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/swatchFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *swatchFill</Declaration>
+			
+			
+			<Anchor>//api/name/swatchFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setLayoutChanged:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL layoutChanged</Declaration>
+			
+			
+			<Anchor>//api/name/layoutChanged</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/layoutChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL layoutChanged</Declaration>
+			
+			
+			<Anchor>//api/name/layoutChanged</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setNumberOfRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger numberOfRows</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/numberOfRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger numberOfRows</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setNumberOfColumns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger numberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/numberOfColumns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger numberOfColumns</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setEqualRows:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL equalRows</Declaration>
+			
+			
+			<Anchor>//api/name/equalRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/equalRows</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL equalRows</Declaration>
+			
+			
+			<Anchor>//api/name/equalRows</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setEqualColumns:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL equalColumns</Declaration>
+			
+			
+			<Anchor>//api/name/equalColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/equalColumns</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL equalColumns</Declaration>
+			
+			
+			<Anchor>//api/name/equalColumns</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setRowHeights:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *rowHeights</Declaration>
+			
+			
+			<Anchor>//api/name/rowHeights</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/rowHeights</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *rowHeights</Declaration>
+			
+			
+			<Anchor>//api/name/rowHeights</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setRowHeightsThatFit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *rowHeightsThatFit</Declaration>
+			
+			
+			<Anchor>//api/name/rowHeightsThatFit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/rowHeightsThatFit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *rowHeightsThatFit</Declaration>
+			
+			
+			<Anchor>//api/name/rowHeightsThatFit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setColumnWidths:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *columnWidths</Declaration>
+			
+			
+			<Anchor>//api/name/columnWidths</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/columnWidths</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *columnWidths</Declaration>
+			
+			
+			<Anchor>//api/name/columnWidths</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setColumnWidthsThatFit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *columnWidthsThatFit</Declaration>
+			
+			
+			<Anchor>//api/name/columnWidthsThatFit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/columnWidthsThatFit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *columnWidthsThatFit</Declaration>
+			
+			
+			<Anchor>//api/name/columnWidthsThatFit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setColumnMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat columnMargin</Declaration>
+			
+			
+			<Anchor>//api/name/columnMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/columnMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat columnMargin</Declaration>
+			
+			
+			<Anchor>//api/name/columnMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setRowMargin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat rowMargin</Declaration>
+			
+			
+			<Anchor>//api/name/rowMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/rowMargin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat rowMargin</Declaration>
+			
+			
+			<Anchor>//api/name/rowMargin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setTitleOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleOffset</Declaration>
+			
+			
+			<Anchor>//api/name/titleOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLegend/titleOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleOffset</Declaration>
+			
+			
+			<Anchor>//api/name/titleOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLegend/legendWithPlots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>+ (id)legendWithPlots:(NSArray *)newPlots</Declaration>
+			
+			
+			<Anchor>//api/name/legendWithPlots:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLegend/legendWithGraph:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>+ (id)legendWithGraph:(CPTGraph *)graph</Declaration>
+			
+			
+			<Anchor>//api/name/legendWithGraph:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/initWithPlots:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPlots:(NSArray *)newPlots</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPlots:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/initWithGraph:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithGraph:(CPTGraph *)graph</Declaration>
+			
+			
+			<Anchor>//api/name/initWithGraph:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/allPlots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)allPlots</Declaration>
+			
+			
+			<Anchor>//api/name/allPlots</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/plotAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlot *)plotAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/plotAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/plotWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlot *)plotWithIdentifier:(id&lt;NSCopying&gt;)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/plotWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/addPlot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPlot:(CPTPlot *)plot</Declaration>
+			
+			
+			<Anchor>//api/name/addPlot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/insertPlot:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertPlot:(CPTPlot *)plot atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertPlot:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/removePlot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (void)removePlot:(CPTPlot *)plot</Declaration>
+			
+			
+			<Anchor>//api/name/removePlot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/removePlotWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (void)removePlotWithIdentifier:(id&lt;NSCopying&gt;)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/removePlotWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLegend/setLayoutChanged</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLegend.h</DeclaredIn>			
+			
+			<Declaration>- (void)setLayoutChanged</Declaration>
+			
+			
+			<Anchor>//api/name/setLayoutChanged</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

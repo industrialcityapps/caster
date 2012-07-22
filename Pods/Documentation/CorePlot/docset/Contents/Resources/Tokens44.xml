@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTScatterPlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTScatterPlot</TokenIdentifier>
+			<Abstract type="html">	@}</Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setDataLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *dataLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/dataLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/dataLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *dataLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/dataLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setPlotSymbol:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotSymbol *plotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/plotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotSymbol *plotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setAreaFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *areaFill</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/areaFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *areaFill</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setAreaFill2:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *areaFill2</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/areaFill2</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *areaFill2</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setAreaBaseValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal areaBaseValue</Declaration>
+			
+			
+			<Anchor>//api/name/areaBaseValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/areaBaseValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal areaBaseValue</Declaration>
+			
+			
+			<Anchor>//api/name/areaBaseValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setAreaBaseValue2:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal areaBaseValue2</Declaration>
+			
+			
+			<Anchor>//api/name/areaBaseValue2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/areaBaseValue2</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal areaBaseValue2</Declaration>
+			
+			
+			<Anchor>//api/name/areaBaseValue2</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setInterpolation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScatterPlotInterpolation interpolation</Declaration>
+			
+			
+			<Anchor>//api/name/interpolation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/interpolation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScatterPlotInterpolation interpolation</Declaration>
+			
+			
+			<Anchor>//api/name/interpolation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/setPlotSymbolMarginForHitDetection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat plotSymbolMarginForHitDetection</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbolMarginForHitDetection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTScatterPlot/plotSymbolMarginForHitDetection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat plotSymbolMarginForHitDetection</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbolMarginForHitDetection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/indexOfVisiblePointClosestToPlotAreaPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)indexOfVisiblePointClosestToPlotAreaPoint:(CGPoint)viewPoint</Declaration>
+			
+			
+			<Anchor>//api/name/indexOfVisiblePointClosestToPlotAreaPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/plotAreaPointOfVisiblePointAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)plotAreaPointOfVisiblePointAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/plotAreaPointOfVisiblePointAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTScatterPlot/plotSymbolForRecordIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotSymbol *)plotSymbolForRecordIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbolForRecordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

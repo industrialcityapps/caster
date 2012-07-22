@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTBarPlotDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTBarPlotDelegate</TokenIdentifier>
+			<Abstract type="html">	@brief Bar plot delegate.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>
+			
+			<NodeRef refid="74"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTBarPlotDelegate/barPlot:barWasSelectedAtRecordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Informs delegate that a point was touched.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>- (void)barPlot:(CPTBarPlot *)plot barWasSelectedAtRecordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The scatter plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Index of touched point</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/barPlot:barWasSelectedAtRecordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

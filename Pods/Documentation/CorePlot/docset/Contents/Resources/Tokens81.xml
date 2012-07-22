@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTScatterPlotDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTScatterPlotDataSource</TokenIdentifier>
+			<Abstract type="html">	@brief A scatter plot data source.</Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTScatterPlotDataSource/symbolsForScatterPlot:recordIndexRange:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a range of plot symbols for the given scatter plot.</Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)symbolsForScatterPlot:(CPTScatterPlot *)plot recordIndexRange:(NSRange)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The scatter plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">The range of the data indexes of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An array of plot symbols.</Abstract></ReturnValue>
+			<Anchor>//api/name/symbolsForScatterPlot:recordIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTScatterPlotDataSource/symbolForScatterPlot:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a single plot symbol for the given scatter plot.
+	This method will not be called if
+	@link CPTScatterPlotDataSource symbolsForScatterPlot:recordIndexRange: @endlink
+	is also implemented in the datasource.</Abstract>
+			<DeclaredIn>CPTScatterPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotSymbol *)symbolForScatterPlot:(CPTScatterPlot *)plot recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The scatter plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The plot symbol to show for the point with the given index.</Abstract></ReturnValue>
+			<Anchor>//api/name/symbolForScatterPlot:recordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

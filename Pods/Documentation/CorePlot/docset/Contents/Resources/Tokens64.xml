@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTStocksTheme.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTStocksTheme</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTStocksTheme.h</DeclaredIn>
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

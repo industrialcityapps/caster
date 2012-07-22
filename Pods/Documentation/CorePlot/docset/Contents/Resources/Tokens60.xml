@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTFillImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTFillImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillImage.h</DeclaredIn>
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillImage/initWithImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillImage.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImage:(CPTImage *)anImage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillImage/fillRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillImage.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillRect:(CGRect)theRect inContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillImage/fillPathInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillImage.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillPathInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillPathInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

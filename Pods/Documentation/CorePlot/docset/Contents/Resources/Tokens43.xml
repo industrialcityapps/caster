@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTRangePlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTRangePlot</TokenIdentifier>
+			<Abstract type="html">&lt; relative Right values.</Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTRangePlot/setBarLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *barLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/barLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTRangePlot/barLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *barLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/barLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTRangePlot/setGapWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat barWidth , gapHeight , gapWidth</Declaration>
+			
+			
+			<Anchor>//api/name/gapWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTRangePlot/gapWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat barWidth , gapHeight , gapWidth</Declaration>
+			
+			
+			<Anchor>//api/name/gapWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTRangePlot/setAreaFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) CPTFill *areaFill</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTRangePlot/areaFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, copy) CPTFill *areaFill</Declaration>
+			
+			
+			<Anchor>//api/name/areaFill</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

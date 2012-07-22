@@ -13,6 +13,7 @@
 @property(nonatomic, strong) NSNumber *x;
 @property(nonatomic, strong) NSNumber *y;
 @property(nonatomic, strong) NSNumber *timestamp;
+@property(nonatomic, weak) UITouch *touch;
 
 - (id)initWithPoint:(CGPoint)point atTime:(NSTimeInterval)interval;
 - (CGPoint)point;

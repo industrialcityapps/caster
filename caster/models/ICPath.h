@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CorePlot-CocoaTouch.h"
 
 @class ICTouch;
 
-@interface ICPath : NSObject
+@interface ICPath : NSObject <CPTPlotDataSource>
 
 - (id)initWithTouches:(NSArray *)touches;
 

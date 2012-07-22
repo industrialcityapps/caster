@@ -1,0 +1,621 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>NSCoder(CPTExtensions) Category Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">NSCoder(CPTExtensions) Category Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/decodeCGFloatForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeCGFloatForKey:</option>
+	
+	<option value="//api/name/decodeCPTPointForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeCPTPointForKey:</option>
+	
+	<option value="//api/name/decodeCPTRectForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeCPTRectForKey:</option>
+	
+	<option value="//api/name/decodeCPTSizeForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeCPTSizeForKey:</option>
+	
+	<option value="//api/name/decodeDecimalForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- decodeDecimalForKey:</option>
+	
+	<option value="//api/name/encodeCGColorSpace:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCGColorSpace:forKey:</option>
+	
+	<option value="//api/name/encodeCGFloat:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCGFloat:forKey:</option>
+	
+	<option value="//api/name/encodeCGImage:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCGImage:forKey:</option>
+	
+	<option value="//api/name/encodeCGPath:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCGPath:forKey:</option>
+	
+	<option value="//api/name/encodeCPTPoint:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCPTPoint:forKey:</option>
+	
+	<option value="//api/name/encodeCPTRect:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCPTRect:forKey:</option>
+	
+	<option value="//api/name/encodeCPTSize:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeCPTSize:forKey:</option>
+	
+	<option value="//api/name/encodeDecimal:forKey:">&nbsp;&nbsp;&nbsp;&nbsp;- encodeDecimal:forKey:</option>
+	
+	<option value="//api/name/newCGColorSpaceDecodeForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- newCGColorSpaceDecodeForKey:</option>
+	
+	<option value="//api/name/newCGImageDecodeForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- newCGImageDecodeForKey:</option>
+	
+	<option value="//api/name/newCGPathDecodeForKey:">&nbsp;&nbsp;&nbsp;&nbsp;- newCGPathDecodeForKey:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Encoding Data">Encoding Data</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Decoding Data">Decoding Data</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeCGFloatForKey:">decodeCGFloatForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeCPTPointForKey:">decodeCPTPointForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeCPTRectForKey:">decodeCPTRectForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeCPTSizeForKey:">decodeCPTSizeForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decodeDecimalForKey:">decodeDecimalForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCGColorSpace:forKey:">encodeCGColorSpace:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCGFloat:forKey:">encodeCGFloat:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCGImage:forKey:">encodeCGImage:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCGPath:forKey:">encodeCGPath:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCPTPoint:forKey:">encodeCPTPoint:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCPTRect:forKey:">encodeCPTRect:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeCPTSize:forKey:">encodeCPTSize:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/encodeDecimal:forKey:">encodeDecimal:forKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGColorSpaceDecodeForKey:">newCGColorSpaceDecodeForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGImageDecodeForKey:">newCGImageDecodeForKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newCGPathDecodeForKey:">newCGPathDecodeForKey:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="NSCoder(CPTExtensions) Category Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">NSCoder(CPTExtensions) Category Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">NSCoderExtensions.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@category NSCoder(CPTExtensions)
+@brief Core Plot extensions to NSCoder.
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Encoding Data" name="task_Encoding Data"></a>
+						<h3 class="subsubtitle task-title">Encoding Data</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCGFloat:forKey:">&ndash;&nbsp;encodeCGFloat:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCPTPoint:forKey:">&ndash;&nbsp;encodeCPTPoint:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCPTSize:forKey:">&ndash;&nbsp;encodeCPTSize:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCPTRect:forKey:">&ndash;&nbsp;encodeCPTRect:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCGColorSpace:forKey:">&ndash;&nbsp;encodeCGColorSpace:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCGPath:forKey:">&ndash;&nbsp;encodeCGPath:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeCGImage:forKey:">&ndash;&nbsp;encodeCGImage:forKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/encodeDecimal:forKey:">&ndash;&nbsp;encodeDecimal:forKey:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Decoding Data" name="task_Decoding Data"></a>
+						<h3 class="subsubtitle task-title">Decoding Data</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeCGFloatForKey:">&ndash;&nbsp;decodeCGFloatForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeCPTPointForKey:">&ndash;&nbsp;decodeCPTPointForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeCPTSizeForKey:">&ndash;&nbsp;decodeCPTSizeForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeCPTRectForKey:">&ndash;&nbsp;decodeCPTRectForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGColorSpaceDecodeForKey:">&ndash;&nbsp;newCGColorSpaceDecodeForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGPathDecodeForKey:">&ndash;&nbsp;newCGPathDecodeForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newCGImageDecodeForKey:">&ndash;&nbsp;newCGImageDecodeForKey:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decodeDecimalForKey:">&ndash;&nbsp;decodeDecimalForKey:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeCGFloatForKey:" title="decodeCGFloatForKey:"></a>
+	<h3 class="subsubtitle method-title">decodeCGFloatForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGFloat)decodeCGFloatForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeCPTPointForKey:" title="decodeCPTPointForKey:"></a>
+	<h3 class="subsubtitle method-title">decodeCPTPointForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)decodeCPTPointForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeCPTRectForKey:" title="decodeCPTRectForKey:"></a>
+	<h3 class="subsubtitle method-title">decodeCPTRectForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGRect)decodeCPTRectForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeCPTSizeForKey:" title="decodeCPTSizeForKey:"></a>
+	<h3 class="subsubtitle method-title">decodeCPTSizeForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGSize)decodeCPTSizeForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decodeDecimalForKey:" title="decodeDecimalForKey:"></a>
+	<h3 class="subsubtitle method-title">decodeDecimalForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSDecimal)decodeDecimalForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCGColorSpace:forKey:" title="encodeCGColorSpace:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCGColorSpace:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCGColorSpace:(CGColorSpaceRef)<em>colorSpace</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCGFloat:forKey:" title="encodeCGFloat:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCGFloat:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCGFloat:(CGFloat)<em>number</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCGImage:forKey:" title="encodeCGImage:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCGImage:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCGImage:(CGImageRef)<em>image</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCGPath:forKey:" title="encodeCGPath:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCGPath:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCGPath:(CGPathRef)<em>path</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCPTPoint:forKey:" title="encodeCPTPoint:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCPTPoint:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCPTPoint:(CGPoint)<em>point</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCPTRect:forKey:" title="encodeCPTRect:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCPTRect:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCPTRect:(CGRect)<em>rect</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeCPTSize:forKey:" title="encodeCPTSize:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeCPTSize:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeCPTSize:(CGSize)<em>size</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/encodeDecimal:forKey:" title="encodeDecimal:forKey:"></a>
+	<h3 class="subsubtitle method-title">encodeDecimal:forKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)encodeDecimal:(NSDecimal)<em>number</em> forKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGColorSpaceDecodeForKey:" title="newCGColorSpaceDecodeForKey:"></a>
+	<h3 class="subsubtitle method-title">newCGColorSpaceDecodeForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGColorSpaceRef)newCGColorSpaceDecodeForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGImageDecodeForKey:" title="newCGImageDecodeForKey:"></a>
+	<h3 class="subsubtitle method-title">newCGImageDecodeForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGImageRef)newCGImageDecodeForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newCGPathDecodeForKey:" title="newCGPathDecodeForKey:"></a>
+	<h3 class="subsubtitle method-title">newCGPathDecodeForKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPathRef)newCGPathDecodeForKey:(NSString *)<em>key</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

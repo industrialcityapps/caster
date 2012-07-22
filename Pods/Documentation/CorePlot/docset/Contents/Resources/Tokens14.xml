@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTFill.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTFill</TokenIdentifier>
+			<Abstract type="html">	@category CPTFill(AbstractMethods)
+	@brief CPTFill abstract methods—must be overridden by subclasses</Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTFill/fillWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTFill *)fillWithColor:(CPTColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/fillWithColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTFill/fillWithGradient:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTFill *)fillWithGradient:(CPTGradient *)aGradient</Declaration>
+			
+			
+			<Anchor>//api/name/fillWithGradient:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTFill/fillWithImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTFill *)fillWithImage:(CPTImage *)anImage</Declaration>
+			
+			
+			<Anchor>//api/name/fillWithImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTFill/initWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithColor:(CPTColor *)aColor</Declaration>
+			
+			
+			<Anchor>//api/name/initWithColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTFill/initWithGradient:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithGradient:(CPTGradient *)aGradient</Declaration>
+			
+			
+			<Anchor>//api/name/initWithGradient:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTFill/initWithImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImage:(CPTImage *)anImage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTFill/fillRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillRect:(CGRect)theRect inContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTFill/fillPathInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTFill.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillPathInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillPathInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

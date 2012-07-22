@@ -49,20 +49,18 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    self.state = UIGestureRecognizerStateBegan;
     [super touchesBegan:touches withEvent:event];
 }
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
-        CGPoint previousPoint = [touch previousLocationInView:self.view];
         CGPoint currentPoint = [touch locationInView:self.view];
         
         // find the path for this touch, if any
         ICPath *path = nil;
         for (ICPath *currentPath in self.touchPaths) {
-            if (CGPointEqualToPoint([(ICTouch *)[currentPath lastTouch] point], previousPoint)) {
+            if ([currentPath lastTouch].touch == touch) {
                 path = currentPath;
                 break;
             }
@@ -74,10 +72,11 @@
             [self.touchPaths addObject:path];
         }
         // add the new touch location to its path
-        [path addTouch:[[ICTouch alloc] initWithPoint:currentPoint atTime:touch.timestamp]];
+        ICTouch *ictouch = [[ICTouch alloc] initWithPoint:currentPoint atTime:touch.timestamp];
+        ictouch.touch = touch;
+        [path addTouch:ictouch];
     }   
     
-    self.state = UIGestureRecognizerStateChanged;
     [super touchesMoved:touches withEvent:event];
 }
 

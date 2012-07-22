@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTColorSpace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTColorSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColorSpace.h</DeclaredIn>
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColorSpace/setCgColorSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColorSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGColorSpaceRef cgColorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/cgColorSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTColorSpace/cgColorSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColorSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGColorSpaceRef cgColorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/cgColorSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColorSpace/genericRGBSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColorSpace.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColorSpace *)genericRGBSpace</Declaration>
+			
+			
+			<Anchor>//api/name/genericRGBSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColorSpace/initWithCGColorSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColorSpace.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCGColorSpace:(CGColorSpaceRef)colorSpace</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCGColorSpace:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

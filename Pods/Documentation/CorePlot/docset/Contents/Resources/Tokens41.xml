@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPlotSpaceAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPlotSpaceAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpaceAnnotation/setAnchorPlotPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *anchorPlotPoint</Declaration>
+			
+			
+			<Anchor>//api/name/anchorPlotPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpaceAnnotation/anchorPlotPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *anchorPlotPoint</Declaration>
+			
+			
+			<Anchor>//api/name/anchorPlotPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpaceAnnotation/setPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSpaceAnnotation/plotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSpaceAnnotation/initWithPlotSpace:anchorPlotPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSpaceAnnotation.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithPlotSpace:(CPTPlotSpace *)space anchorPlotPoint:(NSArray *)plotPoint</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPlotSpace:anchorPlotPoint:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,825 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTColor Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTColor Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/cgColor">&nbsp;&nbsp;&nbsp;&nbsp;cgColor</option>
+	
+	<option value="//api/name/uiColor">&nbsp;&nbsp;&nbsp;&nbsp;uiColor</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/blackColor">&nbsp;&nbsp;&nbsp;&nbsp;+ blackColor</option>
+	
+	<option value="//api/name/blueColor">&nbsp;&nbsp;&nbsp;&nbsp;+ blueColor</option>
+	
+	<option value="//api/name/brownColor">&nbsp;&nbsp;&nbsp;&nbsp;+ brownColor</option>
+	
+	<option value="//api/name/clearColor">&nbsp;&nbsp;&nbsp;&nbsp;+ clearColor</option>
+	
+	<option value="//api/name/colorWithCGColor:">&nbsp;&nbsp;&nbsp;&nbsp;+ colorWithCGColor:</option>
+	
+	<option value="//api/name/colorWithComponentRed:green:blue:alpha:">&nbsp;&nbsp;&nbsp;&nbsp;+ colorWithComponentRed:green:blue:alpha:</option>
+	
+	<option value="//api/name/colorWithGenericGray:">&nbsp;&nbsp;&nbsp;&nbsp;+ colorWithGenericGray:</option>
+	
+	<option value="//api/name/cyanColor">&nbsp;&nbsp;&nbsp;&nbsp;+ cyanColor</option>
+	
+	<option value="//api/name/darkGrayColor">&nbsp;&nbsp;&nbsp;&nbsp;+ darkGrayColor</option>
+	
+	<option value="//api/name/grayColor">&nbsp;&nbsp;&nbsp;&nbsp;+ grayColor</option>
+	
+	<option value="//api/name/greenColor">&nbsp;&nbsp;&nbsp;&nbsp;+ greenColor</option>
+	
+	<option value="//api/name/lightGrayColor">&nbsp;&nbsp;&nbsp;&nbsp;+ lightGrayColor</option>
+	
+	<option value="//api/name/magentaColor">&nbsp;&nbsp;&nbsp;&nbsp;+ magentaColor</option>
+	
+	<option value="//api/name/orangeColor">&nbsp;&nbsp;&nbsp;&nbsp;+ orangeColor</option>
+	
+	<option value="//api/name/purpleColor">&nbsp;&nbsp;&nbsp;&nbsp;+ purpleColor</option>
+	
+	<option value="//api/name/redColor">&nbsp;&nbsp;&nbsp;&nbsp;+ redColor</option>
+	
+	<option value="//api/name/whiteColor">&nbsp;&nbsp;&nbsp;&nbsp;+ whiteColor</option>
+	
+	<option value="//api/name/yellowColor">&nbsp;&nbsp;&nbsp;&nbsp;+ yellowColor</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/colorWithAlphaComponent:">&nbsp;&nbsp;&nbsp;&nbsp;- colorWithAlphaComponent:</option>
+	
+	<option value="//api/name/initWithCGColor:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithCGColor:</option>
+	
+	<option value="//api/name/initWithComponentRed:green:blue:alpha:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithComponentRed:green:blue:alpha:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_CPTPlatformSpecificColorExtensions Methods">CPTPlatformSpecificColorExtensions Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cgColor">cgColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/uiColor">uiColor</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/blackColor">blackColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/blueColor">blueColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/brownColor">brownColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearColor">clearColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorWithCGColor:">colorWithCGColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorWithComponentRed:green:blue:alpha:">colorWithComponentRed:green:blue:alpha:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorWithGenericGray:">colorWithGenericGray:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/cyanColor">cyanColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/darkGrayColor">darkGrayColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/grayColor">grayColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/greenColor">greenColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lightGrayColor">lightGrayColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/magentaColor">magentaColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/orangeColor">orangeColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/purpleColor">purpleColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/redColor">redColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/whiteColor">whiteColor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/yellowColor">yellowColor</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/colorWithAlphaComponent:">colorWithAlphaComponent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithCGColor:">initWithCGColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithComponentRed:green:blue:alpha:">initWithComponentRed:green:blue:alpha:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTColor Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTColor Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTColor.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@category CPTColor(CPTPlatformSpecificColorExtensions)
+@brief Platform-specific extensions to CPTColor.
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cgColor">&nbsp;&nbsp;cgColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearColor">+&nbsp;clearColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/whiteColor">+&nbsp;whiteColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lightGrayColor">+&nbsp;lightGrayColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/grayColor">+&nbsp;grayColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/darkGrayColor">+&nbsp;darkGrayColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/blackColor">+&nbsp;blackColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/redColor">+&nbsp;redColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/greenColor">+&nbsp;greenColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/blueColor">+&nbsp;blueColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/cyanColor">+&nbsp;cyanColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/yellowColor">+&nbsp;yellowColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/magentaColor">+&nbsp;magentaColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/orangeColor">+&nbsp;orangeColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/purpleColor">+&nbsp;purpleColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/brownColor">+&nbsp;brownColor</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorWithCGColor:">+&nbsp;colorWithCGColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorWithComponentRed:green:blue:alpha:">+&nbsp;colorWithComponentRed:green:blue:alpha:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorWithGenericGray:">+&nbsp;colorWithGenericGray:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithCGColor:">&ndash;&nbsp;initWithCGColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithComponentRed:green:blue:alpha:">&ndash;&nbsp;initWithComponentRed:green:blue:alpha:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/colorWithAlphaComponent:">&ndash;&nbsp;colorWithAlphaComponent:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="CPTPlatformSpecificColorExtensions Methods" name="task_CPTPlatformSpecificColorExtensions Methods"></a>
+						<h3 class="subsubtitle task-title">CPTPlatformSpecificColorExtensions Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/uiColor">&nbsp;&nbsp;uiColor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/cgColor" title="cgColor"></a>
+	<h3 class="subsubtitle method-title">cgColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) CGColorRef cgColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/uiColor" title="uiColor"></a>
+	<h3 class="subsubtitle method-title">uiColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) UIColor *uiColor</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/blackColor" title="blackColor"></a>
+	<h3 class="subsubtitle method-title">blackColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)blackColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/blueColor" title="blueColor"></a>
+	<h3 class="subsubtitle method-title">blueColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)blueColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/brownColor" title="brownColor"></a>
+	<h3 class="subsubtitle method-title">brownColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)brownColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/clearColor" title="clearColor"></a>
+	<h3 class="subsubtitle method-title">clearColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)clearColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/colorWithCGColor:" title="colorWithCGColor:"></a>
+	<h3 class="subsubtitle method-title">colorWithCGColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)colorWithCGColor:(CGColorRef)<em>newCGColor</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/colorWithComponentRed:green:blue:alpha:" title="colorWithComponentRed:green:blue:alpha:"></a>
+	<h3 class="subsubtitle method-title">colorWithComponentRed:green:blue:alpha:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)colorWithComponentRed:(CGFloat)<em>red</em> green:(CGFloat)<em>green</em> blue:(CGFloat)<em>blue</em> alpha:(CGFloat)<em>alpha</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/colorWithGenericGray:" title="colorWithGenericGray:"></a>
+	<h3 class="subsubtitle method-title">colorWithGenericGray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)colorWithGenericGray:(CGFloat)<em>gray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/cyanColor" title="cyanColor"></a>
+	<h3 class="subsubtitle method-title">cyanColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)cyanColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/darkGrayColor" title="darkGrayColor"></a>
+	<h3 class="subsubtitle method-title">darkGrayColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)darkGrayColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/grayColor" title="grayColor"></a>
+	<h3 class="subsubtitle method-title">grayColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)grayColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/greenColor" title="greenColor"></a>
+	<h3 class="subsubtitle method-title">greenColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)greenColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lightGrayColor" title="lightGrayColor"></a>
+	<h3 class="subsubtitle method-title">lightGrayColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)lightGrayColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/magentaColor" title="magentaColor"></a>
+	<h3 class="subsubtitle method-title">magentaColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)magentaColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/orangeColor" title="orangeColor"></a>
+	<h3 class="subsubtitle method-title">orangeColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)orangeColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/purpleColor" title="purpleColor"></a>
+	<h3 class="subsubtitle method-title">purpleColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)purpleColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/redColor" title="redColor"></a>
+	<h3 class="subsubtitle method-title">redColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)redColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/whiteColor" title="whiteColor"></a>
+	<h3 class="subsubtitle method-title">whiteColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)whiteColor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/yellowColor" title="yellowColor"></a>
+	<h3 class="subsubtitle method-title">yellowColor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTColor *)yellowColor</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/colorWithAlphaComponent:" title="colorWithAlphaComponent:"></a>
+	<h3 class="subsubtitle method-title">colorWithAlphaComponent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTColor *)colorWithAlphaComponent:(CGFloat)<em>alpha</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithCGColor:" title="initWithCGColor:"></a>
+	<h3 class="subsubtitle method-title">initWithCGColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithCGColor:(CGColorRef)<em>cgColor</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithComponentRed:green:blue:alpha:" title="initWithComponentRed:green:blue:alpha:"></a>
+	<h3 class="subsubtitle method-title">initWithComponentRed:green:blue:alpha:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithComponentRed:(CGFloat)<em>red</em> green:(CGFloat)<em>green</em> blue:(CGFloat)<em>blue</em> alpha:(CGFloat)<em>alpha</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTSlateTheme.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTSlateTheme</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTSlateTheme.h</DeclaredIn>
+			
+			<NodeRef refid="63"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

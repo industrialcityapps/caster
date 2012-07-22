@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTXYPlotSpace.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTXYPlotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>
+			
+			<NodeRef refid="54"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setXRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *xRange</Declaration>
+			
+			
+			<Anchor>//api/name/xRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/xRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *xRange</Declaration>
+			
+			
+			<Anchor>//api/name/xRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setYRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *yRange</Declaration>
+			
+			
+			<Anchor>//api/name/yRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/yRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *yRange</Declaration>
+			
+			
+			<Anchor>//api/name/yRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setGlobalXRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *globalXRange</Declaration>
+			
+			
+			<Anchor>//api/name/globalXRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/globalXRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *globalXRange</Declaration>
+			
+			
+			<Anchor>//api/name/globalXRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setGlobalYRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *globalYRange</Declaration>
+			
+			
+			<Anchor>//api/name/globalYRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/globalYRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *globalYRange</Declaration>
+			
+			
+			<Anchor>//api/name/globalYRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setXScaleType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScaleType xScaleType</Declaration>
+			
+			
+			<Anchor>//api/name/xScaleType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/xScaleType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScaleType xScaleType</Declaration>
+			
+			
+			<Anchor>//api/name/xScaleType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYPlotSpace/setYScaleType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScaleType yScaleType</Declaration>
+			
+			
+			<Anchor>//api/name/yScaleType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYPlotSpace/yScaleType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTScaleType yScaleType</Declaration>
+			
+			
+			<Anchor>//api/name/yScaleType</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

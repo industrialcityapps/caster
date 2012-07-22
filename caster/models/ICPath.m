@@ -13,21 +13,24 @@
 @interface ICPath ()
 
 @property(nonatomic, strong) NSMutableArray *touches;
-@property(nonatomic, strong) NSMutableArray *fftValues;
+@property(nonatomic, strong) NSMutableArray *fftXValues;
+@property(nonatomic, strong) NSMutableArray *fftYValues;
 
 @end
 
 @implementation ICPath
 
 @synthesize touches = _IC_touches;
-@synthesize fftValues = _IC_fftValues;
+@synthesize fftXValues = _IC_fftXValues;
+@synthesize fftYValues = _IC_fftYValues;
 
 - (id)init
 {
     self = [super init];
     if (self) {
         self.touches = [NSMutableArray array];
-        self.fftValues = [NSMutableArray array];
+        self.fftXValues = [NSMutableArray array];
+        self.fftYValues = [NSMutableArray array];
     }
     return self;
 }
@@ -72,7 +75,7 @@
 
 - (void)computeAttributes
 {
-    NSTimeInterval stepInterval = 0.1;
+    NSTimeInterval stepInterval = 0.05;
     NSTimeInterval maxDuration = 10.0;
     
     NSTimeInterval startTime = [[(ICTouch *)[self.touches objectAtIndex:0] timestamp] doubleValue];
@@ -114,45 +117,76 @@
     A.realp = (float *) malloc(bins * sizeof(float));
     A.imagp = (float *) malloc(bins * sizeof(float));
     
-    // given a periodic sample
-    float *real_sinusoid = (float *) malloc(sampleSize * sizeof(float));;
-    for (int32_t index = 0; index < sampleSize; index++) {
-        real_sinusoid[index] = sinf(M_PI_4 * index);
-    }
+    float *x_magnitudes = (float *) malloc(bins * sizeof(float));
+    float *y_magnitudes = (float *) malloc(bins * sizeof(float));
     
     // setup FFT
     FFTSetup setup;
     setup = vDSP_create_fftsetup(log2FFTSize, kFFTRadix2);
-        
+    
+    float *x_sinusoid = (float *) malloc(sampleSize * sizeof(float));;
+    float *y_sinusoid = (float *) malloc(sampleSize * sizeof(float));;
+    for (int32_t index = 0; index < sampleSize; index++) {
+        CGPoint point = (CGPoint)positions[index];
+        x_sinusoid[index] = point.x;
+        y_sinusoid[index] = point.y;
+    }
+    
     // Pack the input values
-    vDSP_ctoz((COMPLEX *) real_sinusoid, 2, &A, 1, bins);
+    vDSP_ctoz((COMPLEX *) x_sinusoid, stride, &A, stride, bins);
     
     // Perform the FFT
     vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_FORWARD);
     
+    vDSP_zvabs(&A, stride, x_magnitudes, stride, bins);
+
+    // Repeat for y axis
+    vDSP_ctoz((COMPLEX *) y_sinusoid, stride, &A, stride, bins);
+    vDSP_fft_zrip(setup, &A, stride, log2FFTSize, FFT_FORWARD);
+    vDSP_zvabs(&A, stride, y_magnitudes, stride, bins);
+    
     // get and scale the magnitudes of the complex result
-    float *magnitudes = (float *) malloc(bins * sizeof(float));
-    vDSP_zvabs(&A, stride, magnitudes, stride, bins);
     float *scaleFactors = malloc(bins * sizeof(float));
     for(int32_t index = 0; index < bins; index++)
     {
         scaleFactors[index] = bins;
     }
-    vDSP_vsdiv(magnitudes, 1, scaleFactors, magnitudes, 1, bins);
+    
+    vDSP_vsdiv(x_magnitudes, stride, scaleFactors, x_magnitudes, stride, bins);
+    vDSP_vsdiv(y_magnitudes, stride, scaleFactors, y_magnitudes, stride, bins);
     free(scaleFactors);
     
-    [self.fftValues removeAllObjects];
+    [self.fftXValues removeAllObjects];
+    [self.fftYValues removeAllObjects];
     for (NSUInteger index = 0; index < bins; index++) {
-        [self.fftValues addObject:[NSNumber numberWithFloat:magnitudes[index]]];
+        [self.fftXValues addObject:[NSNumber numberWithFloat:x_magnitudes[index]]];
+        [self.fftYValues addObject:[NSNumber numberWithFloat:y_magnitudes[index]]];
     }
     
     vDSP_destroy_fftsetup(setup);
-    free(real_sinusoid);
-    free(magnitudes);
+    free(x_magnitudes);
+    free(y_magnitudes);
+    free(x_sinusoid);
+    free(y_sinusoid);
     free(A.realp);
     free(A.imagp);
     
     free(positions);
+}
+
+#pragma mark - CPTPlotDataSource methods
+
+- (NSUInteger)numberOfRecordsForPlot:(CPTPlot *)plot
+{
+    return [self.fftXValues count];
+}
+
+- (double)doubleForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index
+{
+    if ([plot.name isEqualToString:@"Y"]) {
+        return [[self.fftYValues objectAtIndex:index] doubleValue];
+    }
+    return [[self.fftXValues objectAtIndex:index] doubleValue];
 }
 
 @end

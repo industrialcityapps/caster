@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTPlotDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTPlotDataSource</TokenIdentifier>
+			<Abstract type="html">	@brief A plot data source.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>
+			
+			<NodeRef refid="78"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/numberOfRecordsForPlot:</TokenIdentifier>
+			<Abstract type="html">	@brief (Required) The number of data points for the plot.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSUInteger)numberOfRecordsForPlot:(CPTPlot *)plot</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The number of data points for the plot.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberOfRecordsForPlot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/numbersForPlot:field:recordIndexRange:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a range of plot data for the given plot and field.
+	Implement one and only one of the optional methods in this section.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)numbersForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>fieldEnum</Name>
+					<Abstract type="html">The field index.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">The range of the data indexes of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An array of data points.</Abstract></ReturnValue>
+			<Anchor>//api/name/numbersForPlot:field:recordIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/numberForPlot:field:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a plot data value for the given plot and field.
+	Implement one and only one of the optional methods in this section.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSNumber *)numberForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>fieldEnum</Name>
+					<Abstract type="html">The field index.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A data point.</Abstract></ReturnValue>
+			<Anchor>//api/name/numberForPlot:field:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/doublesForPlot:field:recordIndexRange:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a range of plot data for the given plot and field.
+	Implement one and only one of the optional methods in this section.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (double *)doublesForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>fieldEnum</Name>
+					<Abstract type="html">The field index.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">The range of the data indexes of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A retained C array of data points.</Abstract></ReturnValue>
+			<Anchor>//api/name/doublesForPlot:field:recordIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/doubleForPlot:field:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a plot data value for the given plot and field.
+	Implement one and only one of the optional methods in this section.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (double)doubleForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>fieldEnum</Name>
+					<Abstract type="html">The field index.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A data point.</Abstract></ReturnValue>
+			<Anchor>//api/name/doubleForPlot:field:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/dataForPlot:field:recordIndexRange:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a range of plot data for the given plot and field.
+	Implement one and only one of the optional methods in this section.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTNumericData *)dataForPlot:(CPTPlot *)plot field:(NSUInteger)fieldEnum recordIndexRange:(NSRange)indexRange</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>fieldEnum</Name>
+					<Abstract type="html">The field index.</Abstract>
+				</Parameter><Parameter>
+					<Name>indexRange</Name>
+					<Abstract type="html">The range of the data indexes of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">A one-dimensional array of data points.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataForPlot:field:recordIndexRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotDataSource/dataLabelForPlot:recordIndex:</TokenIdentifier>
+			<Abstract type="html">@brief (Optional) Gets a data label for the given plot.</Abstract>
+			<DeclaredIn>CPTPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTLayer *)dataLabelForPlot:(CPTPlot *)plot recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>plot</Name>
+					<Abstract type="html">The plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The data label for the point with the given index.
+If you return nil, the default data label will be used. If you return an instance of NSNull,
+no label will be shown for the index in question.</Abstract></ReturnValue>
+			<Anchor>//api/name/dataLabelForPlot:recordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

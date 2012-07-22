@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTXYAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTXYAxis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxis.h</DeclaredIn>
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYAxis/setOrthogonalCoordinateDecimal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal orthogonalCoordinateDecimal</Declaration>
+			
+			
+			<Anchor>//api/name/orthogonalCoordinateDecimal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYAxis/orthogonalCoordinateDecimal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal orthogonalCoordinateDecimal</Declaration>
+			
+			
+			<Anchor>//api/name/orthogonalCoordinateDecimal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYAxis/setAxisConstraints:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTConstraints *axisConstraints</Declaration>
+			
+			
+			<Anchor>//api/name/axisConstraints</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYAxis/axisConstraints</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTConstraints *axisConstraints</Declaration>
+			
+			
+			<Anchor>//api/name/axisConstraints</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

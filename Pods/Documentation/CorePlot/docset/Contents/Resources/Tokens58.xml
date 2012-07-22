@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTFillColor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTFillColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillColor.h</DeclaredIn>
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillColor/initWithColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillColor.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithColor:(CPTColor *)aCcolor</Declaration>
+			
+			
+			<Anchor>//api/name/initWithColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillColor/fillRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillColor.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillRect:(CGRect)theRect inContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillColor/fillPathInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillColor.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillPathInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillPathInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

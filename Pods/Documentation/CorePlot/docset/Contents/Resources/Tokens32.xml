@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTMutableTextStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTMutableTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableTextStyle/setFontName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableTextStyle/fontName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableTextStyle/setFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign, nonatomic) CGFloat fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableTextStyle/fontSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign, nonatomic) CGFloat fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableTextStyle/setColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) CPTColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableTextStyle/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) CPTColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableTextStyle/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign, nonatomic) CPTTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableTextStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign, nonatomic) CPTTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

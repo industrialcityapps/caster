@@ -1,0 +1,1760 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTAxis Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTAxis Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/alternatingBandFills">&nbsp;&nbsp;&nbsp;&nbsp;alternatingBandFills</option>
+	
+	<option value="//api/name/axisLabels">&nbsp;&nbsp;&nbsp;&nbsp;axisLabels</option>
+	
+	<option value="//api/name/axisLineCapMax">&nbsp;&nbsp;&nbsp;&nbsp;axisLineCapMax</option>
+	
+	<option value="//api/name/axisLineCapMin">&nbsp;&nbsp;&nbsp;&nbsp;axisLineCapMin</option>
+	
+	<option value="//api/name/axisLineStyle">&nbsp;&nbsp;&nbsp;&nbsp;axisLineStyle</option>
+	
+	<option value="//api/name/axisSet">&nbsp;&nbsp;&nbsp;&nbsp;axisSet</option>
+	
+	<option value="//api/name/axisTitle">&nbsp;&nbsp;&nbsp;&nbsp;axisTitle</option>
+	
+	<option value="//api/name/backgroundLimitBands">&nbsp;&nbsp;&nbsp;&nbsp;backgroundLimitBands</option>
+	
+	<option value="//api/name/coordinate">&nbsp;&nbsp;&nbsp;&nbsp;coordinate</option>
+	
+	<option value="//api/name/defaultTitleLocation">&nbsp;&nbsp;&nbsp;&nbsp;defaultTitleLocation</option>
+	
+	<option value="//api/name/gridLinesRange">&nbsp;&nbsp;&nbsp;&nbsp;gridLinesRange</option>
+	
+	<option value="//api/name/labelAlignment">&nbsp;&nbsp;&nbsp;&nbsp;labelAlignment</option>
+	
+	<option value="//api/name/labelExclusionRanges">&nbsp;&nbsp;&nbsp;&nbsp;labelExclusionRanges</option>
+	
+	<option value="//api/name/labelFormatter">&nbsp;&nbsp;&nbsp;&nbsp;labelFormatter</option>
+	
+	<option value="//api/name/labelOffset">&nbsp;&nbsp;&nbsp;&nbsp;labelOffset</option>
+	
+	<option value="//api/name/labelRotation">&nbsp;&nbsp;&nbsp;&nbsp;labelRotation</option>
+	
+	<option value="//api/name/labelShadow">&nbsp;&nbsp;&nbsp;&nbsp;labelShadow</option>
+	
+	<option value="//api/name/labelTextStyle">&nbsp;&nbsp;&nbsp;&nbsp;labelTextStyle</option>
+	
+	<option value="//api/name/labelingOrigin">&nbsp;&nbsp;&nbsp;&nbsp;labelingOrigin</option>
+	
+	<option value="//api/name/labelingPolicy">&nbsp;&nbsp;&nbsp;&nbsp;labelingPolicy</option>
+	
+	<option value="//api/name/majorGridLineStyle">&nbsp;&nbsp;&nbsp;&nbsp;majorGridLineStyle</option>
+	
+	<option value="//api/name/majorGridLines">&nbsp;&nbsp;&nbsp;&nbsp;majorGridLines</option>
+	
+	<option value="//api/name/majorIntervalLength">&nbsp;&nbsp;&nbsp;&nbsp;majorIntervalLength</option>
+	
+	<option value="//api/name/majorTickLength">&nbsp;&nbsp;&nbsp;&nbsp;majorTickLength</option>
+	
+	<option value="//api/name/majorTickLineStyle">&nbsp;&nbsp;&nbsp;&nbsp;majorTickLineStyle</option>
+	
+	<option value="//api/name/majorTickLocations">&nbsp;&nbsp;&nbsp;&nbsp;majorTickLocations</option>
+	
+	<option value="//api/name/minorGridLineStyle">&nbsp;&nbsp;&nbsp;&nbsp;minorGridLineStyle</option>
+	
+	<option value="//api/name/minorGridLines">&nbsp;&nbsp;&nbsp;&nbsp;minorGridLines</option>
+	
+	<option value="//api/name/minorTickAxisLabels">&nbsp;&nbsp;&nbsp;&nbsp;minorTickAxisLabels</option>
+	
+	<option value="//api/name/minorTickLabelAlignment">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLabelAlignment</option>
+	
+	<option value="//api/name/minorTickLabelFormatter">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLabelFormatter</option>
+	
+	<option value="//api/name/minorTickLabelOffset">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLabelOffset</option>
+	
+	<option value="//api/name/minorTickLabelRotation">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLabelRotation</option>
+	
+	<option value="//api/name/minorTickLabelTextStyle">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLabelTextStyle</option>
+	
+	<option value="//api/name/minorTickLength">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLength</option>
+	
+	<option value="//api/name/minorTickLineStyle">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLineStyle</option>
+	
+	<option value="//api/name/minorTickLocations">&nbsp;&nbsp;&nbsp;&nbsp;minorTickLocations</option>
+	
+	<option value="//api/name/minorTicksPerInterval">&nbsp;&nbsp;&nbsp;&nbsp;minorTicksPerInterval</option>
+	
+	<option value="//api/name/needsRelabel">&nbsp;&nbsp;&nbsp;&nbsp;needsRelabel</option>
+	
+	<option value="//api/name/plotArea">&nbsp;&nbsp;&nbsp;&nbsp;plotArea</option>
+	
+	<option value="//api/name/plotSpace">&nbsp;&nbsp;&nbsp;&nbsp;plotSpace</option>
+	
+	<option value="//api/name/preferredNumberOfMajorTicks">&nbsp;&nbsp;&nbsp;&nbsp;preferredNumberOfMajorTicks</option>
+	
+	<option value="//api/name/separateLayers">&nbsp;&nbsp;&nbsp;&nbsp;separateLayers</option>
+	
+	<option value="//api/name/tickDirection">&nbsp;&nbsp;&nbsp;&nbsp;tickDirection</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;title</option>
+	
+	<option value="//api/name/titleLocation">&nbsp;&nbsp;&nbsp;&nbsp;titleLocation</option>
+	
+	<option value="//api/name/titleOffset">&nbsp;&nbsp;&nbsp;&nbsp;titleOffset</option>
+	
+	<option value="//api/name/titleRotation">&nbsp;&nbsp;&nbsp;&nbsp;titleRotation</option>
+	
+	<option value="//api/name/titleTextStyle">&nbsp;&nbsp;&nbsp;&nbsp;titleTextStyle</option>
+	
+	<option value="//api/name/visibleRange">&nbsp;&nbsp;&nbsp;&nbsp;visibleRange</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addBackgroundLimitBand:">&nbsp;&nbsp;&nbsp;&nbsp;- addBackgroundLimitBand:</option>
+	
+	<option value="//api/name/drawBackgroundBandsInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- drawBackgroundBandsInContext:</option>
+	
+	<option value="//api/name/drawBackgroundLimitsInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- drawBackgroundLimitsInContext:</option>
+	
+	<option value="//api/name/drawGridLinesInContext:isMajor:">&nbsp;&nbsp;&nbsp;&nbsp;- drawGridLinesInContext:isMajor:</option>
+	
+	<option value="//api/name/filteredMajorTickLocations:">&nbsp;&nbsp;&nbsp;&nbsp;- filteredMajorTickLocations:</option>
+	
+	<option value="//api/name/filteredMinorTickLocations:">&nbsp;&nbsp;&nbsp;&nbsp;- filteredMinorTickLocations:</option>
+	
+	<option value="//api/name/relabel">&nbsp;&nbsp;&nbsp;&nbsp;- relabel</option>
+	
+	<option value="//api/name/removeBackgroundLimitBand:">&nbsp;&nbsp;&nbsp;&nbsp;- removeBackgroundLimitBand:</option>
+	
+	<option value="//api/name/setNeedsRelabel">&nbsp;&nbsp;&nbsp;&nbsp;- setNeedsRelabel</option>
+	
+	<option value="//api/name/updateMajorTickLabels">&nbsp;&nbsp;&nbsp;&nbsp;- updateMajorTickLabels</option>
+	
+	<option value="//api/name/updateMinorTickLabels">&nbsp;&nbsp;&nbsp;&nbsp;- updateMinorTickLabels</option>
+	
+	<option value="//api/name/viewPointForCoordinateDecimalNumber:">&nbsp;&nbsp;&nbsp;&nbsp;- viewPointForCoordinateDecimalNumber:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Axis">Axis</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Title">Title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Labels">Labels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Major Ticks">Major Ticks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Minor Ticks">Minor Ticks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Grid Lines">Grid Lines</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Background Bands">Background Bands</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Plot Space">Plot Space</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Layers">Layers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Labels">Labels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Ticks">Ticks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Background Bands">Background Bands</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AbstractMethods Methods">AbstractMethods Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/alternatingBandFills">alternatingBandFills</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisLabels">axisLabels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisLineCapMax">axisLineCapMax</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisLineCapMin">axisLineCapMin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisLineStyle">axisLineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisSet">axisSet</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisTitle">axisTitle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/backgroundLimitBands">backgroundLimitBands</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/coordinate">coordinate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultTitleLocation">defaultTitleLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gridLinesRange">gridLinesRange</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelAlignment">labelAlignment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelExclusionRanges">labelExclusionRanges</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelFormatter">labelFormatter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelOffset">labelOffset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelRotation">labelRotation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelShadow">labelShadow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelTextStyle">labelTextStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelingOrigin">labelingOrigin</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/labelingPolicy">labelingPolicy</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorGridLineStyle">majorGridLineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorGridLines">majorGridLines</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorIntervalLength">majorIntervalLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorTickLength">majorTickLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorTickLineStyle">majorTickLineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/majorTickLocations">majorTickLocations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorGridLineStyle">minorGridLineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorGridLines">minorGridLines</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickAxisLabels">minorTickAxisLabels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLabelAlignment">minorTickLabelAlignment</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLabelFormatter">minorTickLabelFormatter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLabelOffset">minorTickLabelOffset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLabelRotation">minorTickLabelRotation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLabelTextStyle">minorTickLabelTextStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLength">minorTickLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLineStyle">minorTickLineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTickLocations">minorTickLocations</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/minorTicksPerInterval">minorTicksPerInterval</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/needsRelabel">needsRelabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotArea">plotArea</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace">plotSpace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/preferredNumberOfMajorTicks">preferredNumberOfMajorTicks</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/separateLayers">separateLayers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tickDirection">tickDirection</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleLocation">titleLocation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleOffset">titleOffset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleRotation">titleRotation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleTextStyle">titleTextStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/visibleRange">visibleRange</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addBackgroundLimitBand:">addBackgroundLimitBand:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawBackgroundBandsInContext:">drawBackgroundBandsInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawBackgroundLimitsInContext:">drawBackgroundLimitsInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawGridLinesInContext:isMajor:">drawGridLinesInContext:isMajor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filteredMajorTickLocations:">filteredMajorTickLocations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/filteredMinorTickLocations:">filteredMinorTickLocations:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/relabel">relabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeBackgroundLimitBand:">removeBackgroundLimitBand:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setNeedsRelabel">setNeedsRelabel</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateMajorTickLabels">updateMajorTickLabels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateMinorTickLabels">updateMinorTickLabels</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/viewPointForCoordinateDecimalNumber:">viewPointForCoordinateDecimalNumber:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTAxis Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTAxis Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/CPTLayer.html">CPTLayer</a> : CALayer</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTAxis.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@}
+@category CPTAxis(AbstractMethods)
+@brief CPTAxis abstract methods—must be overridden by subclasses
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Axis" name="task_Axis"></a>
+						<h3 class="subsubtitle task-title">Axis</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisLineStyle">&nbsp;&nbsp;axisLineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/coordinate">&nbsp;&nbsp;coordinate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelingOrigin">&nbsp;&nbsp;labelingOrigin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tickDirection">&nbsp;&nbsp;tickDirection</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/visibleRange">&nbsp;&nbsp;visibleRange</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisLineCapMin">&nbsp;&nbsp;axisLineCapMin</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisLineCapMax">&nbsp;&nbsp;axisLineCapMax</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Title" name="task_Title"></a>
+						<h3 class="subsubtitle task-title">Title</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleTextStyle">&nbsp;&nbsp;titleTextStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisTitle">&nbsp;&nbsp;axisTitle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleOffset">&nbsp;&nbsp;titleOffset</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleRotation">&nbsp;&nbsp;titleRotation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleLocation">&nbsp;&nbsp;titleLocation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultTitleLocation">&nbsp;&nbsp;defaultTitleLocation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Labels" name="task_Labels"></a>
+						<h3 class="subsubtitle task-title">Labels</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelingPolicy">&nbsp;&nbsp;labelingPolicy</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelOffset">&nbsp;&nbsp;labelOffset</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLabelOffset">&nbsp;&nbsp;minorTickLabelOffset</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelRotation">&nbsp;&nbsp;labelRotation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLabelRotation">&nbsp;&nbsp;minorTickLabelRotation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelAlignment">&nbsp;&nbsp;labelAlignment</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLabelAlignment">&nbsp;&nbsp;minorTickLabelAlignment</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelTextStyle">&nbsp;&nbsp;labelTextStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLabelTextStyle">&nbsp;&nbsp;minorTickLabelTextStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelFormatter">&nbsp;&nbsp;labelFormatter</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLabelFormatter">&nbsp;&nbsp;minorTickLabelFormatter</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisLabels">&nbsp;&nbsp;axisLabels</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickAxisLabels">&nbsp;&nbsp;minorTickAxisLabels</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/needsRelabel">&nbsp;&nbsp;needsRelabel</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelExclusionRanges">&nbsp;&nbsp;labelExclusionRanges</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/labelShadow">&nbsp;&nbsp;labelShadow</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Major Ticks" name="task_Major Ticks"></a>
+						<h3 class="subsubtitle task-title">Major Ticks</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorIntervalLength">&nbsp;&nbsp;majorIntervalLength</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorTickLength">&nbsp;&nbsp;majorTickLength</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorTickLineStyle">&nbsp;&nbsp;majorTickLineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorTickLocations">&nbsp;&nbsp;majorTickLocations</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/preferredNumberOfMajorTicks">&nbsp;&nbsp;preferredNumberOfMajorTicks</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Minor Ticks" name="task_Minor Ticks"></a>
+						<h3 class="subsubtitle task-title">Minor Ticks</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTicksPerInterval">&nbsp;&nbsp;minorTicksPerInterval</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLength">&nbsp;&nbsp;minorTickLength</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLineStyle">&nbsp;&nbsp;minorTickLineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorTickLocations">&nbsp;&nbsp;minorTickLocations</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Grid Lines" name="task_Grid Lines"></a>
+						<h3 class="subsubtitle task-title">Grid Lines</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorGridLineStyle">&nbsp;&nbsp;majorGridLineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorGridLineStyle">&nbsp;&nbsp;minorGridLineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gridLinesRange">&nbsp;&nbsp;gridLinesRange</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Background Bands" name="task_Background Bands"></a>
+						<h3 class="subsubtitle task-title">Background Bands</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/alternatingBandFills">&nbsp;&nbsp;alternatingBandFills</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/backgroundLimitBands">&nbsp;&nbsp;backgroundLimitBands</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Plot Space" name="task_Plot Space"></a>
+						<h3 class="subsubtitle task-title">Plot Space</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace">&nbsp;&nbsp;plotSpace</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Layers" name="task_Layers"></a>
+						<h3 class="subsubtitle task-title">Layers</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/separateLayers">&nbsp;&nbsp;separateLayers</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotArea">&nbsp;&nbsp;plotArea</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/minorGridLines">&nbsp;&nbsp;minorGridLines</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/majorGridLines">&nbsp;&nbsp;majorGridLines</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisSet">&nbsp;&nbsp;axisSet</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Labels" name="task_Labels"></a>
+						<h3 class="subsubtitle task-title">Labels</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/relabel">&ndash;&nbsp;relabel</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setNeedsRelabel">&ndash;&nbsp;setNeedsRelabel</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateMajorTickLabels">&ndash;&nbsp;updateMajorTickLabels</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateMinorTickLabels">&ndash;&nbsp;updateMinorTickLabels</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Ticks" name="task_Ticks"></a>
+						<h3 class="subsubtitle task-title">Ticks</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filteredMajorTickLocations:">&ndash;&nbsp;filteredMajorTickLocations:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/filteredMinorTickLocations:">&ndash;&nbsp;filteredMinorTickLocations:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Background Bands" name="task_Background Bands"></a>
+						<h3 class="subsubtitle task-title">Background Bands</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addBackgroundLimitBand:">&ndash;&nbsp;addBackgroundLimitBand:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeBackgroundLimitBand:">&ndash;&nbsp;removeBackgroundLimitBand:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="AbstractMethods Methods" name="task_AbstractMethods Methods"></a>
+						<h3 class="subsubtitle task-title">AbstractMethods Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/viewPointForCoordinateDecimalNumber:">&ndash;&nbsp;viewPointForCoordinateDecimalNumber:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawGridLinesInContext:isMajor:">&ndash;&nbsp;drawGridLinesInContext:isMajor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawBackgroundBandsInContext:">&ndash;&nbsp;drawBackgroundBandsInContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawBackgroundLimitsInContext:">&ndash;&nbsp;drawBackgroundLimitsInContext:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/alternatingBandFills" title="alternatingBandFills"></a>
+	<h3 class="subsubtitle method-title">alternatingBandFills</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) NSArray *alternatingBandFills</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisLabels" title="axisLabels"></a>
+	<h3 class="subsubtitle method-title">axisLabels</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSSet *axisLabels</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisLineCapMax" title="axisLineCapMax"></a>
+	<h3 class="subsubtitle method-title">axisLineCapMax</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMax</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisLineCapMin" title="axisLineCapMin"></a>
+	<h3 class="subsubtitle method-title">axisLineCapMin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisLineStyle" title="axisLineStyle"></a>
+	<h3 class="subsubtitle method-title">axisLineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineStyle *axisLineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisSet" title="axisSet"></a>
+	<h3 class="subsubtitle method-title">axisSet</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) CPTAxisSet *axisSet</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/axisTitle" title="axisTitle"></a>
+	<h3 class="subsubtitle method-title">axisTitle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTAxisTitle *axisTitle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/backgroundLimitBands" title="backgroundLimitBands"></a>
+	<h3 class="subsubtitle method-title">backgroundLimitBands</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) NSArray *backgroundLimitBands</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/coordinate" title="coordinate"></a>
+	<h3 class="subsubtitle method-title">coordinate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTCoordinate coordinate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultTitleLocation" title="defaultTitleLocation"></a>
+	<h3 class="subsubtitle method-title">defaultTitleLocation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) NSDecimal defaultTitleLocation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gridLinesRange" title="gridLinesRange"></a>
+	<h3 class="subsubtitle method-title">gridLinesRange</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTPlotRange *gridLinesRange</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelAlignment" title="labelAlignment"></a>
+	<h3 class="subsubtitle method-title">labelAlignment</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTAlignment labelAlignment</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelExclusionRanges" title="labelExclusionRanges"></a>
+	<h3 class="subsubtitle method-title">labelExclusionRanges</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSArray *labelExclusionRanges</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelFormatter" title="labelFormatter"></a>
+	<h3 class="subsubtitle method-title">labelFormatter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelOffset" title="labelOffset"></a>
+	<h3 class="subsubtitle method-title">labelOffset</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat labelOffset</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelRotation" title="labelRotation"></a>
+	<h3 class="subsubtitle method-title">labelRotation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat labelRotation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelShadow" title="labelShadow"></a>
+	<h3 class="subsubtitle method-title">labelShadow</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTShadow *labelShadow</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelTextStyle" title="labelTextStyle"></a>
+	<h3 class="subsubtitle method-title">labelTextStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTTextStyle *labelTextStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelingOrigin" title="labelingOrigin"></a>
+	<h3 class="subsubtitle method-title">labelingOrigin</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) NSDecimal labelingOrigin</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/labelingPolicy" title="labelingPolicy"></a>
+	<h3 class="subsubtitle method-title">labelingPolicy</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTAxisLabelingPolicy labelingPolicy</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorGridLineStyle" title="majorGridLineStyle"></a>
+	<h3 class="subsubtitle method-title">majorGridLineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineStyle *majorGridLineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorGridLines" title="majorGridLines"></a>
+	<h3 class="subsubtitle method-title">majorGridLines</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *majorGridLines</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorIntervalLength" title="majorIntervalLength"></a>
+	<h3 class="subsubtitle method-title">majorIntervalLength</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) NSDecimal majorIntervalLength</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorTickLength" title="majorTickLength"></a>
+	<h3 class="subsubtitle method-title">majorTickLength</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat majorTickLength</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorTickLineStyle" title="majorTickLineStyle"></a>
+	<h3 class="subsubtitle method-title">majorTickLineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineStyle *majorTickLineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/majorTickLocations" title="majorTickLocations"></a>
+	<h3 class="subsubtitle method-title">majorTickLocations</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSSet *majorTickLocations</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorGridLineStyle" title="minorGridLineStyle"></a>
+	<h3 class="subsubtitle method-title">minorGridLineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineStyle *minorGridLineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorGridLines" title="minorGridLines"></a>
+	<h3 class="subsubtitle method-title">minorGridLines</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *minorGridLines</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickAxisLabels" title="minorTickAxisLabels"></a>
+	<h3 class="subsubtitle method-title">minorTickAxisLabels</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSSet *minorTickAxisLabels</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLabelAlignment" title="minorTickLabelAlignment"></a>
+	<h3 class="subsubtitle method-title">minorTickLabelAlignment</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTAlignment minorTickLabelAlignment</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLabelFormatter" title="minorTickLabelFormatter"></a>
+	<h3 class="subsubtitle method-title">minorTickLabelFormatter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSNumberFormatter *minorTickLabelFormatter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLabelOffset" title="minorTickLabelOffset"></a>
+	<h3 class="subsubtitle method-title">minorTickLabelOffset</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelOffset</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLabelRotation" title="minorTickLabelRotation"></a>
+	<h3 class="subsubtitle method-title">minorTickLabelRotation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelRotation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLabelTextStyle" title="minorTickLabelTextStyle"></a>
+	<h3 class="subsubtitle method-title">minorTickLabelTextStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTTextStyle *minorTickLabelTextStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLength" title="minorTickLength"></a>
+	<h3 class="subsubtitle method-title">minorTickLength</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat minorTickLength</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLineStyle" title="minorTickLineStyle"></a>
+	<h3 class="subsubtitle method-title">minorTickLineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTLineStyle *minorTickLineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTickLocations" title="minorTickLocations"></a>
+	<h3 class="subsubtitle method-title">minorTickLocations</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSSet *minorTickLocations</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/minorTicksPerInterval" title="minorTicksPerInterval"></a>
+	<h3 class="subsubtitle method-title">minorTicksPerInterval</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) NSUInteger minorTicksPerInterval</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/needsRelabel" title="needsRelabel"></a>
+	<h3 class="subsubtitle method-title">needsRelabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) BOOL needsRelabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotArea" title="plotArea"></a>
+	<h3 class="subsubtitle method-title">plotArea</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTPlotArea *plotArea</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace" title="plotSpace"></a>
+	<h3 class="subsubtitle method-title">plotSpace</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTPlotSpace *plotSpace</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/preferredNumberOfMajorTicks" title="preferredNumberOfMajorTicks"></a>
+	<h3 class="subsubtitle method-title">preferredNumberOfMajorTicks</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) NSUInteger preferredNumberOfMajorTicks</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/separateLayers" title="separateLayers"></a>
+	<h3 class="subsubtitle method-title">separateLayers</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) BOOL separateLayers</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tickDirection" title="tickDirection"></a>
+	<h3 class="subsubtitle method-title">tickDirection</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTSign tickDirection</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) NSString *title</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleLocation" title="titleLocation"></a>
+	<h3 class="subsubtitle method-title">titleLocation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) NSDecimal titleLocation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleOffset" title="titleOffset"></a>
+	<h3 class="subsubtitle method-title">titleOffset</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat titleOffset</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleRotation" title="titleRotation"></a>
+	<h3 class="subsubtitle method-title">titleRotation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat titleRotation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleTextStyle" title="titleTextStyle"></a>
+	<h3 class="subsubtitle method-title">titleTextStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/visibleRange" title="visibleRange"></a>
+	<h3 class="subsubtitle method-title">visibleRange</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTPlotRange *visibleRange</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addBackgroundLimitBand:" title="addBackgroundLimitBand:"></a>
+	<h3 class="subsubtitle method-title">addBackgroundLimitBand:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addBackgroundLimitBand:(CPTLimitBand *)<em>limitBand</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawBackgroundBandsInContext:" title="drawBackgroundBandsInContext:"></a>
+	<h3 class="subsubtitle method-title">drawBackgroundBandsInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)drawBackgroundBandsInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawBackgroundLimitsInContext:" title="drawBackgroundLimitsInContext:"></a>
+	<h3 class="subsubtitle method-title">drawBackgroundLimitsInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)drawBackgroundLimitsInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawGridLinesInContext:isMajor:" title="drawGridLinesInContext:isMajor:"></a>
+	<h3 class="subsubtitle method-title">drawGridLinesInContext:isMajor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)drawGridLinesInContext:(CGContextRef)<em>context</em> isMajor:(BOOL)<em>major</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filteredMajorTickLocations:" title="filteredMajorTickLocations:"></a>
+	<h3 class="subsubtitle method-title">filteredMajorTickLocations:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSSet *)filteredMajorTickLocations:(NSSet *)<em>allLocations</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/filteredMinorTickLocations:" title="filteredMinorTickLocations:"></a>
+	<h3 class="subsubtitle method-title">filteredMinorTickLocations:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSSet *)filteredMinorTickLocations:(NSSet *)<em>allLocations</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/relabel" title="relabel"></a>
+	<h3 class="subsubtitle method-title">relabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)relabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeBackgroundLimitBand:" title="removeBackgroundLimitBand:"></a>
+	<h3 class="subsubtitle method-title">removeBackgroundLimitBand:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removeBackgroundLimitBand:(CPTLimitBand *)<em>limitBand</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setNeedsRelabel" title="setNeedsRelabel"></a>
+	<h3 class="subsubtitle method-title">setNeedsRelabel</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setNeedsRelabel</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateMajorTickLabels" title="updateMajorTickLabels"></a>
+	<h3 class="subsubtitle method-title">updateMajorTickLabels</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateMajorTickLabels</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateMinorTickLabels" title="updateMinorTickLabels"></a>
+	<h3 class="subsubtitle method-title">updateMinorTickLabels</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updateMinorTickLabels</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/viewPointForCoordinateDecimalNumber:" title="viewPointForCoordinateDecimalNumber:"></a>
+	<h3 class="subsubtitle method-title">viewPointForCoordinateDecimalNumber:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)viewPointForCoordinateDecimalNumber:(NSDecimal)<em>coordinateDecimalNumber</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

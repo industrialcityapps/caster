@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTPlotSpaceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTPlotSpaceDelegate</TokenIdentifier>
+			<Abstract type="html">	@brief Plot space delegate.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>
+			
+			<NodeRef refid="79"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:shouldScaleBy:aboutPoint:</TokenIdentifier>
+			<Abstract type="html">@brief (Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS).</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)plotSpace:(CPTPlotSpace *)space shouldScaleBy:(CGFloat)interactionScale aboutPoint:(CGPoint)interactionPoint</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>interactionScale</Name>
+					<Abstract type="html">The scaling factor.</Abstract>
+				</Parameter><Parameter>
+					<Name>interactionPoint</Name>
+					<Abstract type="html">The coordinates of the scaling centroid.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES should be returned if the gesture should be handled by the plot space, and NO to prevent handling.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:shouldScaleBy:aboutPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:willDisplaceBy:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space is going to scroll.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)plotSpace:(CPTPlotSpace *)space willDisplaceBy:(CGPoint)proposedDisplacementVector</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>proposedDisplacementVector</Name>
+					<Abstract type="html">The proposed amount by which the plot space will shift.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The displacement actually applied.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:willDisplaceBy:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:willChangePlotRangeTo:forCoordinate:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space is going to change a plot range.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRange *)plotSpace:(CPTPlotSpace *)space willChangePlotRangeTo:(CPTPlotRange *)newRange forCoordinate:(CPTCoordinate)coordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>newRange</Name>
+					<Abstract type="html">The proposed new plot range.</Abstract>
+				</Parameter><Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">The coordinate of the range.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The new plot range to be used.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:willChangePlotRangeTo:forCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:didChangePlotRangeForCoordinate:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space has changed a plot range.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (void)plotSpace:(CPTPlotSpace *)space didChangePlotRangeForCoordinate:(CPTCoordinate)coordinate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">The coordinate of the range.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/plotSpace:didChangePlotRangeForCoordinate:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space intercepted a device down event.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)plotSpace:(CPTPlotSpace *)space shouldHandlePointingDeviceDownEvent:(id)event atPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The native event (e.g., UIEvent on iPhone)</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point in the host view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space intercepted a device dragged event.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)plotSpace:(CPTPlotSpace *)space shouldHandlePointingDeviceDraggedEvent:(id)event atPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The native event (e.g., UIEvent on iPhone)</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point in the host view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:shouldHandlePointingDeviceCancelledEvent:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space intercepted a device cancelled event.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)plotSpace:(CPTPlotSpace *)space shouldHandlePointingDeviceCancelledEvent:(id)event</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The native event (e.g., UIEvent on iPhone)</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:shouldHandlePointingDeviceCancelledEvent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPlotSpaceDelegate/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Notifies that plot space intercepted a device up event.</Abstract>
+			<DeclaredIn>CPTPlotSpace.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)plotSpace:(CPTPlotSpace *)space shouldHandlePointingDeviceUpEvent:(id)event atPoint:(CGPoint)point</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>space</Name>
+					<Abstract type="html">The plot space.</Abstract>
+				</Parameter><Parameter>
+					<Name>event</Name>
+					<Abstract type="html">The native event (e.g., UIEvent on iPhone)</Abstract>
+				</Parameter><Parameter>
+					<Name>point</Name>
+					<Abstract type="html">The point in the host view.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</Abstract></ReturnValue>
+			<Anchor>//api/name/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

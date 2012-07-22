@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPlotRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPlotRange</TokenIdentifier>
+			<Abstract type="html">&lt; Number is above the range.</Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>
+			
+			<NodeRef refid="39"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setEnd:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal end</Declaration>
+			
+			
+			<Anchor>//api/name/end</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/end</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal end</Declaration>
+			
+			
+			<Anchor>//api/name/end</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setLocationDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double locationDouble</Declaration>
+			
+			
+			<Anchor>//api/name/locationDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/locationDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double locationDouble</Declaration>
+			
+			
+			<Anchor>//api/name/locationDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setLengthDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double lengthDouble</Declaration>
+			
+			
+			<Anchor>//api/name/lengthDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/lengthDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double lengthDouble</Declaration>
+			
+			
+			<Anchor>//api/name/lengthDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setEndDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double endDouble</Declaration>
+			
+			
+			<Anchor>//api/name/endDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/endDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double endDouble</Declaration>
+			
+			
+			<Anchor>//api/name/endDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMinLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal minLimit</Declaration>
+			
+			
+			<Anchor>//api/name/minLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/minLimit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal minLimit</Declaration>
+			
+			
+			<Anchor>//api/name/minLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMidPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal midPoint</Declaration>
+			
+			
+			<Anchor>//api/name/midPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/midPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal midPoint</Declaration>
+			
+			
+			<Anchor>//api/name/midPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMaxLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal maxLimit</Declaration>
+			
+			
+			<Anchor>//api/name/maxLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/maxLimit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) NSDecimal maxLimit</Declaration>
+			
+			
+			<Anchor>//api/name/maxLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMinLimitDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double minLimitDouble</Declaration>
+			
+			
+			<Anchor>//api/name/minLimitDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/minLimitDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double minLimitDouble</Declaration>
+			
+			
+			<Anchor>//api/name/minLimitDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMidPointDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double midPointDouble</Declaration>
+			
+			
+			<Anchor>//api/name/midPointDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/midPointDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double midPointDouble</Declaration>
+			
+			
+			<Anchor>//api/name/midPointDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/setMaxLimitDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double maxLimitDouble</Declaration>
+			
+			
+			<Anchor>//api/name/maxLimitDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotRange/maxLimitDouble</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly) double maxLimitDouble</Declaration>
+			
+			
+			<Anchor>//api/name/maxLimitDouble</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotRange/plotRangeWithLocation:length:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>+ (id)plotRangeWithLocation:(NSDecimal)loc length:(NSDecimal)len</Declaration>
+			
+			
+			<Anchor>//api/name/plotRangeWithLocation:length:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/initWithLocation:length:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLocation:(NSDecimal)loc length:(NSDecimal)len</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLocation:length:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/contains:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)contains:(NSDecimal)number</Declaration>
+			
+			
+			<Anchor>//api/name/contains:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/containsDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)containsDouble:(double)number</Declaration>
+			
+			
+			<Anchor>//api/name/containsDouble:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/isEqualToRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEqualToRange:(CPTPlotRange *)otherRange</Declaration>
+			
+			
+			<Anchor>//api/name/isEqualToRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/compareToNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRangeComparisonResult)compareToNumber:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/compareToNumber:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/compareToDecimal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRangeComparisonResult)compareToDecimal:(NSDecimal)number</Declaration>
+			
+			
+			<Anchor>//api/name/compareToDecimal:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotRange/compareToDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotRangeComparisonResult)compareToDouble:(double)number</Declaration>
+			
+			
+			<Anchor>//api/name/compareToDouble:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

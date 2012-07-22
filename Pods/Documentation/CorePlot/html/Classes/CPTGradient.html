@@ -1,0 +1,899 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTGradient Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTGradient Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/angle">&nbsp;&nbsp;&nbsp;&nbsp;angle</option>
+	
+	<option value="//api/name/blendingMode">&nbsp;&nbsp;&nbsp;&nbsp;blendingMode</option>
+	
+	<option value="//api/name/gradientType">&nbsp;&nbsp;&nbsp;&nbsp;gradientType</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/aquaNormalGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ aquaNormalGradient</option>
+	
+	<option value="//api/name/aquaPressedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ aquaPressedGradient</option>
+	
+	<option value="//api/name/aquaSelectedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ aquaSelectedGradient</option>
+	
+	<option value="//api/name/gradientWithBeginningColor:endingColor:">&nbsp;&nbsp;&nbsp;&nbsp;+ gradientWithBeginningColor:endingColor:</option>
+	
+	<option value="//api/name/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:">&nbsp;&nbsp;&nbsp;&nbsp;+ gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</option>
+	
+	<option value="//api/name/hydrogenSpectrumGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ hydrogenSpectrumGradient</option>
+	
+	<option value="//api/name/rainbowGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ rainbowGradient</option>
+	
+	<option value="//api/name/sourceListSelectedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ sourceListSelectedGradient</option>
+	
+	<option value="//api/name/sourceListUnselectedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ sourceListUnselectedGradient</option>
+	
+	<option value="//api/name/unifiedDarkGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ unifiedDarkGradient</option>
+	
+	<option value="//api/name/unifiedNormalGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ unifiedNormalGradient</option>
+	
+	<option value="//api/name/unifiedPressedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ unifiedPressedGradient</option>
+	
+	<option value="//api/name/unifiedSelectedGradient">&nbsp;&nbsp;&nbsp;&nbsp;+ unifiedSelectedGradient</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addColorStop:atPosition:">&nbsp;&nbsp;&nbsp;&nbsp;- addColorStop:atPosition:</option>
+	
+	<option value="//api/name/drawSwatchInRect:inContext:">&nbsp;&nbsp;&nbsp;&nbsp;- drawSwatchInRect:inContext:</option>
+	
+	<option value="//api/name/fillPathInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- fillPathInContext:</option>
+	
+	<option value="//api/name/fillRect:inContext:">&nbsp;&nbsp;&nbsp;&nbsp;- fillRect:inContext:</option>
+	
+	<option value="//api/name/gradientWithAlphaComponent:">&nbsp;&nbsp;&nbsp;&nbsp;- gradientWithAlphaComponent:</option>
+	
+	<option value="//api/name/gradientWithBlendingMode:">&nbsp;&nbsp;&nbsp;&nbsp;- gradientWithBlendingMode:</option>
+	
+	<option value="//api/name/newColorAtPosition:">&nbsp;&nbsp;&nbsp;&nbsp;- newColorAtPosition:</option>
+	
+	<option value="//api/name/newColorStopAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- newColorStopAtIndex:</option>
+	
+	<option value="//api/name/removeColorStopAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- removeColorStopAtIndex:</option>
+	
+	<option value="//api/name/removeColorStopAtPosition:">&nbsp;&nbsp;&nbsp;&nbsp;- removeColorStopAtPosition:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Modification">Modification</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Information">Information</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Drawing">Drawing</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/angle">angle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/blendingMode">blendingMode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gradientType">gradientType</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/aquaNormalGradient">aquaNormalGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/aquaPressedGradient">aquaPressedGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/aquaSelectedGradient">aquaSelectedGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gradientWithBeginningColor:endingColor:">gradientWithBeginningColor:endingColor:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:">gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hydrogenSpectrumGradient">hydrogenSpectrumGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rainbowGradient">rainbowGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sourceListSelectedGradient">sourceListSelectedGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sourceListUnselectedGradient">sourceListUnselectedGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unifiedDarkGradient">unifiedDarkGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unifiedNormalGradient">unifiedNormalGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unifiedPressedGradient">unifiedPressedGradient</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unifiedSelectedGradient">unifiedSelectedGradient</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addColorStop:atPosition:">addColorStop:atPosition:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/drawSwatchInRect:inContext:">drawSwatchInRect:inContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fillPathInContext:">fillPathInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fillRect:inContext:">fillRect:inContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gradientWithAlphaComponent:">gradientWithAlphaComponent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gradientWithBlendingMode:">gradientWithBlendingMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newColorAtPosition:">newColorAtPosition:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newColorStopAtIndex:">newColorStopAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeColorStopAtIndex:">removeColorStopAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removeColorStopAtPosition:">removeColorStopAtPosition:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTGradient Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTGradient Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTGradient.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>&lt; Radial gradient</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/blendingMode">&nbsp;&nbsp;blendingMode</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/angle">&nbsp;&nbsp;angle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gradientType">&nbsp;&nbsp;gradientType</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gradientWithBeginningColor:endingColor:">+&nbsp;gradientWithBeginningColor:endingColor:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:">+&nbsp;gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/aquaSelectedGradient">+&nbsp;aquaSelectedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/aquaNormalGradient">+&nbsp;aquaNormalGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/aquaPressedGradient">+&nbsp;aquaPressedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unifiedSelectedGradient">+&nbsp;unifiedSelectedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unifiedNormalGradient">+&nbsp;unifiedNormalGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unifiedPressedGradient">+&nbsp;unifiedPressedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unifiedDarkGradient">+&nbsp;unifiedDarkGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sourceListSelectedGradient">+&nbsp;sourceListSelectedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sourceListUnselectedGradient">+&nbsp;sourceListUnselectedGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rainbowGradient">+&nbsp;rainbowGradient</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hydrogenSpectrumGradient">+&nbsp;hydrogenSpectrumGradient</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Modification" name="task_Modification"></a>
+						<h3 class="subsubtitle task-title">Modification</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gradientWithAlphaComponent:">&ndash;&nbsp;gradientWithAlphaComponent:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gradientWithBlendingMode:">&ndash;&nbsp;gradientWithBlendingMode:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addColorStop:atPosition:">&ndash;&nbsp;addColorStop:atPosition:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeColorStopAtIndex:">&ndash;&nbsp;removeColorStopAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removeColorStopAtPosition:">&ndash;&nbsp;removeColorStopAtPosition:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Information" name="task_Information"></a>
+						<h3 class="subsubtitle task-title">Information</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newColorStopAtIndex:">&ndash;&nbsp;newColorStopAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newColorAtPosition:">&ndash;&nbsp;newColorAtPosition:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Drawing" name="task_Drawing"></a>
+						<h3 class="subsubtitle task-title">Drawing</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/drawSwatchInRect:inContext:">&ndash;&nbsp;drawSwatchInRect:inContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fillRect:inContext:">&ndash;&nbsp;fillRect:inContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fillPathInContext:">&ndash;&nbsp;fillPathInContext:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/angle" title="angle"></a>
+	<h3 class="subsubtitle method-title">angle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGFloat angle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/blendingMode" title="blendingMode"></a>
+	<h3 class="subsubtitle method-title">blendingMode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) CPTGradientBlendingMode blendingMode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gradientType" title="gradientType"></a>
+	<h3 class="subsubtitle method-title">gradientType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTGradientType gradientType</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/aquaNormalGradient" title="aquaNormalGradient"></a>
+	<h3 class="subsubtitle method-title">aquaNormalGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)aquaNormalGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/aquaPressedGradient" title="aquaPressedGradient"></a>
+	<h3 class="subsubtitle method-title">aquaPressedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)aquaPressedGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/aquaSelectedGradient" title="aquaSelectedGradient"></a>
+	<h3 class="subsubtitle method-title">aquaSelectedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)aquaSelectedGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gradientWithBeginningColor:endingColor:" title="gradientWithBeginningColor:endingColor:"></a>
+	<h3 class="subsubtitle method-title">gradientWithBeginningColor:endingColor:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)gradientWithBeginningColor:(CPTColor *)<em>begin</em> endingColor:(CPTColor *)<em>end</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:" title="gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:"></a>
+	<h3 class="subsubtitle method-title">gradientWithBeginningColor:endingColor:beginningPosition:endingPosition:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)gradientWithBeginningColor:(CPTColor *)<em>begin</em> endingColor:(CPTColor *)<em>end</em> beginningPosition:(CGFloat)<em>beginningPosition</em> endingPosition:(CGFloat)<em>endingPosition</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hydrogenSpectrumGradient" title="hydrogenSpectrumGradient"></a>
+	<h3 class="subsubtitle method-title">hydrogenSpectrumGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)hydrogenSpectrumGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rainbowGradient" title="rainbowGradient"></a>
+	<h3 class="subsubtitle method-title">rainbowGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)rainbowGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sourceListSelectedGradient" title="sourceListSelectedGradient"></a>
+	<h3 class="subsubtitle method-title">sourceListSelectedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)sourceListSelectedGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sourceListUnselectedGradient" title="sourceListUnselectedGradient"></a>
+	<h3 class="subsubtitle method-title">sourceListUnselectedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)sourceListUnselectedGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unifiedDarkGradient" title="unifiedDarkGradient"></a>
+	<h3 class="subsubtitle method-title">unifiedDarkGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)unifiedDarkGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unifiedNormalGradient" title="unifiedNormalGradient"></a>
+	<h3 class="subsubtitle method-title">unifiedNormalGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)unifiedNormalGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unifiedPressedGradient" title="unifiedPressedGradient"></a>
+	<h3 class="subsubtitle method-title">unifiedPressedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)unifiedPressedGradient</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unifiedSelectedGradient" title="unifiedSelectedGradient"></a>
+	<h3 class="subsubtitle method-title">unifiedSelectedGradient</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTGradient *)unifiedSelectedGradient</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addColorStop:atPosition:" title="addColorStop:atPosition:"></a>
+	<h3 class="subsubtitle method-title">addColorStop:atPosition:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTGradient *)addColorStop:(CPTColor *)<em>color</em> atPosition:(CGFloat)<em>position</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/drawSwatchInRect:inContext:" title="drawSwatchInRect:inContext:"></a>
+	<h3 class="subsubtitle method-title">drawSwatchInRect:inContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)drawSwatchInRect:(CGRect)<em>rect</em> inContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fillPathInContext:" title="fillPathInContext:"></a>
+	<h3 class="subsubtitle method-title">fillPathInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)fillPathInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fillRect:inContext:" title="fillRect:inContext:"></a>
+	<h3 class="subsubtitle method-title">fillRect:inContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)fillRect:(CGRect)<em>rect</em> inContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gradientWithAlphaComponent:" title="gradientWithAlphaComponent:"></a>
+	<h3 class="subsubtitle method-title">gradientWithAlphaComponent:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTGradient *)gradientWithAlphaComponent:(CGFloat)<em>alpha</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gradientWithBlendingMode:" title="gradientWithBlendingMode:"></a>
+	<h3 class="subsubtitle method-title">gradientWithBlendingMode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTGradient *)gradientWithBlendingMode:(CPTGradientBlendingMode)<em>mode</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newColorAtPosition:" title="newColorAtPosition:"></a>
+	<h3 class="subsubtitle method-title">newColorAtPosition:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGColorRef)newColorAtPosition:(CGFloat)<em>position</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newColorStopAtIndex:" title="newColorStopAtIndex:"></a>
+	<h3 class="subsubtitle method-title">newColorStopAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGColorRef)newColorStopAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeColorStopAtIndex:" title="removeColorStopAtIndex:"></a>
+	<h3 class="subsubtitle method-title">removeColorStopAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTGradient *)removeColorStopAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removeColorStopAtPosition:" title="removeColorStopAtPosition:"></a>
+	<h3 class="subsubtitle method-title">removeColorStopAtPosition:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTGradient *)removeColorStopAtPosition:(CGFloat)<em>position</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

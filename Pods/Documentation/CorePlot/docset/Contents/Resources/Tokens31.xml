@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTMutableShadow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTMutableShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableShadow/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableShadow/shadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableShadow/setShadowBlurRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableShadow/shadowBlurRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableShadow/setShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableShadow/shadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

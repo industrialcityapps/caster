@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTTextStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTTextStyle</TokenIdentifier>
+			<Abstract type="html">&lt; Right alignment</Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextStyle/setFontName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, copy, nonatomic) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextStyle/fontName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, copy, nonatomic) NSString *fontName</Declaration>
+			
+			
+			<Anchor>//api/name/fontName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextStyle/setFontSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, assign, nonatomic) CGFloat fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextStyle/fontSize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, assign, nonatomic) CGFloat fontSize</Declaration>
+			
+			
+			<Anchor>//api/name/fontSize</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextStyle/setColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, copy, nonatomic) CPTColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextStyle/color</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, copy, nonatomic) CPTColor *color</Declaration>
+			
+			
+			<Anchor>//api/name/color</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextStyle/setTextAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, assign, nonatomic) CPTTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextStyle/textAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly, assign, nonatomic) CPTTextAlignment textAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/textAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTTextStyle/textStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextStyle.h</DeclaredIn>			
+			
+			<Declaration>+ (id)textStyle</Declaration>
+			
+			
+			<Anchor>//api/name/textStyle</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

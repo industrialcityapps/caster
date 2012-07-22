@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTXYAxisSet.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTXYAxisSet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxisSet.h</DeclaredIn>
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYAxisSet/setXAxis:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxisSet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTXYAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYAxisSet/xAxis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxisSet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTXYAxis *xAxis</Declaration>
+			
+			
+			<Anchor>//api/name/xAxis</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTXYAxisSet/setYAxis:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxisSet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTXYAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTXYAxisSet/yAxis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTXYAxisSet.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTXYAxis *yAxis</Declaration>
+			
+			
+			<Anchor>//api/name/yAxis</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

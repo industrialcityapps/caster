@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTAxis.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTAxis</TokenIdentifier>
+			<Abstract type="html">	@}
+	@category CPTAxis(AbstractMethods)
+	@brief CPTAxis abstract methods—must be overridden by subclasses</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *axisLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *axisLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setCoordinate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTCoordinate coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/coordinate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTCoordinate coordinate</Declaration>
+			
+			
+			<Anchor>//api/name/coordinate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelingOrigin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal labelingOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/labelingOrigin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelingOrigin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal labelingOrigin</Declaration>
+			
+			
+			<Anchor>//api/name/labelingOrigin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTickDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTSign tickDirection</Declaration>
+			
+			
+			<Anchor>//api/name/tickDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/tickDirection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTSign tickDirection</Declaration>
+			
+			
+			<Anchor>//api/name/tickDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setVisibleRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *visibleRange</Declaration>
+			
+			
+			<Anchor>//api/name/visibleRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/visibleRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *visibleRange</Declaration>
+			
+			
+			<Anchor>//api/name/visibleRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisLineCapMin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMin</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineCapMin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisLineCapMin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMin</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineCapMin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisLineCapMax:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMax</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineCapMax</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisLineCapMax</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineCap *axisLineCapMax</Declaration>
+			
+			
+			<Anchor>//api/name/axisLineCapMax</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTitleTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/titleTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTAxisTitle *axisTitle</Declaration>
+			
+			
+			<Anchor>//api/name/axisTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisTitle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTAxisTitle *axisTitle</Declaration>
+			
+			
+			<Anchor>//api/name/axisTitle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTitleOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleOffset</Declaration>
+			
+			
+			<Anchor>//api/name/titleOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/titleOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleOffset</Declaration>
+			
+			
+			<Anchor>//api/name/titleOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTitleRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleRotation</Declaration>
+			
+			
+			<Anchor>//api/name/titleRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/titleRotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat titleRotation</Declaration>
+			
+			
+			<Anchor>//api/name/titleRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setTitleLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal titleLocation</Declaration>
+			
+			
+			<Anchor>//api/name/titleLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/titleLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal titleLocation</Declaration>
+			
+			
+			<Anchor>//api/name/titleLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setDefaultTitleLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSDecimal defaultTitleLocation</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTitleLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/defaultTitleLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) NSDecimal defaultTitleLocation</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTitleLocation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelingPolicy:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAxisLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelingPolicy</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAxisLabelingPolicy labelingPolicy</Declaration>
+			
+			
+			<Anchor>//api/name/labelingPolicy</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/labelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLabelOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLabelOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelOffset</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/labelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelRotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat labelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/labelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLabelRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLabelRotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLabelRotation</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelRotation</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment labelAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/labelAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment labelAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/labelAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLabelAlignment:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment minorTickLabelAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLabelAlignment</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTAlignment minorTickLabelAlignment</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelAlignment</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *labelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *labelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/labelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLabelTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *minorTickLabelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLabelTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *minorTickLabelTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelFormatter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *labelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/labelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLabelFormatter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *minorTickLabelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLabelFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSNumberFormatter *minorTickLabelFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLabelFormatter</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisLabels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *axisLabels</Declaration>
+			
+			
+			<Anchor>//api/name/axisLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisLabels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *axisLabels</Declaration>
+			
+			
+			<Anchor>//api/name/axisLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickAxisLabels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *minorTickAxisLabels</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickAxisLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickAxisLabels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *minorTickAxisLabels</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickAxisLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setNeedsRelabel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL needsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/needsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/needsRelabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL needsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/needsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelExclusionRanges:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *labelExclusionRanges</Declaration>
+			
+			
+			<Anchor>//api/name/labelExclusionRanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelExclusionRanges</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *labelExclusionRanges</Declaration>
+			
+			
+			<Anchor>//api/name/labelExclusionRanges</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setLabelShadow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTShadow *labelShadow</Declaration>
+			
+			
+			<Anchor>//api/name/labelShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/labelShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTShadow *labelShadow</Declaration>
+			
+			
+			<Anchor>//api/name/labelShadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorIntervalLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal majorIntervalLength</Declaration>
+			
+			
+			<Anchor>//api/name/majorIntervalLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorIntervalLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal majorIntervalLength</Declaration>
+			
+			
+			<Anchor>//api/name/majorIntervalLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorTickLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat majorTickLength</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorTickLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat majorTickLength</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorTickLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *majorTickLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorTickLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *majorTickLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorTickLocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *majorTickLocations</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLocations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorTickLocations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *majorTickLocations</Declaration>
+			
+			
+			<Anchor>//api/name/majorTickLocations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setPreferredNumberOfMajorTicks:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger preferredNumberOfMajorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/preferredNumberOfMajorTicks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/preferredNumberOfMajorTicks</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger preferredNumberOfMajorTicks</Declaration>
+			
+			
+			<Anchor>//api/name/preferredNumberOfMajorTicks</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTicksPerInterval:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger minorTicksPerInterval</Declaration>
+			
+			
+			<Anchor>//api/name/minorTicksPerInterval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTicksPerInterval</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSUInteger minorTicksPerInterval</Declaration>
+			
+			
+			<Anchor>//api/name/minorTicksPerInterval</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLength</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat minorTickLength</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *minorTickLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *minorTickLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorTickLocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *minorTickLocations</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLocations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorTickLocations</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSSet *minorTickLocations</Declaration>
+			
+			
+			<Anchor>//api/name/minorTickLocations</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorGridLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *majorGridLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorGridLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorGridLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *majorGridLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/majorGridLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorGridLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *minorGridLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorGridLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorGridLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *minorGridLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/minorGridLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setGridLinesRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *gridLinesRange</Declaration>
+			
+			
+			<Anchor>//api/name/gridLinesRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/gridLinesRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *gridLinesRange</Declaration>
+			
+			
+			<Anchor>//api/name/gridLinesRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAlternatingBandFills:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *alternatingBandFills</Declaration>
+			
+			
+			<Anchor>//api/name/alternatingBandFills</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/alternatingBandFills</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSArray *alternatingBandFills</Declaration>
+			
+			
+			<Anchor>//api/name/alternatingBandFills</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setBackgroundLimitBands:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *backgroundLimitBands</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundLimitBands</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/backgroundLimitBands</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *backgroundLimitBands</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundLimitBands</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/plotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotSpace *plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setSeparateLayers:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL separateLayers</Declaration>
+			
+			
+			<Anchor>//api/name/separateLayers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/separateLayers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL separateLayers</Declaration>
+			
+			
+			<Anchor>//api/name/separateLayers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setPlotArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/plotArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMinorGridLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *minorGridLines</Declaration>
+			
+			
+			<Anchor>//api/name/minorGridLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/minorGridLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *minorGridLines</Declaration>
+			
+			
+			<Anchor>//api/name/minorGridLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setMajorGridLines:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *majorGridLines</Declaration>
+			
+			
+			<Anchor>//api/name/majorGridLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/majorGridLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTGridLines *majorGridLines</Declaration>
+			
+			
+			<Anchor>//api/name/majorGridLines</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setAxisSet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTAxisSet *axisSet</Declaration>
+			
+			
+			<Anchor>//api/name/axisSet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTAxis/axisSet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTAxisSet *axisSet</Declaration>
+			
+			
+			<Anchor>//api/name/axisSet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/relabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)relabel</Declaration>
+			
+			
+			<Anchor>//api/name/relabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/setNeedsRelabel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)setNeedsRelabel</Declaration>
+			
+			
+			<Anchor>//api/name/setNeedsRelabel</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/updateMajorTickLabels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateMajorTickLabels</Declaration>
+			
+			
+			<Anchor>//api/name/updateMajorTickLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/updateMinorTickLabels</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)updateMinorTickLabels</Declaration>
+			
+			
+			<Anchor>//api/name/updateMinorTickLabels</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/filteredMajorTickLocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (NSSet *)filteredMajorTickLocations:(NSSet *)allLocations</Declaration>
+			
+			
+			<Anchor>//api/name/filteredMajorTickLocations:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/filteredMinorTickLocations:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (NSSet *)filteredMinorTickLocations:(NSSet *)allLocations</Declaration>
+			
+			
+			<Anchor>//api/name/filteredMinorTickLocations:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/addBackgroundLimitBand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)addBackgroundLimitBand:(CPTLimitBand *)limitBand</Declaration>
+			
+			
+			<Anchor>//api/name/addBackgroundLimitBand:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/removeBackgroundLimitBand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)removeBackgroundLimitBand:(CPTLimitBand *)limitBand</Declaration>
+			
+			
+			<Anchor>//api/name/removeBackgroundLimitBand:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/viewPointForCoordinateDecimalNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (CGPoint)viewPointForCoordinateDecimalNumber:(NSDecimal)coordinateDecimalNumber</Declaration>
+			
+			
+			<Anchor>//api/name/viewPointForCoordinateDecimalNumber:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/drawGridLinesInContext:isMajor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawGridLinesInContext:(CGContextRef)context isMajor:(BOOL)major</Declaration>
+			
+			
+			<Anchor>//api/name/drawGridLinesInContext:isMajor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/drawBackgroundBandsInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawBackgroundBandsInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/drawBackgroundBandsInContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTAxis/drawBackgroundLimitsInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawBackgroundLimitsInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/drawBackgroundLimitsInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

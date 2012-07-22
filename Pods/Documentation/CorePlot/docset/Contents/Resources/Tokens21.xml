@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLayer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLayer</TokenIdentifier>
+			<Abstract type="html">	@category CPTLayer(CPTPlatformSpecificLayerExtensions)
+	@brief Platform-specific extensions to CPTLayer.</Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setGraph:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</Declaration>
+			
+			
+			<Anchor>//api/name/graph</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/graph</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</Declaration>
+			
+			
+			<Anchor>//api/name/graph</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setPaddingLeft:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingLeft</Declaration>
+			
+			
+			<Anchor>//api/name/paddingLeft</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/paddingLeft</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingLeft</Declaration>
+			
+			
+			<Anchor>//api/name/paddingLeft</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setPaddingTop:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingTop</Declaration>
+			
+			
+			<Anchor>//api/name/paddingTop</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/paddingTop</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingTop</Declaration>
+			
+			
+			<Anchor>//api/name/paddingTop</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setPaddingRight:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingRight</Declaration>
+			
+			
+			<Anchor>//api/name/paddingRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/paddingRight</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingRight</Declaration>
+			
+			
+			<Anchor>//api/name/paddingRight</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setPaddingBottom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingBottom</Declaration>
+			
+			
+			<Anchor>//api/name/paddingBottom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/paddingBottom</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) CGFloat paddingBottom</Declaration>
+			
+			
+			<Anchor>//api/name/paddingBottom</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setContentsScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign) CGFloat contentsScale</Declaration>
+			
+			
+			<Anchor>//api/name/contentsScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/contentsScale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, assign) CGFloat contentsScale</Declaration>
+			
+			
+			<Anchor>//api/name/contentsScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setUseFastRendering:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL useFastRendering</Declaration>
+			
+			
+			<Anchor>//api/name/useFastRendering</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/useFastRendering</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) BOOL useFastRendering</Declaration>
+			
+			
+			<Anchor>//api/name/useFastRendering</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setShadow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTShadow *shadow</Declaration>
+			
+			
+			<Anchor>//api/name/shadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/shadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTShadow *shadow</Declaration>
+			
+			
+			<Anchor>//api/name/shadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setMasksToBorder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL masksToBorder</Declaration>
+			
+			
+			<Anchor>//api/name/masksToBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/masksToBorder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL masksToBorder</Declaration>
+			
+			
+			<Anchor>//api/name/masksToBorder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setOuterBorderPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef outerBorderPath</Declaration>
+			
+			
+			<Anchor>//api/name/outerBorderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/outerBorderPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef outerBorderPath</Declaration>
+			
+			
+			<Anchor>//api/name/outerBorderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setInnerBorderPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef innerBorderPath</Declaration>
+			
+			
+			<Anchor>//api/name/innerBorderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/innerBorderPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef innerBorderPath</Declaration>
+			
+			
+			<Anchor>//api/name/innerBorderPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setMaskingPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGPathRef maskingPath</Declaration>
+			
+			
+			<Anchor>//api/name/maskingPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/maskingPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGPathRef maskingPath</Declaration>
+			
+			
+			<Anchor>//api/name/maskingPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setSublayerMaskingPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGPathRef sublayerMaskingPath</Declaration>
+			
+			
+			<Anchor>//api/name/sublayerMaskingPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/sublayerMaskingPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGPathRef sublayerMaskingPath</Declaration>
+			
+			
+			<Anchor>//api/name/sublayerMaskingPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/identifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</Declaration>
+			
+			
+			<Anchor>//api/name/identifier</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/setSublayersExcludedFromAutomaticLayout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSSet *sublayersExcludedFromAutomaticLayout</Declaration>
+			
+			
+			<Anchor>//api/name/sublayersExcludedFromAutomaticLayout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayer/sublayersExcludedFromAutomaticLayout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) NSSet *sublayersExcludedFromAutomaticLayout</Declaration>
+			
+			
+			<Anchor>//api/name/sublayersExcludedFromAutomaticLayout</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/initWithFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithFrame:(CGRect)newFrame</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFrame:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/renderAsVectorInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderAsVectorInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/renderAsVectorInContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/recursivelyRenderInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)recursivelyRenderInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/recursivelyRenderInContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/layoutAndRenderInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)layoutAndRenderInContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/layoutAndRenderInContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/dataForPDFRepresentationOfLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (NSData *)dataForPDFRepresentationOfLayer</Declaration>
+			
+			
+			<Anchor>//api/name/dataForPDFRepresentationOfLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/applySublayerMaskToContext:forSublayer:withOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)applySublayerMaskToContext:(CGContextRef)context forSublayer:(CPTLayer *)sublayer withOffset:(CGPoint)offset</Declaration>
+			
+			
+			<Anchor>//api/name/applySublayerMaskToContext:forSublayer:withOffset:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/applyMaskToContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyMaskToContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/applyMaskToContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/pixelAlign</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)pixelAlign</Declaration>
+			
+			
+			<Anchor>//api/name/pixelAlign</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/sublayerMarginLeft:top:right:bottom:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)sublayerMarginLeft:(CGFloat *)left top:(CGFloat *)top right:(CGFloat *)right bottom:(CGFloat *)bottom</Declaration>
+			
+			
+			<Anchor>//api/name/sublayerMarginLeft:top:right:bottom:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/logLayers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)logLayers</Declaration>
+			
+			
+			<Anchor>//api/name/logLayers</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayer/imageOfLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>- (CPTNativeImage *)imageOfLayer</Declaration>
+			
+			
+			<Anchor>//api/name/imageOfLayer</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

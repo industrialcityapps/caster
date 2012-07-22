@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>CorePlot 1.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						<NodeRef refid="26"/>
+						<NodeRef refid="27"/>
+						<NodeRef refid="28"/>
+						<NodeRef refid="29"/>
+						<NodeRef refid="30"/>
+						<NodeRef refid="31"/>
+						<NodeRef refid="32"/>
+						<NodeRef refid="33"/>
+						<NodeRef refid="34"/>
+						<NodeRef refid="35"/>
+						<NodeRef refid="36"/>
+						<NodeRef refid="37"/>
+						<NodeRef refid="38"/>
+						<NodeRef refid="39"/>
+						<NodeRef refid="40"/>
+						<NodeRef refid="41"/>
+						<NodeRef refid="42"/>
+						<NodeRef refid="43"/>
+						<NodeRef refid="44"/>
+						<NodeRef refid="45"/>
+						<NodeRef refid="46"/>
+						<NodeRef refid="47"/>
+						<NodeRef refid="48"/>
+						<NodeRef refid="49"/>
+						<NodeRef refid="50"/>
+						<NodeRef refid="51"/>
+						<NodeRef refid="52"/>
+						<NodeRef refid="53"/>
+						<NodeRef refid="54"/>
+						<NodeRef refid="55"/>
+						<NodeRef refid="56"/>
+						<NodeRef refid="57"/>
+						<NodeRef refid="58"/>
+						<NodeRef refid="59"/>
+						<NodeRef refid="60"/>
+						<NodeRef refid="61"/>
+						<NodeRef refid="62"/>
+						<NodeRef refid="63"/>
+						<NodeRef refid="64"/>
+						<NodeRef refid="65"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="66"/>
+						<NodeRef refid="67"/>
+						<NodeRef refid="68"/>
+						<NodeRef refid="69"/>
+						<NodeRef refid="70"/>
+						<NodeRef refid="71"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="72"/>
+						<NodeRef refid="73"/>
+						<NodeRef refid="74"/>
+						<NodeRef refid="75"/>
+						<NodeRef refid="76"/>
+						<NodeRef refid="77"/>
+						<NodeRef refid="78"/>
+						<NodeRef refid="79"/>
+						<NodeRef refid="80"/>
+						<NodeRef refid="81"/>
+						<NodeRef refid="82"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>CPTAnnotation</Name>
+			<Path>Classes/CPTAnnotation.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>CPTAnnotationHostLayer</Name>
+			<Path>Classes/CPTAnnotationHostLayer.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>CPTAxis</Name>
+			<Path>Classes/CPTAxis.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>CPTAxisLabel</Name>
+			<Path>Classes/CPTAxisLabel.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>CPTAxisLabelGroup</Name>
+			<Path>Classes/CPTAxisLabelGroup.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>CPTAxisSet</Name>
+			<Path>Classes/CPTAxisSet.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>CPTAxisTitle</Name>
+			<Path>Classes/CPTAxisTitle.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>CPTBarPlot</Name>
+			<Path>Classes/CPTBarPlot.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>CPTBorderedLayer</Name>
+			<Path>Classes/CPTBorderedLayer.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>CPTColor</Name>
+			<Path>Classes/CPTColor.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>CPTColorSpace</Name>
+			<Path>Classes/CPTColorSpace.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>CPTConstraints</Name>
+			<Path>Classes/CPTConstraints.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>CPTDerivedXYGraph</Name>
+			<Path>Classes/CPTDerivedXYGraph.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>CPTFill</Name>
+			<Path>Classes/CPTFill.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>CPTGradient</Name>
+			<Path>Classes/CPTGradient.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>CPTGraph</Name>
+			<Path>Classes/CPTGraph.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>CPTGraphHostingView</Name>
+			<Path>Classes/CPTGraphHostingView.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>CPTGridLineGroup</Name>
+			<Path>Classes/CPTGridLineGroup.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>CPTGridLines</Name>
+			<Path>Classes/CPTGridLines.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>CPTImage</Name>
+			<Path>Classes/CPTImage.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>CPTLayer</Name>
+			<Path>Classes/CPTLayer.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>CPTLayerAnnotation</Name>
+			<Path>Classes/CPTLayerAnnotation.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>CPTLegend</Name>
+			<Path>Classes/CPTLegend.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>CPTLegendEntry</Name>
+			<Path>Classes/CPTLegendEntry.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>CPTLimitBand</Name>
+			<Path>Classes/CPTLimitBand.html</Path>
+		</Node>
+		<Node id="26">
+			<Name>CPTLineCap</Name>
+			<Path>Classes/CPTLineCap.html</Path>
+		</Node>
+		<Node id="27">
+			<Name>CPTLineStyle</Name>
+			<Path>Classes/CPTLineStyle.html</Path>
+		</Node>
+		<Node id="28">
+			<Name>CPTMutableLineStyle</Name>
+			<Path>Classes/CPTMutableLineStyle.html</Path>
+		</Node>
+		<Node id="29">
+			<Name>CPTMutableNumericData</Name>
+			<Path>Classes/CPTMutableNumericData.html</Path>
+		</Node>
+		<Node id="30">
+			<Name>CPTMutablePlotRange</Name>
+			<Path>Classes/CPTMutablePlotRange.html</Path>
+		</Node>
+		<Node id="31">
+			<Name>CPTMutableShadow</Name>
+			<Path>Classes/CPTMutableShadow.html</Path>
+		</Node>
+		<Node id="32">
+			<Name>CPTMutableTextStyle</Name>
+			<Path>Classes/CPTMutableTextStyle.html</Path>
+		</Node>
+		<Node id="33">
+			<Name>CPTNumericData</Name>
+			<Path>Classes/CPTNumericData.html</Path>
+		</Node>
+		<Node id="34">
+			<Name>CPTPieChart</Name>
+			<Path>Classes/CPTPieChart.html</Path>
+		</Node>
+		<Node id="35">
+			<Name>CPTPlot</Name>
+			<Path>Classes/CPTPlot.html</Path>
+		</Node>
+		<Node id="36">
+			<Name>CPTPlotArea</Name>
+			<Path>Classes/CPTPlotArea.html</Path>
+		</Node>
+		<Node id="37">
+			<Name>CPTPlotAreaFrame</Name>
+			<Path>Classes/CPTPlotAreaFrame.html</Path>
+		</Node>
+		<Node id="38">
+			<Name>CPTPlotGroup</Name>
+			<Path>Classes/CPTPlotGroup.html</Path>
+		</Node>
+		<Node id="39">
+			<Name>CPTPlotRange</Name>
+			<Path>Classes/CPTPlotRange.html</Path>
+		</Node>
+		<Node id="40">
+			<Name>CPTPlotSpace</Name>
+			<Path>Classes/CPTPlotSpace.html</Path>
+		</Node>
+		<Node id="41">
+			<Name>CPTPlotSpaceAnnotation</Name>
+			<Path>Classes/CPTPlotSpaceAnnotation.html</Path>
+		</Node>
+		<Node id="42">
+			<Name>CPTPlotSymbol</Name>
+			<Path>Classes/CPTPlotSymbol.html</Path>
+		</Node>
+		<Node id="43">
+			<Name>CPTRangePlot</Name>
+			<Path>Classes/CPTRangePlot.html</Path>
+		</Node>
+		<Node id="44">
+			<Name>CPTScatterPlot</Name>
+			<Path>Classes/CPTScatterPlot.html</Path>
+		</Node>
+		<Node id="45">
+			<Name>CPTShadow</Name>
+			<Path>Classes/CPTShadow.html</Path>
+		</Node>
+		<Node id="46">
+			<Name>CPTTextLayer</Name>
+			<Path>Classes/CPTTextLayer.html</Path>
+		</Node>
+		<Node id="47">
+			<Name>CPTTextStyle</Name>
+			<Path>Classes/CPTTextStyle.html</Path>
+		</Node>
+		<Node id="48">
+			<Name>CPTTheme</Name>
+			<Path>Classes/CPTTheme.html</Path>
+		</Node>
+		<Node id="49">
+			<Name>CPTTimeFormatter</Name>
+			<Path>Classes/CPTTimeFormatter.html</Path>
+		</Node>
+		<Node id="50">
+			<Name>CPTTradingRangePlot</Name>
+			<Path>Classes/CPTTradingRangePlot.html</Path>
+		</Node>
+		<Node id="51">
+			<Name>CPTXYAxis</Name>
+			<Path>Classes/CPTXYAxis.html</Path>
+		</Node>
+		<Node id="52">
+			<Name>CPTXYAxisSet</Name>
+			<Path>Classes/CPTXYAxisSet.html</Path>
+		</Node>
+		<Node id="53">
+			<Name>CPTXYGraph</Name>
+			<Path>Classes/CPTXYGraph.html</Path>
+		</Node>
+		<Node id="54">
+			<Name>CPTXYPlotSpace</Name>
+			<Path>Classes/CPTXYPlotSpace.html</Path>
+		</Node>
+		<Node id="55">
+			<Name>_CPTConstraintsFixed</Name>
+			<Path>Classes/_CPTConstraintsFixed.html</Path>
+		</Node>
+		<Node id="56">
+			<Name>_CPTConstraintsRelative</Name>
+			<Path>Classes/_CPTConstraintsRelative.html</Path>
+		</Node>
+		<Node id="57">
+			<Name>_CPTDarkGradientTheme</Name>
+			<Path>Classes/_CPTDarkGradientTheme.html</Path>
+		</Node>
+		<Node id="58">
+			<Name>_CPTFillColor</Name>
+			<Path>Classes/_CPTFillColor.html</Path>
+		</Node>
+		<Node id="59">
+			<Name>_CPTFillGradient</Name>
+			<Path>Classes/_CPTFillGradient.html</Path>
+		</Node>
+		<Node id="60">
+			<Name>_CPTFillImage</Name>
+			<Path>Classes/_CPTFillImage.html</Path>
+		</Node>
+		<Node id="61">
+			<Name>_CPTPlainBlackTheme</Name>
+			<Path>Classes/_CPTPlainBlackTheme.html</Path>
+		</Node>
+		<Node id="62">
+			<Name>_CPTPlainWhiteTheme</Name>
+			<Path>Classes/_CPTPlainWhiteTheme.html</Path>
+		</Node>
+		<Node id="63">
+			<Name>_CPTSlateTheme</Name>
+			<Path>Classes/_CPTSlateTheme.html</Path>
+		</Node>
+		<Node id="64">
+			<Name>_CPTStocksTheme</Name>
+			<Path>Classes/_CPTStocksTheme.html</Path>
+		</Node>
+		<Node id="65">
+			<Name>_CPTXYTheme</Name>
+			<Path>Classes/_CPTXYTheme.html</Path>
+		</Node>
+		
+		<Node id="66">
+			<Name>CALayer(CPTExtensions)</Name>
+			<Path>Categories/CALayer+CPTExtensions.html</Path>
+		</Node>
+		<Node id="67">
+			<Name>NSCoder(CPTExtensions)</Name>
+			<Path>Categories/NSCoder+CPTExtensions.html</Path>
+		</Node>
+		<Node id="68">
+			<Name>NSDecimalNumber(CPTExtensions)</Name>
+			<Path>Categories/NSDecimalNumber+CPTExtensions.html</Path>
+		</Node>
+		<Node id="69">
+			<Name>NSNumber(CPTExtensions)</Name>
+			<Path>Categories/NSNumber+CPTExtensions.html</Path>
+		</Node>
+		<Node id="70">
+			<Name>NSNumber(CPTPlatformSpecificNumberExtensions)</Name>
+			<Path>Categories/NSNumber+CPTPlatformSpecificNumberExtensions.html</Path>
+		</Node>
+		<Node id="71">
+			<Name>NSString(CPTTextStyleExtensions)</Name>
+			<Path>Categories/NSString+CPTTextStyleExtensions.html</Path>
+		</Node>
+		
+		<Node id="72">
+			<Name>CPTAxisDelegate</Name>
+			<Path>Protocols/CPTAxisDelegate.html</Path>
+		</Node>
+		<Node id="73">
+			<Name>CPTBarPlotDataSource</Name>
+			<Path>Protocols/CPTBarPlotDataSource.html</Path>
+		</Node>
+		<Node id="74">
+			<Name>CPTBarPlotDelegate</Name>
+			<Path>Protocols/CPTBarPlotDelegate.html</Path>
+		</Node>
+		<Node id="75">
+			<Name>CPTLegendDelegate</Name>
+			<Path>Protocols/CPTLegendDelegate.html</Path>
+		</Node>
+		<Node id="76">
+			<Name>CPTPieChartDataSource</Name>
+			<Path>Protocols/CPTPieChartDataSource.html</Path>
+		</Node>
+		<Node id="77">
+			<Name>CPTPieChartDelegate</Name>
+			<Path>Protocols/CPTPieChartDelegate.html</Path>
+		</Node>
+		<Node id="78">
+			<Name>CPTPlotDataSource</Name>
+			<Path>Protocols/CPTPlotDataSource.html</Path>
+		</Node>
+		<Node id="79">
+			<Name>CPTPlotSpaceDelegate</Name>
+			<Path>Protocols/CPTPlotSpaceDelegate.html</Path>
+		</Node>
+		<Node id="80">
+			<Name>CPTResponder</Name>
+			<Path>Protocols/CPTResponder.html</Path>
+		</Node>
+		<Node id="81">
+			<Name>CPTScatterPlotDataSource</Name>
+			<Path>Protocols/CPTScatterPlotDataSource.html</Path>
+		</Node>
+		<Node id="82">
+			<Name>CPTScatterPlotDelegate</Name>
+			<Path>Protocols/CPTScatterPlotDelegate.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

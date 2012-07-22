@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTDarkGradientTheme.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTDarkGradientTheme</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTDarkGradientTheme.h</DeclaredIn>
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTAxisDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTAxisDelegate</TokenIdentifier>
+			<Abstract type="html">	@brief Axis labeling delegate.</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTAxisDelegate/axisShouldRelabel:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Determines if the axis should relabel itself now.</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)axisShouldRelabel:(CPTAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the axis should relabel now.</Abstract></ReturnValue>
+			<Anchor>//api/name/axisShouldRelabel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTAxisDelegate/axisDidRelabel:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) The method is called after the axis is relabeled to allow the delegate to perform any
+	necessary cleanup or further labeling actions.</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (void)axisDidRelabel:(CPTAxis *)axis</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/axisDidRelabel:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTAxisDelegate/axis:shouldUpdateAxisLabelsAtLocations:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) This method gives the delegate a chance to create custom labels for each tick.
+It can be used with any labeling policy. Returning NO will cause the axis not
+to update the labels. It is then the delegates responsiblity to do this.</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)axis:(CPTAxis *)axis shouldUpdateAxisLabelsAtLocations:(NSSet *)locations</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter><Parameter>
+					<Name>locations</Name>
+					<Abstract type="html">The locations of the major ticks.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the axis class should proceed with automatic labeling.</Abstract></ReturnValue>
+			<Anchor>//api/name/axis:shouldUpdateAxisLabelsAtLocations:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTAxisDelegate/axis:shouldUpdateMinorAxisLabelsAtLocations:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) This method gives the delegate a chance to create custom labels for each minor tick.
+It can be used with any labeling policy. Returning NO will cause the axis not
+to update the labels. It is then the delegates responsiblity to do this.</Abstract>
+			<DeclaredIn>CPTAxis.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)axis:(CPTAxis *)axis shouldUpdateMinorAxisLabelsAtLocations:(NSSet *)locations</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>axis</Name>
+					<Abstract type="html">The axis.</Abstract>
+				</Parameter><Parameter>
+					<Name>locations</Name>
+					<Abstract type="html">The locations of the minor ticks.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if the axis class should proceed with automatic labeling.</Abstract></ReturnValue>
+			<Anchor>//api/name/axis:shouldUpdateMinorAxisLabelsAtLocations:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

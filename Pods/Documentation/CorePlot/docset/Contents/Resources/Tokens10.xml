@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTColor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTColor</TokenIdentifier>
+			<Abstract type="html">	@category CPTColor(CPTPlatformSpecificColorExtensions)
+	@brief Platform-specific extensions to CPTColor.</Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColor/setCgColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGColorRef cgColor</Declaration>
+			
+			
+			<Anchor>//api/name/cgColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTColor/cgColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGColorRef cgColor</Declaration>
+			
+			
+			<Anchor>//api/name/cgColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/clearColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)clearColor</Declaration>
+			
+			
+			<Anchor>//api/name/clearColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/whiteColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)whiteColor</Declaration>
+			
+			
+			<Anchor>//api/name/whiteColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/lightGrayColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)lightGrayColor</Declaration>
+			
+			
+			<Anchor>//api/name/lightGrayColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/grayColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)grayColor</Declaration>
+			
+			
+			<Anchor>//api/name/grayColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/darkGrayColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)darkGrayColor</Declaration>
+			
+			
+			<Anchor>//api/name/darkGrayColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/blackColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)blackColor</Declaration>
+			
+			
+			<Anchor>//api/name/blackColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/redColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)redColor</Declaration>
+			
+			
+			<Anchor>//api/name/redColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/greenColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)greenColor</Declaration>
+			
+			
+			<Anchor>//api/name/greenColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/blueColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)blueColor</Declaration>
+			
+			
+			<Anchor>//api/name/blueColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/cyanColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)cyanColor</Declaration>
+			
+			
+			<Anchor>//api/name/cyanColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/yellowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)yellowColor</Declaration>
+			
+			
+			<Anchor>//api/name/yellowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/magentaColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)magentaColor</Declaration>
+			
+			
+			<Anchor>//api/name/magentaColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/orangeColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)orangeColor</Declaration>
+			
+			
+			<Anchor>//api/name/orangeColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/purpleColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)purpleColor</Declaration>
+			
+			
+			<Anchor>//api/name/purpleColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/brownColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)brownColor</Declaration>
+			
+			
+			<Anchor>//api/name/brownColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/colorWithCGColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)colorWithCGColor:(CGColorRef)newCGColor</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithCGColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/colorWithComponentRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)colorWithComponentRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithComponentRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTColor/colorWithGenericGray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTColor *)colorWithGenericGray:(CGFloat)gray</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithGenericGray:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColor/initWithCGColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCGColor:(CGColorRef)cgColor</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCGColor:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColor/initWithComponentRed:green:blue:alpha:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithComponentRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/initWithComponentRed:green:blue:alpha:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColor/colorWithAlphaComponent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTColor.h</DeclaredIn>			
+			
+			<Declaration>- (CPTColor *)colorWithAlphaComponent:(CGFloat)alpha</Declaration>
+			
+			
+			<Anchor>//api/name/colorWithAlphaComponent:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTColor/setUiColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) UIColor *uiColor</Declaration>
+			
+			
+			<Anchor>//api/name/uiColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTColor/uiColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) UIColor *uiColor</Declaration>
+			
+			
+			<Anchor>//api/name/uiColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

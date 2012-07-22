@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTMutablePlotRange.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTMutablePlotRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/setLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutablePlotRange/location</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal location</Declaration>
+			
+			
+			<Anchor>//api/name/location</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/setLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutablePlotRange/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) NSDecimal length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/unionPlotRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (void)unionPlotRange:(CPTPlotRange *)otherRange</Declaration>
+			
+			
+			<Anchor>//api/name/unionPlotRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/intersectionPlotRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (void)intersectionPlotRange:(CPTPlotRange *)otherRange</Declaration>
+			
+			
+			<Anchor>//api/name/intersectionPlotRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/shiftLocationToFitInRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (void)shiftLocationToFitInRange:(CPTPlotRange *)otherRange</Declaration>
+			
+			
+			<Anchor>//api/name/shiftLocationToFitInRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/shiftEndToFitInRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (void)shiftEndToFitInRange:(CPTPlotRange *)otherRange</Declaration>
+			
+			
+			<Anchor>//api/name/shiftEndToFitInRange:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutablePlotRange/expandRangeByFactor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutablePlotRange.h</DeclaredIn>			
+			
+			<Declaration>- (void)expandRangeByFactor:(NSDecimal)factor</Declaration>
+			
+			
+			<Anchor>//api/name/expandRangeByFactor:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

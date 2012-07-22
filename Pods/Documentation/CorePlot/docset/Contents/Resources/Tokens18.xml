@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTGridLineGroup.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTGridLineGroup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLineGroup.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGridLineGroup/setPlotArea:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLineGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) __cpt_weak CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGridLineGroup/plotArea</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLineGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) __cpt_weak CPTPlotArea *plotArea</Declaration>
+			
+			
+			<Anchor>//api/name/plotArea</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGridLineGroup/setMajor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLineGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGridLineGroup/major</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLineGroup.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

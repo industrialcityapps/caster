@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTFillGradient.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTFillGradient</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillGradient.h</DeclaredIn>
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillGradient/initWithGradient:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillGradient.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithGradient:(CPTGradient *)aGradient</Declaration>
+			
+			
+			<Anchor>//api/name/initWithGradient:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillGradient/fillRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillGradient.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillRect:(CGRect)theRect inContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillRect:inContext:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTFillGradient/fillPathInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTFillGradient.h</DeclaredIn>			
+			
+			<Declaration>- (void)fillPathInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/fillPathInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

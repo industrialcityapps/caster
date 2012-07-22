@@ -1,0 +1,913 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTPlotSpaceDelegate Protocol Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTPlotSpaceDelegate Protocol Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/plotSpace:didChangePlotRangeForCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:didChangePlotRangeForCoordinate:</option>
+	
+	<option value="//api/name/plotSpace:shouldHandlePointingDeviceCancelledEvent:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:shouldHandlePointingDeviceCancelledEvent:</option>
+	
+	<option value="//api/name/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</option>
+	
+	<option value="//api/name/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</option>
+	
+	<option value="//api/name/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</option>
+	
+	<option value="//api/name/plotSpace:shouldScaleBy:aboutPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:shouldScaleBy:aboutPoint:</option>
+	
+	<option value="//api/name/plotSpace:willChangePlotRangeTo:forCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:willChangePlotRangeTo:forCoordinate:</option>
+	
+	<option value="//api/name/plotSpace:willDisplaceBy:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpace:willDisplaceBy:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Scaling">Scaling</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Scrolling">Scrolling</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Plot Range Changes">Plot Range Changes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_User Interaction">User Interaction</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:didChangePlotRangeForCoordinate:">plotSpace:didChangePlotRangeForCoordinate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:shouldHandlePointingDeviceCancelledEvent:">plotSpace:shouldHandlePointingDeviceCancelledEvent:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:">plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:">plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:">plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:shouldScaleBy:aboutPoint:">plotSpace:shouldScaleBy:aboutPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:willChangePlotRangeTo:forCoordinate:">plotSpace:willChangePlotRangeTo:forCoordinate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpace:willDisplaceBy:">plotSpace:willDisplaceBy:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTPlotSpaceDelegate Protocol Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTPlotSpaceDelegate Protocol Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTPlotSpace.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@brief Plot space delegate.
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Scaling" name="task_Scaling"></a>
+						<h3 class="subsubtitle task-title">Scaling</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:shouldScaleBy:aboutPoint:">&ndash;&nbsp;plotSpace:shouldScaleBy:aboutPoint:</a></code>
+		<span class="tooltip"><p>@brief (Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS).</p></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Scrolling" name="task_Scrolling"></a>
+						<h3 class="subsubtitle task-title">Scrolling</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:willDisplaceBy:">&ndash;&nbsp;plotSpace:willDisplaceBy:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space is going to scroll.
+</code></pre></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Plot Range Changes" name="task_Plot Range Changes"></a>
+						<h3 class="subsubtitle task-title">Plot Range Changes</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:willChangePlotRangeTo:forCoordinate:">&ndash;&nbsp;plotSpace:willChangePlotRangeTo:forCoordinate:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space is going to change a plot range.
+</code></pre></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:didChangePlotRangeForCoordinate:">&ndash;&nbsp;plotSpace:didChangePlotRangeForCoordinate:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space has changed a plot range.
+</code></pre></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="User Interaction" name="task_User Interaction"></a>
+						<h3 class="subsubtitle task-title">User Interaction</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:">&ndash;&nbsp;plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space intercepted a device down event.
+</code></pre></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:">&ndash;&nbsp;plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space intercepted a device dragged event.
+</code></pre></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:shouldHandlePointingDeviceCancelledEvent:">&ndash;&nbsp;plotSpace:shouldHandlePointingDeviceCancelledEvent:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space intercepted a device cancelled event.
+</code></pre></span>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:">&ndash;&nbsp;plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</a></code>
+		<span class="tooltip"><pre><code>@brief (Optional) Notifies that plot space intercepted a device up event.
+</code></pre></span>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:didChangePlotRangeForCoordinate:" title="plotSpace:didChangePlotRangeForCoordinate:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:didChangePlotRangeForCoordinate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space has changed a plot range.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)plotSpace:(CPTPlotSpace *)<em>space</em> didChangePlotRangeForCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>coordinate</em></dt>
+			<dd><p>The coordinate of the range.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space has changed a plot range.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:shouldHandlePointingDeviceCancelledEvent:" title="plotSpace:shouldHandlePointingDeviceCancelledEvent:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:shouldHandlePointingDeviceCancelledEvent:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device cancelled event.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)plotSpace:(CPTPlotSpace *)<em>space</em> shouldHandlePointingDeviceCancelledEvent:(id)<em>event</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>event</em></dt>
+			<dd><p>The native event (e.g., UIEvent on iPhone)</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device cancelled event.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:" title="plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:shouldHandlePointingDeviceDownEvent:atPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device down event.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)plotSpace:(CPTPlotSpace *)<em>space</em> shouldHandlePointingDeviceDownEvent:(id)<em>event</em> atPoint:(CGPoint)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>event</em></dt>
+			<dd><p>The native event (e.g., UIEvent on iPhone)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The point in the host view.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device down event.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:" title="plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:shouldHandlePointingDeviceDraggedEvent:atPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device dragged event.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)plotSpace:(CPTPlotSpace *)<em>space</em> shouldHandlePointingDeviceDraggedEvent:(id)<em>event</em> atPoint:(CGPoint)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>event</em></dt>
+			<dd><p>The native event (e.g., UIEvent on iPhone)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The point in the host view.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device dragged event.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:" title="plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:shouldHandlePointingDeviceUpEvent:atPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device up event.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)plotSpace:(CPTPlotSpace *)<em>space</em> shouldHandlePointingDeviceUpEvent:(id)<em>event</em> atPoint:(CGPoint)<em>point</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>event</em></dt>
+			<dd><p>The native event (e.g., UIEvent on iPhone)</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>point</em></dt>
+			<dd><p>The point in the host view.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Whether the plot space should handle the event or not.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space intercepted a device up event.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:shouldScaleBy:aboutPoint:" title="plotSpace:shouldScaleBy:aboutPoint:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:shouldScaleBy:aboutPoint:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>@brief (Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS).</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)plotSpace:(CPTPlotSpace *)<em>space</em> shouldScaleBy:(CGFloat)<em>interactionScale</em> aboutPoint:(CGPoint)<em>interactionPoint</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>interactionScale</em></dt>
+			<dd><p>The scaling factor.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>interactionPoint</em></dt>
+			<dd><p>The coordinates of the scaling centroid.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>YES should be returned if the gesture should be handled by the plot space, and NO to prevent handling.
+In either case, the delegate may choose to take extra actions, or handle the scaling itself.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<p>@brief (Optional) Informs the receiver that it should uniformly scale (e.g., in response to a pinch on iOS).</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:willChangePlotRangeTo:forCoordinate:" title="plotSpace:willChangePlotRangeTo:forCoordinate:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:willChangePlotRangeTo:forCoordinate:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space is going to change a plot range.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotRange *)plotSpace:(CPTPlotSpace *)<em>space</em> willChangePlotRangeTo:(CPTPlotRange *)<em>newRange</em> forCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>newRange</em></dt>
+			<dd><p>The proposed new plot range.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>coordinate</em></dt>
+			<dd><p>The coordinate of the range.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The new plot range to be used.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space is going to change a plot range.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpace:willDisplaceBy:" title="plotSpace:willDisplaceBy:"></a>
+	<h3 class="subsubtitle method-title">plotSpace:willDisplaceBy:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<pre><code>@brief (Optional) Notifies that plot space is going to scroll.
+</code></pre>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)plotSpace:(CPTPlotSpace *)<em>space</em> willDisplaceBy:(CGPoint)<em>proposedDisplacementVector</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>space</em></dt>
+			<dd><p>The plot space.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>proposedDisplacementVector</em></dt>
+			<dd><p>The proposed amount by which the plot space will shift.</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>The displacement actually applied.</p>
+	</div>
+	
+	
+	
+	
+	
+	<div class="method-subsection discussion-section">
+		<h4 class="method-subtitle">Discussion</h4>
+		<pre><code>@brief (Optional) Notifies that plot space is going to scroll.
+</code></pre>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">CPTPlotSpace.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

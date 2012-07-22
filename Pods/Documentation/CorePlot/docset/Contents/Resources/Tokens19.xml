@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTGridLines.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTGridLines</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLines.h</DeclaredIn>
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGridLines/setAxis:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLines.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) __cpt_weak CPTAxis *axis</Declaration>
+			
+			
+			<Anchor>//api/name/axis</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGridLines/axis</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLines.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) __cpt_weak CPTAxis *axis</Declaration>
+			
+			
+			<Anchor>//api/name/axis</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGridLines/setMajor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLines.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGridLines/major</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGridLines.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite) BOOL major</Declaration>
+			
+			
+			<Anchor>//api/name/major</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

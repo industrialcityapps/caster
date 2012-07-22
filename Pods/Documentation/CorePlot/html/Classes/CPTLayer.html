@@ -1,0 +1,960 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTLayer Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTLayer Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/contentsScale">&nbsp;&nbsp;&nbsp;&nbsp;contentsScale</option>
+	
+	<option value="//api/name/graph">&nbsp;&nbsp;&nbsp;&nbsp;graph</option>
+	
+	<option value="//api/name/identifier">&nbsp;&nbsp;&nbsp;&nbsp;identifier</option>
+	
+	<option value="//api/name/innerBorderPath">&nbsp;&nbsp;&nbsp;&nbsp;innerBorderPath</option>
+	
+	<option value="//api/name/maskingPath">&nbsp;&nbsp;&nbsp;&nbsp;maskingPath</option>
+	
+	<option value="//api/name/masksToBorder">&nbsp;&nbsp;&nbsp;&nbsp;masksToBorder</option>
+	
+	<option value="//api/name/outerBorderPath">&nbsp;&nbsp;&nbsp;&nbsp;outerBorderPath</option>
+	
+	<option value="//api/name/paddingBottom">&nbsp;&nbsp;&nbsp;&nbsp;paddingBottom</option>
+	
+	<option value="//api/name/paddingLeft">&nbsp;&nbsp;&nbsp;&nbsp;paddingLeft</option>
+	
+	<option value="//api/name/paddingRight">&nbsp;&nbsp;&nbsp;&nbsp;paddingRight</option>
+	
+	<option value="//api/name/paddingTop">&nbsp;&nbsp;&nbsp;&nbsp;paddingTop</option>
+	
+	<option value="//api/name/shadow">&nbsp;&nbsp;&nbsp;&nbsp;shadow</option>
+	
+	<option value="//api/name/sublayerMaskingPath">&nbsp;&nbsp;&nbsp;&nbsp;sublayerMaskingPath</option>
+	
+	<option value="//api/name/sublayersExcludedFromAutomaticLayout">&nbsp;&nbsp;&nbsp;&nbsp;sublayersExcludedFromAutomaticLayout</option>
+	
+	<option value="//api/name/useFastRendering">&nbsp;&nbsp;&nbsp;&nbsp;useFastRendering</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/applyMaskToContext:">&nbsp;&nbsp;&nbsp;&nbsp;- applyMaskToContext:</option>
+	
+	<option value="//api/name/applySublayerMaskToContext:forSublayer:withOffset:">&nbsp;&nbsp;&nbsp;&nbsp;- applySublayerMaskToContext:forSublayer:withOffset:</option>
+	
+	<option value="//api/name/dataForPDFRepresentationOfLayer">&nbsp;&nbsp;&nbsp;&nbsp;- dataForPDFRepresentationOfLayer</option>
+	
+	<option value="//api/name/imageOfLayer">&nbsp;&nbsp;&nbsp;&nbsp;- imageOfLayer</option>
+	
+	<option value="//api/name/initWithFrame:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:</option>
+	
+	<option value="//api/name/layoutAndRenderInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- layoutAndRenderInContext:</option>
+	
+	<option value="//api/name/logLayers">&nbsp;&nbsp;&nbsp;&nbsp;- logLayers</option>
+	
+	<option value="//api/name/pixelAlign">&nbsp;&nbsp;&nbsp;&nbsp;- pixelAlign</option>
+	
+	<option value="//api/name/recursivelyRenderInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- recursivelyRenderInContext:</option>
+	
+	<option value="//api/name/renderAsVectorInContext:">&nbsp;&nbsp;&nbsp;&nbsp;- renderAsVectorInContext:</option>
+	
+	<option value="//api/name/sublayerMarginLeft:top:right:bottom:">&nbsp;&nbsp;&nbsp;&nbsp;- sublayerMarginLeft:top:right:bottom:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Graph">Graph</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Padding">Padding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Drawing">Drawing</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Masking">Masking</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Identification">Identification</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Layout">Layout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Drawing">Drawing</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Masking">Masking</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Layout">Layout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Information">Information</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_CPTPlatformSpecificLayerExtensions Methods">CPTPlatformSpecificLayerExtensions Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/contentsScale">contentsScale</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/graph">graph</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/identifier">identifier</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/innerBorderPath">innerBorderPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/maskingPath">maskingPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/masksToBorder">masksToBorder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/outerBorderPath">outerBorderPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paddingBottom">paddingBottom</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paddingLeft">paddingLeft</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paddingRight">paddingRight</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/paddingTop">paddingTop</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shadow">shadow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sublayerMaskingPath">sublayerMaskingPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sublayersExcludedFromAutomaticLayout">sublayersExcludedFromAutomaticLayout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/useFastRendering">useFastRendering</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyMaskToContext:">applyMaskToContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applySublayerMaskToContext:forSublayer:withOffset:">applySublayerMaskToContext:forSublayer:withOffset:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataForPDFRepresentationOfLayer">dataForPDFRepresentationOfLayer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/imageOfLayer">imageOfLayer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:">initWithFrame:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/layoutAndRenderInContext:">layoutAndRenderInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logLayers">logLayers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pixelAlign">pixelAlign</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recursivelyRenderInContext:">recursivelyRenderInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderAsVectorInContext:">renderAsVectorInContext:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sublayerMarginLeft:top:right:bottom:">sublayerMarginLeft:top:right:bottom:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTLayer Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTLayer Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">CALayer</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/CPTResponder.html">CPTResponder</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTLayer.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@category CPTLayer(CPTPlatformSpecificLayerExtensions)
+@brief Platform-specific extensions to CPTLayer.
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Graph" name="task_Graph"></a>
+						<h3 class="subsubtitle task-title">Graph</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/graph">&nbsp;&nbsp;graph</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Padding" name="task_Padding"></a>
+						<h3 class="subsubtitle task-title">Padding</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paddingLeft">&nbsp;&nbsp;paddingLeft</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paddingTop">&nbsp;&nbsp;paddingTop</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paddingRight">&nbsp;&nbsp;paddingRight</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/paddingBottom">&nbsp;&nbsp;paddingBottom</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Drawing" name="task_Drawing"></a>
+						<h3 class="subsubtitle task-title">Drawing</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/contentsScale">&nbsp;&nbsp;contentsScale</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/useFastRendering">&nbsp;&nbsp;useFastRendering</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shadow">&nbsp;&nbsp;shadow</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Masking" name="task_Masking"></a>
+						<h3 class="subsubtitle task-title">Masking</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/masksToBorder">&nbsp;&nbsp;masksToBorder</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/outerBorderPath">&nbsp;&nbsp;outerBorderPath</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/innerBorderPath">&nbsp;&nbsp;innerBorderPath</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/maskingPath">&nbsp;&nbsp;maskingPath</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sublayerMaskingPath">&nbsp;&nbsp;sublayerMaskingPath</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Identification" name="task_Identification"></a>
+						<h3 class="subsubtitle task-title">Identification</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/identifier">&nbsp;&nbsp;identifier</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Layout" name="task_Layout"></a>
+						<h3 class="subsubtitle task-title">Layout</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sublayersExcludedFromAutomaticLayout">&nbsp;&nbsp;sublayersExcludedFromAutomaticLayout</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:">&ndash;&nbsp;initWithFrame:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Drawing" name="task_Drawing"></a>
+						<h3 class="subsubtitle task-title">Drawing</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderAsVectorInContext:">&ndash;&nbsp;renderAsVectorInContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recursivelyRenderInContext:">&ndash;&nbsp;recursivelyRenderInContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/layoutAndRenderInContext:">&ndash;&nbsp;layoutAndRenderInContext:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataForPDFRepresentationOfLayer">&ndash;&nbsp;dataForPDFRepresentationOfLayer</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Masking" name="task_Masking"></a>
+						<h3 class="subsubtitle task-title">Masking</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applySublayerMaskToContext:forSublayer:withOffset:">&ndash;&nbsp;applySublayerMaskToContext:forSublayer:withOffset:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyMaskToContext:">&ndash;&nbsp;applyMaskToContext:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Layout" name="task_Layout"></a>
+						<h3 class="subsubtitle task-title">Layout</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pixelAlign">&ndash;&nbsp;pixelAlign</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sublayerMarginLeft:top:right:bottom:">&ndash;&nbsp;sublayerMarginLeft:top:right:bottom:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Information" name="task_Information"></a>
+						<h3 class="subsubtitle task-title">Information</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logLayers">&ndash;&nbsp;logLayers</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="CPTPlatformSpecificLayerExtensions Methods" name="task_CPTPlatformSpecificLayerExtensions Methods"></a>
+						<h3 class="subsubtitle task-title">CPTPlatformSpecificLayerExtensions Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/imageOfLayer">&ndash;&nbsp;imageOfLayer</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/contentsScale" title="contentsScale"></a>
+	<h3 class="subsubtitle method-title">contentsScale</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readwrite, assign) CGFloat contentsScale</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/graph" title="graph"></a>
+	<h3 class="subsubtitle method-title">graph</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/identifier" title="identifier"></a>
+	<h3 class="subsubtitle method-title">identifier</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/innerBorderPath" title="innerBorderPath"></a>
+	<h3 class="subsubtitle method-title">innerBorderPath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGPathRef innerBorderPath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/maskingPath" title="maskingPath"></a>
+	<h3 class="subsubtitle method-title">maskingPath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) CGPathRef maskingPath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/masksToBorder" title="masksToBorder"></a>
+	<h3 class="subsubtitle method-title">masksToBorder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) BOOL masksToBorder</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/outerBorderPath" title="outerBorderPath"></a>
+	<h3 class="subsubtitle method-title">outerBorderPath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGPathRef outerBorderPath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paddingBottom" title="paddingBottom"></a>
+	<h3 class="subsubtitle method-title">paddingBottom</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGFloat paddingBottom</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paddingLeft" title="paddingLeft"></a>
+	<h3 class="subsubtitle method-title">paddingLeft</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGFloat paddingLeft</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paddingRight" title="paddingRight"></a>
+	<h3 class="subsubtitle method-title">paddingRight</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGFloat paddingRight</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/paddingTop" title="paddingTop"></a>
+	<h3 class="subsubtitle method-title">paddingTop</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite) CGFloat paddingTop</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shadow" title="shadow"></a>
+	<h3 class="subsubtitle method-title">shadow</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTShadow *shadow</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sublayerMaskingPath" title="sublayerMaskingPath"></a>
+	<h3 class="subsubtitle method-title">sublayerMaskingPath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) CGPathRef sublayerMaskingPath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sublayersExcludedFromAutomaticLayout" title="sublayersExcludedFromAutomaticLayout"></a>
+	<h3 class="subsubtitle method-title">sublayersExcludedFromAutomaticLayout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) NSSet *sublayersExcludedFromAutomaticLayout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/useFastRendering" title="useFastRendering"></a>
+	<h3 class="subsubtitle method-title">useFastRendering</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, assign) BOOL useFastRendering</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/applyMaskToContext:" title="applyMaskToContext:"></a>
+	<h3 class="subsubtitle method-title">applyMaskToContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyMaskToContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applySublayerMaskToContext:forSublayer:withOffset:" title="applySublayerMaskToContext:forSublayer:withOffset:"></a>
+	<h3 class="subsubtitle method-title">applySublayerMaskToContext:forSublayer:withOffset:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applySublayerMaskToContext:(CGContextRef)<em>context</em> forSublayer:(CPTLayer *)<em>sublayer</em> withOffset:(CGPoint)<em>offset</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataForPDFRepresentationOfLayer" title="dataForPDFRepresentationOfLayer"></a>
+	<h3 class="subsubtitle method-title">dataForPDFRepresentationOfLayer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)dataForPDFRepresentationOfLayer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/imageOfLayer" title="imageOfLayer"></a>
+	<h3 class="subsubtitle method-title">imageOfLayer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTNativeImage *)imageOfLayer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:" title="initWithFrame:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>newFrame</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/layoutAndRenderInContext:" title="layoutAndRenderInContext:"></a>
+	<h3 class="subsubtitle method-title">layoutAndRenderInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)layoutAndRenderInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logLayers" title="logLayers"></a>
+	<h3 class="subsubtitle method-title">logLayers</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)logLayers</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pixelAlign" title="pixelAlign"></a>
+	<h3 class="subsubtitle method-title">pixelAlign</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)pixelAlign</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recursivelyRenderInContext:" title="recursivelyRenderInContext:"></a>
+	<h3 class="subsubtitle method-title">recursivelyRenderInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)recursivelyRenderInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/renderAsVectorInContext:" title="renderAsVectorInContext:"></a>
+	<h3 class="subsubtitle method-title">renderAsVectorInContext:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)renderAsVectorInContext:(CGContextRef)<em>context</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sublayerMarginLeft:top:right:bottom:" title="sublayerMarginLeft:top:right:bottom:"></a>
+	<h3 class="subsubtitle method-title">sublayerMarginLeft:top:right:bottom:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sublayerMarginLeft:(CGFloat *)<em>left</em> top:(CGFloat *)<em>top</em> right:(CGFloat *)<em>right</em> bottom:(CGFloat *)<em>bottom</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

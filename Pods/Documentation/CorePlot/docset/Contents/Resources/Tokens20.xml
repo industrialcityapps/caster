@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTImage.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGImageRef image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTImage/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGImageRef image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/setScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTImage/scale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat scale</Declaration>
+			
+			
+			<Anchor>//api/name/scale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/setTiled:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign, getter=isTiled) BOOL tiled</Declaration>
+			
+			
+			<Anchor>//api/name/tiled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTImage/tiled</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign, getter=isTiled) BOOL tiled</Declaration>
+			
+			
+			<Anchor>//api/name/tiled</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/setTileAnchoredToContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL tileAnchoredToContext</Declaration>
+			
+			
+			<Anchor>//api/name/tileAnchoredToContext</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTImage/tileAnchoredToContext</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL tileAnchoredToContext</Declaration>
+			
+			
+			<Anchor>//api/name/tileAnchoredToContext</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTImage/imageWithCGImage:scale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTImage *)imageWithCGImage:(CGImageRef)anImage scale:(CGFloat)newScale</Declaration>
+			
+			
+			<Anchor>//api/name/imageWithCGImage:scale:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTImage/imageWithCGImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTImage *)imageWithCGImage:(CGImageRef)anImage</Declaration>
+			
+			
+			<Anchor>//api/name/imageWithCGImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTImage/imageForPNGFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTImage *)imageForPNGFile:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/imageForPNGFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/initWithCGImage:scale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCGImage:(CGImageRef)anImage scale:(CGFloat)newScale</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCGImage:scale:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/initWithCGImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCGImage:(CGImageRef)anImage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCGImage:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/initForPNGFile:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>- (id)initForPNGFile:(NSString *)path</Declaration>
+			
+			
+			<Anchor>//api/name/initForPNGFile:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTImage/drawInRect:inContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTImage.h</DeclaredIn>			
+			
+			<Declaration>- (void)drawInRect:(CGRect)rect inContext:(CGContextRef)context</Declaration>
+			
+			
+			<Anchor>//api/name/drawInRect:inContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

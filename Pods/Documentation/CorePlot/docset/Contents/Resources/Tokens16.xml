@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTGraph.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTGraph</TokenIdentifier>
+			<Abstract type="html">&lt; Axis titles.
+	@category CPTGraph(AbstractFactoryMethods)
+	@brief CPTGraph abstract methods—must be overridden by subclasses</Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setTitle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/title</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setTitleTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/titleTextStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</Declaration>
+			
+			
+			<Anchor>//api/name/titleTextStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setTitleDisplacement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint titleDisplacement</Declaration>
+			
+			
+			<Anchor>//api/name/titleDisplacement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/titleDisplacement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint titleDisplacement</Declaration>
+			
+			
+			<Anchor>//api/name/titleDisplacement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setTitlePlotAreaFrameAnchor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor titlePlotAreaFrameAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/titlePlotAreaFrameAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/titlePlotAreaFrameAnchor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor titlePlotAreaFrameAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/titlePlotAreaFrameAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setAxisSet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTAxisSet *axisSet</Declaration>
+			
+			
+			<Anchor>//api/name/axisSet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/axisSet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTAxisSet *axisSet</Declaration>
+			
+			
+			<Anchor>//api/name/axisSet</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setPlotAreaFrame:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotAreaFrame *plotAreaFrame</Declaration>
+			
+			
+			<Anchor>//api/name/plotAreaFrame</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/plotAreaFrame</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTPlotAreaFrame *plotAreaFrame</Declaration>
+			
+			
+			<Anchor>//api/name/plotAreaFrame</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setDefaultPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotSpace *defaultPlotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPlotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/defaultPlotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTPlotSpace *defaultPlotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/defaultPlotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setTopDownLayerOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *topDownLayerOrder</Declaration>
+			
+			
+			<Anchor>//api/name/topDownLayerOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/topDownLayerOrder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *topDownLayerOrder</Declaration>
+			
+			
+			<Anchor>//api/name/topDownLayerOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setLegend:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLegend *legend</Declaration>
+			
+			
+			<Anchor>//api/name/legend</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/legend</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLegend *legend</Declaration>
+			
+			
+			<Anchor>//api/name/legend</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setLegendAnchor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor legendAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/legendAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/legendAnchor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor legendAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/legendAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/setLegendDisplacement:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint legendDisplacement</Declaration>
+			
+			
+			<Anchor>//api/name/legendDisplacement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTGraph/legendDisplacement</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPoint legendDisplacement</Declaration>
+			
+			
+			<Anchor>//api/name/legendDisplacement</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/reloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadData</Declaration>
+			
+			
+			<Anchor>//api/name/reloadData</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/reloadDataIfNeeded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)reloadDataIfNeeded</Declaration>
+			
+			
+			<Anchor>//api/name/reloadDataIfNeeded</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/allPlots</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)allPlots</Declaration>
+			
+			
+			<Anchor>//api/name/allPlots</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/plotAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlot *)plotAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/plotAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/plotWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlot *)plotWithIdentifier:(id&lt;NSCopying&gt;)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/plotWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/addPlot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPlot:(CPTPlot *)plot</Declaration>
+			
+			
+			<Anchor>//api/name/addPlot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/addPlot:toPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPlot:(CPTPlot *)plot toPlotSpace:(CPTPlotSpace *)space</Declaration>
+			
+			
+			<Anchor>//api/name/addPlot:toPlotSpace:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/removePlot:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)removePlot:(CPTPlot *)plot</Declaration>
+			
+			
+			<Anchor>//api/name/removePlot:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/removePlotWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)removePlotWithIdentifier:(id&lt;NSCopying&gt;)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/removePlotWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/insertPlot:atIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertPlot:(CPTPlot *)plot atIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/insertPlot:atIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/insertPlot:atIndex:intoPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)insertPlot:(CPTPlot *)plot atIndex:(NSUInteger)index intoPlotSpace:(CPTPlotSpace *)space</Declaration>
+			
+			
+			<Anchor>//api/name/insertPlot:atIndex:intoPlotSpace:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/allPlotSpaces</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)allPlotSpaces</Declaration>
+			
+			
+			<Anchor>//api/name/allPlotSpaces</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/plotSpaceAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotSpace *)plotSpaceAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpaceAtIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/plotSpaceWithIdentifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotSpace *)plotSpaceWithIdentifier:(id&lt;NSCopying&gt;)identifier</Declaration>
+			
+			
+			<Anchor>//api/name/plotSpaceWithIdentifier:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/addPlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)addPlotSpace:(CPTPlotSpace *)space</Declaration>
+			
+			
+			<Anchor>//api/name/addPlotSpace:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/removePlotSpace:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)removePlotSpace:(CPTPlotSpace *)plotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/removePlotSpace:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/applyTheme:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyTheme:(CPTTheme *)theme</Declaration>
+			
+			
+			<Anchor>//api/name/applyTheme:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/newPlotSpace</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTPlotSpace *)newPlotSpace</Declaration>
+			
+			
+			<Anchor>//api/name/newPlotSpace</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTGraph/newAxisSet</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTGraph.h</DeclaredIn>			
+			
+			<Declaration>- (CPTAxisSet *)newAxisSet</Declaration>
+			
+			
+			<Anchor>//api/name/newAxisSet</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

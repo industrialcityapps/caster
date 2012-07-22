@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CorePlot-CocoaTouch.h"
 
 @class ICPathView;
 
 @interface ICViewController : UIViewController
 
 @property(nonatomic, strong) IBOutlet ICPathView *pathView;
+@property(nonatomic, strong) IBOutlet CPTGraphHostingView *xGraphHostingView;
+@property(nonatomic, strong) IBOutlet CPTGraphHostingView *yGraphHostingView;
 
 @end

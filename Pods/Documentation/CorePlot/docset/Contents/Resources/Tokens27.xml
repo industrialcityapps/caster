@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLineStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setLineCap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGLineCap lineCap</Declaration>
+			
+			
+			<Anchor>//api/name/lineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/lineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGLineCap lineCap</Declaration>
+			
+			
+			<Anchor>//api/name/lineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setLineJoin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGLineJoin lineJoin</Declaration>
+			
+			
+			<Anchor>//api/name/lineJoin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/lineJoin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGLineJoin lineJoin</Declaration>
+			
+			
+			<Anchor>//api/name/lineJoin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setMiterLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat miterLimit</Declaration>
+			
+			
+			<Anchor>//api/name/miterLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/miterLimit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat miterLimit</Declaration>
+			
+			
+			<Anchor>//api/name/miterLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setLineWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/lineWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setDashPattern:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *dashPattern</Declaration>
+			
+			
+			<Anchor>//api/name/dashPattern</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/dashPattern</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) NSArray *dashPattern</Declaration>
+			
+			
+			<Anchor>//api/name/dashPattern</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setPatternPhase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat patternPhase</Declaration>
+			
+			
+			<Anchor>//api/name/patternPhase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/patternPhase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat patternPhase</Declaration>
+			
+			
+			<Anchor>//api/name/patternPhase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setLineColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTColor *lineColor</Declaration>
+			
+			
+			<Anchor>//api/name/lineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLineStyle/lineColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTColor *lineColor</Declaration>
+			
+			
+			<Anchor>//api/name/lineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTLineStyle/lineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>+ (id)lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLineStyle/setLineStyleInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLineStyle.h</DeclaredIn>			
+			
+			<Declaration>- (void)setLineStyleInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/setLineStyleInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

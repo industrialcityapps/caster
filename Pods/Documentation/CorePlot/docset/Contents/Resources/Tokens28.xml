@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTMutableLineStyle.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTMutableLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setLineCap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGLineCap lineCap</Declaration>
+			
+			
+			<Anchor>//api/name/lineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/lineCap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGLineCap lineCap</Declaration>
+			
+			
+			<Anchor>//api/name/lineCap</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setLineJoin:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGLineJoin lineJoin</Declaration>
+			
+			
+			<Anchor>//api/name/lineJoin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/lineJoin</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGLineJoin lineJoin</Declaration>
+			
+			
+			<Anchor>//api/name/lineJoin</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setMiterLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat miterLimit</Declaration>
+			
+			
+			<Anchor>//api/name/miterLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/miterLimit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat miterLimit</Declaration>
+			
+			
+			<Anchor>//api/name/miterLimit</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setLineWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/lineWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat lineWidth</Declaration>
+			
+			
+			<Anchor>//api/name/lineWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setDashPattern:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *dashPattern</Declaration>
+			
+			
+			<Anchor>//api/name/dashPattern</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/dashPattern</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) NSArray *dashPattern</Declaration>
+			
+			
+			<Anchor>//api/name/dashPattern</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setPatternPhase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat patternPhase</Declaration>
+			
+			
+			<Anchor>//api/name/patternPhase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/patternPhase</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat patternPhase</Declaration>
+			
+			
+			<Anchor>//api/name/patternPhase</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableLineStyle/setLineColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTColor *lineColor</Declaration>
+			
+			
+			<Anchor>//api/name/lineColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableLineStyle/lineColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableLineStyle.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTColor *lineColor</Declaration>
+			
+			
+			<Anchor>//api/name/lineColor</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

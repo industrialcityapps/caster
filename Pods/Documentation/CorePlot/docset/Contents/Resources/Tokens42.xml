@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTPlotSymbol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTPlotSymbol</TokenIdentifier>
+			<Abstract type="html">&lt; Custom symbol.</Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/size</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setSymbolType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTPlotSymbolType symbolType</Declaration>
+			
+			
+			<Anchor>//api/name/symbolType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/symbolType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTPlotSymbolType symbolType</Declaration>
+			
+			
+			<Anchor>//api/name/symbolType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/lineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/fill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, retain) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setShadow:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTShadow *shadow</Declaration>
+			
+			
+			<Anchor>//api/name/shadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/shadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTShadow *shadow</Declaration>
+			
+			
+			<Anchor>//api/name/shadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setCustomSymbolPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef customSymbolPath</Declaration>
+			
+			
+			<Anchor>//api/name/customSymbolPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/customSymbolPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGPathRef customSymbolPath</Declaration>
+			
+			
+			<Anchor>//api/name/customSymbolPath</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/setUsesEvenOddClipRule:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL usesEvenOddClipRule</Declaration>
+			
+			
+			<Anchor>//api/name/usesEvenOddClipRule</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTPlotSymbol/usesEvenOddClipRule</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL usesEvenOddClipRule</Declaration>
+			
+			
+			<Anchor>//api/name/usesEvenOddClipRule</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/plotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)plotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/plotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/crossPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)crossPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/crossPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/ellipsePlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)ellipsePlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/ellipsePlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/rectanglePlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)rectanglePlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/rectanglePlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/plusPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)plusPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/plusPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/starPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)starPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/starPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/diamondPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)diamondPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/diamondPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/trianglePlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)trianglePlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/trianglePlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/pentagonPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)pentagonPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/pentagonPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/hexagonPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)hexagonPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/hexagonPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/dashPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)dashPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/dashPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/snowPlotSymbol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)snowPlotSymbol</Declaration>
+			
+			
+			<Anchor>//api/name/snowPlotSymbol</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTPlotSymbol/customPlotSymbolWithPath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTPlotSymbol *)customPlotSymbolWithPath:(CGPathRef)aPath</Declaration>
+			
+			
+			<Anchor>//api/name/customPlotSymbolWithPath:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/renderInContext:atPoint:scale:alignToPixels:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderInContext:(CGContextRef)theContext atPoint:(CGPoint)center scale:(CGFloat)scale alignToPixels:(BOOL)alignToPixels</Declaration>
+			
+			
+			<Anchor>//api/name/renderInContext:atPoint:scale:alignToPixels:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTPlotSymbol/renderAsVectorInContext:atPoint:scale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlotSymbol.h</DeclaredIn>			
+			
+			<Declaration>- (void)renderAsVectorInContext:(CGContextRef)theContext atPoint:(CGPoint)center scale:(CGFloat)scale</Declaration>
+			
+			
+			<Anchor>//api/name/renderAsVectorInContext:atPoint:scale:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

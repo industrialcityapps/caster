@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTMutableNumericData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTMutableNumericData</TokenIdentifier>
+			<Abstract type="html">	@category CPTMutableNumericData(TypeConversion)
+	@brief Type conversion methods for CPTMutableNumericData.</Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setMutableBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) void *mutableBytes</Declaration>
+			
+			
+			<Anchor>//api/name/mutableBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/mutableBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (readonly) void *mutableBytes</Declaration>
+			
+			
+			<Anchor>//api/name/mutableBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setShape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readwrite) NSArray *shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/shape</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>@property (copy, readwrite) NSArray *shape</Declaration>
+			
+			
+			<Anchor>//api/name/shape</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTMutableNumericData/numericDataWithData:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTMutableNumericData *)numericDataWithData:(NSData *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithData:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTMutableNumericData/numericDataWithData:dataTypeString:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTMutableNumericData *)numericDataWithData:(NSData *)newData dataTypeString:(NSString *)newDataTypeString shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/numericDataWithData:dataTypeString:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/initWithData:dataType:shape:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)newData dataType:(CPTNumericDataType)newDataType shape:(NSArray *)shapeArray</Declaration>
+			
+			
+			<Anchor>//api/name/initWithData:dataType:shape:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setDataType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CPTNumericDataType dataType</Declaration>
+			
+			
+			<Anchor>//api/name/dataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/dataType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CPTNumericDataType dataType</Declaration>
+			
+			
+			<Anchor>//api/name/dataType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setDataTypeFormat:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CPTDataTypeFormat dataTypeFormat</Declaration>
+			
+			
+			<Anchor>//api/name/dataTypeFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/dataTypeFormat</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CPTDataTypeFormat dataTypeFormat</Declaration>
+			
+			
+			<Anchor>//api/name/dataTypeFormat</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setSampleBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) size_t sampleBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/sampleBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) size_t sampleBytes</Declaration>
+			
+			
+			<Anchor>//api/name/sampleBytes</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/setByteOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CFByteOrder byteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/byteOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTMutableNumericData/byteOrder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>@property (assign, readwrite) CFByteOrder byteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/byteOrder</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTMutableNumericData/convertToType:sampleBytes:byteOrder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTMutableNumericData+TypeConversion.h</DeclaredIn>			
+			
+			<Declaration>- (void)convertToType:(CPTDataTypeFormat)newDataType sampleBytes:(size_t)newSampleBytes byteOrder:(CFByteOrder)newByteOrder</Declaration>
+			
+			
+			<Anchor>//api/name/convertToType:sampleBytes:byteOrder:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,1027 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTGraph Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTGraph Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/axisSet">&nbsp;&nbsp;&nbsp;&nbsp;axisSet</option>
+	
+	<option value="//api/name/defaultPlotSpace">&nbsp;&nbsp;&nbsp;&nbsp;defaultPlotSpace</option>
+	
+	<option value="//api/name/legend">&nbsp;&nbsp;&nbsp;&nbsp;legend</option>
+	
+	<option value="//api/name/legendAnchor">&nbsp;&nbsp;&nbsp;&nbsp;legendAnchor</option>
+	
+	<option value="//api/name/legendDisplacement">&nbsp;&nbsp;&nbsp;&nbsp;legendDisplacement</option>
+	
+	<option value="//api/name/plotAreaFrame">&nbsp;&nbsp;&nbsp;&nbsp;plotAreaFrame</option>
+	
+	<option value="//api/name/title">&nbsp;&nbsp;&nbsp;&nbsp;title</option>
+	
+	<option value="//api/name/titleDisplacement">&nbsp;&nbsp;&nbsp;&nbsp;titleDisplacement</option>
+	
+	<option value="//api/name/titlePlotAreaFrameAnchor">&nbsp;&nbsp;&nbsp;&nbsp;titlePlotAreaFrameAnchor</option>
+	
+	<option value="//api/name/titleTextStyle">&nbsp;&nbsp;&nbsp;&nbsp;titleTextStyle</option>
+	
+	<option value="//api/name/topDownLayerOrder">&nbsp;&nbsp;&nbsp;&nbsp;topDownLayerOrder</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addPlot:">&nbsp;&nbsp;&nbsp;&nbsp;- addPlot:</option>
+	
+	<option value="//api/name/addPlot:toPlotSpace:">&nbsp;&nbsp;&nbsp;&nbsp;- addPlot:toPlotSpace:</option>
+	
+	<option value="//api/name/addPlotSpace:">&nbsp;&nbsp;&nbsp;&nbsp;- addPlotSpace:</option>
+	
+	<option value="//api/name/allPlotSpaces">&nbsp;&nbsp;&nbsp;&nbsp;- allPlotSpaces</option>
+	
+	<option value="//api/name/allPlots">&nbsp;&nbsp;&nbsp;&nbsp;- allPlots</option>
+	
+	<option value="//api/name/applyTheme:">&nbsp;&nbsp;&nbsp;&nbsp;- applyTheme:</option>
+	
+	<option value="//api/name/insertPlot:atIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- insertPlot:atIndex:</option>
+	
+	<option value="//api/name/insertPlot:atIndex:intoPlotSpace:">&nbsp;&nbsp;&nbsp;&nbsp;- insertPlot:atIndex:intoPlotSpace:</option>
+	
+	<option value="//api/name/newAxisSet">&nbsp;&nbsp;&nbsp;&nbsp;- newAxisSet</option>
+	
+	<option value="//api/name/newPlotSpace">&nbsp;&nbsp;&nbsp;&nbsp;- newPlotSpace</option>
+	
+	<option value="//api/name/plotAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- plotAtIndex:</option>
+	
+	<option value="//api/name/plotSpaceAtIndex:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpaceAtIndex:</option>
+	
+	<option value="//api/name/plotSpaceWithIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- plotSpaceWithIdentifier:</option>
+	
+	<option value="//api/name/plotWithIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- plotWithIdentifier:</option>
+	
+	<option value="//api/name/reloadData">&nbsp;&nbsp;&nbsp;&nbsp;- reloadData</option>
+	
+	<option value="//api/name/reloadDataIfNeeded">&nbsp;&nbsp;&nbsp;&nbsp;- reloadDataIfNeeded</option>
+	
+	<option value="//api/name/removePlot:">&nbsp;&nbsp;&nbsp;&nbsp;- removePlot:</option>
+	
+	<option value="//api/name/removePlotSpace:">&nbsp;&nbsp;&nbsp;&nbsp;- removePlotSpace:</option>
+	
+	<option value="//api/name/removePlotWithIdentifier:">&nbsp;&nbsp;&nbsp;&nbsp;- removePlotWithIdentifier:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Title">Title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Layers">Layers</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Legend">Legend</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Data Source">Data Source</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Retrieving Plots">Retrieving Plots</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Adding and Removing Plots">Adding and Removing Plots</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Retrieving Plot Spaces">Retrieving Plot Spaces</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Adding and Removing Plot Spaces">Adding and Removing Plot Spaces</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Themes">Themes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AbstractFactoryMethods Methods">AbstractFactoryMethods Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/axisSet">axisSet</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/defaultPlotSpace">defaultPlotSpace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/legend">legend</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/legendAnchor">legendAnchor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/legendDisplacement">legendDisplacement</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotAreaFrame">plotAreaFrame</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/title">title</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleDisplacement">titleDisplacement</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titlePlotAreaFrameAnchor">titlePlotAreaFrameAnchor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/titleTextStyle">titleTextStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/topDownLayerOrder">topDownLayerOrder</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPlot:">addPlot:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPlot:toPlotSpace:">addPlot:toPlotSpace:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPlotSpace:">addPlotSpace:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allPlotSpaces">allPlotSpaces</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allPlots">allPlots</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/applyTheme:">applyTheme:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertPlot:atIndex:">insertPlot:atIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/insertPlot:atIndex:intoPlotSpace:">insertPlot:atIndex:intoPlotSpace:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newAxisSet">newAxisSet</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/newPlotSpace">newPlotSpace</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotAtIndex:">plotAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpaceAtIndex:">plotSpaceAtIndex:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSpaceWithIdentifier:">plotSpaceWithIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotWithIdentifier:">plotWithIdentifier:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadData">reloadData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/reloadDataIfNeeded">reloadDataIfNeeded</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removePlot:">removePlot:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removePlotSpace:">removePlotSpace:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/removePlotWithIdentifier:">removePlotWithIdentifier:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTGraph Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTGraph Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/CPTBorderedLayer.html">CPTBorderedLayer</a> : <a href="../Classes/CPTAnnotationHostLayer.html">CPTAnnotationHostLayer</a> : <a href="../Classes/CPTLayer.html">CPTLayer</a> : CALayer</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTGraph.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>&lt; Axis titles.</p>
+
+<pre><code>@category CPTGraph(AbstractFactoryMethods)
+@brief CPTGraph abstract methods—must be overridden by subclasses
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Title" name="task_Title"></a>
+						<h3 class="subsubtitle task-title">Title</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/title">&nbsp;&nbsp;title</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleTextStyle">&nbsp;&nbsp;titleTextStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titleDisplacement">&nbsp;&nbsp;titleDisplacement</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/titlePlotAreaFrameAnchor">&nbsp;&nbsp;titlePlotAreaFrameAnchor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Layers" name="task_Layers"></a>
+						<h3 class="subsubtitle task-title">Layers</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/axisSet">&nbsp;&nbsp;axisSet</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotAreaFrame">&nbsp;&nbsp;plotAreaFrame</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/defaultPlotSpace">&nbsp;&nbsp;defaultPlotSpace</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/topDownLayerOrder">&nbsp;&nbsp;topDownLayerOrder</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Legend" name="task_Legend"></a>
+						<h3 class="subsubtitle task-title">Legend</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/legend">&nbsp;&nbsp;legend</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/legendAnchor">&nbsp;&nbsp;legendAnchor</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/legendDisplacement">&nbsp;&nbsp;legendDisplacement</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Data Source" name="task_Data Source"></a>
+						<h3 class="subsubtitle task-title">Data Source</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadData">&ndash;&nbsp;reloadData</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/reloadDataIfNeeded">&ndash;&nbsp;reloadDataIfNeeded</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Retrieving Plots" name="task_Retrieving Plots"></a>
+						<h3 class="subsubtitle task-title">Retrieving Plots</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allPlots">&ndash;&nbsp;allPlots</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotAtIndex:">&ndash;&nbsp;plotAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotWithIdentifier:">&ndash;&nbsp;plotWithIdentifier:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Adding and Removing Plots" name="task_Adding and Removing Plots"></a>
+						<h3 class="subsubtitle task-title">Adding and Removing Plots</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPlot:">&ndash;&nbsp;addPlot:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPlot:toPlotSpace:">&ndash;&nbsp;addPlot:toPlotSpace:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removePlot:">&ndash;&nbsp;removePlot:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removePlotWithIdentifier:">&ndash;&nbsp;removePlotWithIdentifier:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertPlot:atIndex:">&ndash;&nbsp;insertPlot:atIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/insertPlot:atIndex:intoPlotSpace:">&ndash;&nbsp;insertPlot:atIndex:intoPlotSpace:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Retrieving Plot Spaces" name="task_Retrieving Plot Spaces"></a>
+						<h3 class="subsubtitle task-title">Retrieving Plot Spaces</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allPlotSpaces">&ndash;&nbsp;allPlotSpaces</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpaceAtIndex:">&ndash;&nbsp;plotSpaceAtIndex:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSpaceWithIdentifier:">&ndash;&nbsp;plotSpaceWithIdentifier:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Adding and Removing Plot Spaces" name="task_Adding and Removing Plot Spaces"></a>
+						<h3 class="subsubtitle task-title">Adding and Removing Plot Spaces</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPlotSpace:">&ndash;&nbsp;addPlotSpace:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/removePlotSpace:">&ndash;&nbsp;removePlotSpace:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Themes" name="task_Themes"></a>
+						<h3 class="subsubtitle task-title">Themes</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/applyTheme:">&ndash;&nbsp;applyTheme:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="AbstractFactoryMethods Methods" name="task_AbstractFactoryMethods Methods"></a>
+						<h3 class="subsubtitle task-title">AbstractFactoryMethods Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newPlotSpace">&ndash;&nbsp;newPlotSpace</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/newAxisSet">&ndash;&nbsp;newAxisSet</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/axisSet" title="axisSet"></a>
+	<h3 class="subsubtitle method-title">axisSet</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTAxisSet *axisSet</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/defaultPlotSpace" title="defaultPlotSpace"></a>
+	<h3 class="subsubtitle method-title">defaultPlotSpace</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly, retain) CPTPlotSpace *defaultPlotSpace</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/legend" title="legend"></a>
+	<h3 class="subsubtitle method-title">legend</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTLegend *legend</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/legendAnchor" title="legendAnchor"></a>
+	<h3 class="subsubtitle method-title">legendAnchor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTRectAnchor legendAnchor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/legendDisplacement" title="legendDisplacement"></a>
+	<h3 class="subsubtitle method-title">legendDisplacement</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGPoint legendDisplacement</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotAreaFrame" title="plotAreaFrame"></a>
+	<h3 class="subsubtitle method-title">plotAreaFrame</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTPlotAreaFrame *plotAreaFrame</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/title" title="title"></a>
+	<h3 class="subsubtitle method-title">title</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) NSString *title</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleDisplacement" title="titleDisplacement"></a>
+	<h3 class="subsubtitle method-title">titleDisplacement</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGPoint titleDisplacement</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titlePlotAreaFrameAnchor" title="titlePlotAreaFrameAnchor"></a>
+	<h3 class="subsubtitle method-title">titlePlotAreaFrameAnchor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTRectAnchor titlePlotAreaFrameAnchor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/titleTextStyle" title="titleTextStyle"></a>
+	<h3 class="subsubtitle method-title">titleTextStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTTextStyle *titleTextStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/topDownLayerOrder" title="topDownLayerOrder"></a>
+	<h3 class="subsubtitle method-title">topDownLayerOrder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) NSArray *topDownLayerOrder</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addPlot:" title="addPlot:"></a>
+	<h3 class="subsubtitle method-title">addPlot:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPlot:(CPTPlot *)<em>plot</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addPlot:toPlotSpace:" title="addPlot:toPlotSpace:"></a>
+	<h3 class="subsubtitle method-title">addPlot:toPlotSpace:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPlot:(CPTPlot *)<em>plot</em> toPlotSpace:(CPTPlotSpace *)<em>space</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addPlotSpace:" title="addPlotSpace:"></a>
+	<h3 class="subsubtitle method-title">addPlotSpace:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPlotSpace:(CPTPlotSpace *)<em>space</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allPlotSpaces" title="allPlotSpaces"></a>
+	<h3 class="subsubtitle method-title">allPlotSpaces</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)allPlotSpaces</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/allPlots" title="allPlots"></a>
+	<h3 class="subsubtitle method-title">allPlots</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)allPlots</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/applyTheme:" title="applyTheme:"></a>
+	<h3 class="subsubtitle method-title">applyTheme:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)applyTheme:(CPTTheme *)<em>theme</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertPlot:atIndex:" title="insertPlot:atIndex:"></a>
+	<h3 class="subsubtitle method-title">insertPlot:atIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)insertPlot:(CPTPlot *)<em>plot</em> atIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/insertPlot:atIndex:intoPlotSpace:" title="insertPlot:atIndex:intoPlotSpace:"></a>
+	<h3 class="subsubtitle method-title">insertPlot:atIndex:intoPlotSpace:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)insertPlot:(CPTPlot *)<em>plot</em> atIndex:(NSUInteger)<em>index</em> intoPlotSpace:(CPTPlotSpace *)<em>space</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newAxisSet" title="newAxisSet"></a>
+	<h3 class="subsubtitle method-title">newAxisSet</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTAxisSet *)newAxisSet</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/newPlotSpace" title="newPlotSpace"></a>
+	<h3 class="subsubtitle method-title">newPlotSpace</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotSpace *)newPlotSpace</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotAtIndex:" title="plotAtIndex:"></a>
+	<h3 class="subsubtitle method-title">plotAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlot *)plotAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpaceAtIndex:" title="plotSpaceAtIndex:"></a>
+	<h3 class="subsubtitle method-title">plotSpaceAtIndex:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotSpace *)plotSpaceAtIndex:(NSUInteger)<em>index</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSpaceWithIdentifier:" title="plotSpaceWithIdentifier:"></a>
+	<h3 class="subsubtitle method-title">plotSpaceWithIdentifier:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotSpace *)plotSpaceWithIdentifier:(id&lt;NSCopying&gt;)<em>identifier</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotWithIdentifier:" title="plotWithIdentifier:"></a>
+	<h3 class="subsubtitle method-title">plotWithIdentifier:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlot *)plotWithIdentifier:(id&lt;NSCopying&gt;)<em>identifier</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadData" title="reloadData"></a>
+	<h3 class="subsubtitle method-title">reloadData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/reloadDataIfNeeded" title="reloadDataIfNeeded"></a>
+	<h3 class="subsubtitle method-title">reloadDataIfNeeded</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)reloadDataIfNeeded</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removePlot:" title="removePlot:"></a>
+	<h3 class="subsubtitle method-title">removePlot:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removePlot:(CPTPlot *)<em>plot</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removePlotSpace:" title="removePlotSpace:"></a>
+	<h3 class="subsubtitle method-title">removePlotSpace:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removePlotSpace:(CPTPlotSpace *)<em>plotSpace</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/removePlotWithIdentifier:" title="removePlotWithIdentifier:"></a>
+	<h3 class="subsubtitle method-title">removePlotWithIdentifier:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)removePlotWithIdentifier:(id&lt;NSCopying&gt;)<em>identifier</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

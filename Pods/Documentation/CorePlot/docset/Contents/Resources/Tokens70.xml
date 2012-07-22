@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSNumber+CPTPlatformSpecificNumberExtensions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSNumber(CPTPlatformSpecificNumberExtensions)</TokenIdentifier>
+			<Abstract type="html">	@category NSNumber(CPTPlatformSpecificNumberExtensions)
+	@brief Platform-specific extensions to NSNumber.</Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNumber(CPTPlatformSpecificNumberExtensions)/isLessThan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isLessThan:(NSNumber *)other</Declaration>
+			
+			
+			<Anchor>//api/name/isLessThan:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNumber(CPTPlatformSpecificNumberExtensions)/isLessThanOrEqualTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isLessThanOrEqualTo:(NSNumber *)other</Declaration>
+			
+			
+			<Anchor>//api/name/isLessThanOrEqualTo:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNumber(CPTPlatformSpecificNumberExtensions)/isGreaterThan:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isGreaterThan:(NSNumber *)other</Declaration>
+			
+			
+			<Anchor>//api/name/isGreaterThan:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSNumber(CPTPlatformSpecificNumberExtensions)/isGreaterThanOrEqualTo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTPlatformSpecificCategories.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isGreaterThanOrEqualTo:(NSNumber *)other</Declaration>
+			
+			
+			<Anchor>//api/name/isGreaterThanOrEqualTo:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

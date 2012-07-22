@@ -1,0 +1,791 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTPlotSymbol Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTPlotSymbol Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/customSymbolPath">&nbsp;&nbsp;&nbsp;&nbsp;customSymbolPath</option>
+	
+	<option value="//api/name/fill">&nbsp;&nbsp;&nbsp;&nbsp;fill</option>
+	
+	<option value="//api/name/lineStyle">&nbsp;&nbsp;&nbsp;&nbsp;lineStyle</option>
+	
+	<option value="//api/name/shadow">&nbsp;&nbsp;&nbsp;&nbsp;shadow</option>
+	
+	<option value="//api/name/size">&nbsp;&nbsp;&nbsp;&nbsp;size</option>
+	
+	<option value="//api/name/symbolType">&nbsp;&nbsp;&nbsp;&nbsp;symbolType</option>
+	
+	<option value="//api/name/usesEvenOddClipRule">&nbsp;&nbsp;&nbsp;&nbsp;usesEvenOddClipRule</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/crossPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ crossPlotSymbol</option>
+	
+	<option value="//api/name/customPlotSymbolWithPath:">&nbsp;&nbsp;&nbsp;&nbsp;+ customPlotSymbolWithPath:</option>
+	
+	<option value="//api/name/dashPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ dashPlotSymbol</option>
+	
+	<option value="//api/name/diamondPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ diamondPlotSymbol</option>
+	
+	<option value="//api/name/ellipsePlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ ellipsePlotSymbol</option>
+	
+	<option value="//api/name/hexagonPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ hexagonPlotSymbol</option>
+	
+	<option value="//api/name/pentagonPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ pentagonPlotSymbol</option>
+	
+	<option value="//api/name/plotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ plotSymbol</option>
+	
+	<option value="//api/name/plusPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ plusPlotSymbol</option>
+	
+	<option value="//api/name/rectanglePlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ rectanglePlotSymbol</option>
+	
+	<option value="//api/name/snowPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ snowPlotSymbol</option>
+	
+	<option value="//api/name/starPlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ starPlotSymbol</option>
+	
+	<option value="//api/name/trianglePlotSymbol">&nbsp;&nbsp;&nbsp;&nbsp;+ trianglePlotSymbol</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/renderAsVectorInContext:atPoint:scale:">&nbsp;&nbsp;&nbsp;&nbsp;- renderAsVectorInContext:atPoint:scale:</option>
+	
+	<option value="//api/name/renderInContext:atPoint:scale:alignToPixels:">&nbsp;&nbsp;&nbsp;&nbsp;- renderInContext:atPoint:scale:alignToPixels:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Drawing">Drawing</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customSymbolPath">customSymbolPath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fill">fill</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lineStyle">lineStyle</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shadow">shadow</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/size">size</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/symbolType">symbolType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/usesEvenOddClipRule">usesEvenOddClipRule</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/crossPlotSymbol">crossPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/customPlotSymbolWithPath:">customPlotSymbolWithPath:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dashPlotSymbol">dashPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/diamondPlotSymbol">diamondPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/ellipsePlotSymbol">ellipsePlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/hexagonPlotSymbol">hexagonPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pentagonPlotSymbol">pentagonPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotSymbol">plotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plusPlotSymbol">plusPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rectanglePlotSymbol">rectanglePlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/snowPlotSymbol">snowPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/starPlotSymbol">starPlotSymbol</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/trianglePlotSymbol">trianglePlotSymbol</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderAsVectorInContext:atPoint:scale:">renderAsVectorInContext:atPoint:scale:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/renderInContext:atPoint:scale:alignToPixels:">renderInContext:atPoint:scale:alignToPixels:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTPlotSymbol Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTPlotSymbol Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTPlotSymbol.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>&lt; Custom symbol.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/size">&nbsp;&nbsp;size</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/symbolType">&nbsp;&nbsp;symbolType</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lineStyle">&nbsp;&nbsp;lineStyle</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fill">&nbsp;&nbsp;fill</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shadow">&nbsp;&nbsp;shadow</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customSymbolPath">&nbsp;&nbsp;customSymbolPath</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/usesEvenOddClipRule">&nbsp;&nbsp;usesEvenOddClipRule</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotSymbol">+&nbsp;plotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/crossPlotSymbol">+&nbsp;crossPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/ellipsePlotSymbol">+&nbsp;ellipsePlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rectanglePlotSymbol">+&nbsp;rectanglePlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plusPlotSymbol">+&nbsp;plusPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/starPlotSymbol">+&nbsp;starPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/diamondPlotSymbol">+&nbsp;diamondPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/trianglePlotSymbol">+&nbsp;trianglePlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pentagonPlotSymbol">+&nbsp;pentagonPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/hexagonPlotSymbol">+&nbsp;hexagonPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dashPlotSymbol">+&nbsp;dashPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/snowPlotSymbol">+&nbsp;snowPlotSymbol</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/customPlotSymbolWithPath:">+&nbsp;customPlotSymbolWithPath:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Drawing" name="task_Drawing"></a>
+						<h3 class="subsubtitle task-title">Drawing</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderInContext:atPoint:scale:alignToPixels:">&ndash;&nbsp;renderInContext:atPoint:scale:alignToPixels:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/renderAsVectorInContext:atPoint:scale:">&ndash;&nbsp;renderAsVectorInContext:atPoint:scale:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/customSymbolPath" title="customSymbolPath"></a>
+	<h3 class="subsubtitle method-title">customSymbolPath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGPathRef customSymbolPath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fill" title="fill"></a>
+	<h3 class="subsubtitle method-title">fill</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTFill *fill</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lineStyle" title="lineStyle"></a>
+	<h3 class="subsubtitle method-title">lineStyle</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, retain) CPTLineStyle *lineStyle</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shadow" title="shadow"></a>
+	<h3 class="subsubtitle method-title">shadow</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) CPTShadow *shadow</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/size" title="size"></a>
+	<h3 class="subsubtitle method-title">size</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CGSize size</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/symbolType" title="symbolType"></a>
+	<h3 class="subsubtitle method-title">symbolType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) CPTPlotSymbolType symbolType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/usesEvenOddClipRule" title="usesEvenOddClipRule"></a>
+	<h3 class="subsubtitle method-title">usesEvenOddClipRule</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) BOOL usesEvenOddClipRule</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/crossPlotSymbol" title="crossPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">crossPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)crossPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/customPlotSymbolWithPath:" title="customPlotSymbolWithPath:"></a>
+	<h3 class="subsubtitle method-title">customPlotSymbolWithPath:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)customPlotSymbolWithPath:(CGPathRef)<em>aPath</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dashPlotSymbol" title="dashPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">dashPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)dashPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/diamondPlotSymbol" title="diamondPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">diamondPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)diamondPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/ellipsePlotSymbol" title="ellipsePlotSymbol"></a>
+	<h3 class="subsubtitle method-title">ellipsePlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)ellipsePlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/hexagonPlotSymbol" title="hexagonPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">hexagonPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)hexagonPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pentagonPlotSymbol" title="pentagonPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">pentagonPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)pentagonPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotSymbol" title="plotSymbol"></a>
+	<h3 class="subsubtitle method-title">plotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)plotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plusPlotSymbol" title="plusPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">plusPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)plusPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rectanglePlotSymbol" title="rectanglePlotSymbol"></a>
+	<h3 class="subsubtitle method-title">rectanglePlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)rectanglePlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/snowPlotSymbol" title="snowPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">snowPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)snowPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/starPlotSymbol" title="starPlotSymbol"></a>
+	<h3 class="subsubtitle method-title">starPlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)starPlotSymbol</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/trianglePlotSymbol" title="trianglePlotSymbol"></a>
+	<h3 class="subsubtitle method-title">trianglePlotSymbol</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTPlotSymbol *)trianglePlotSymbol</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/renderAsVectorInContext:atPoint:scale:" title="renderAsVectorInContext:atPoint:scale:"></a>
+	<h3 class="subsubtitle method-title">renderAsVectorInContext:atPoint:scale:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)renderAsVectorInContext:(CGContextRef)<em>theContext</em> atPoint:(CGPoint)<em>center</em> scale:(CGFloat)<em>scale</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/renderInContext:atPoint:scale:alignToPixels:" title="renderInContext:atPoint:scale:alignToPixels:"></a>
+	<h3 class="subsubtitle method-title">renderInContext:atPoint:scale:alignToPixels:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)renderInContext:(CGContextRef)<em>theContext</em> atPoint:(CGPoint)<em>center</em> scale:(CGFloat)<em>scale</em> alignToPixels:(BOOL)<em>alignToPixels</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

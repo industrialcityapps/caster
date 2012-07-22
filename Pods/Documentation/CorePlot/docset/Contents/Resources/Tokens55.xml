@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/_CPTConstraintsFixed.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/_CPTConstraintsFixed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTConstraintsFixed.h</DeclaredIn>
+			
+			<NodeRef refid="55"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTConstraintsFixed/initWithLowerOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTConstraintsFixed.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithLowerOffset:(CGFloat)newOffset</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLowerOffset:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTConstraintsFixed/initWithUpperOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTConstraintsFixed.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithUpperOffset:(CGFloat)newOffset</Declaration>
+			
+			
+			<Anchor>//api/name/initWithUpperOffset:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTConstraintsFixed/isEqualToConstraint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTConstraintsFixed.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)isEqualToConstraint:(CPTConstraints *)otherConstraint</Declaration>
+			
+			
+			<Anchor>//api/name/isEqualToConstraint:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/_CPTConstraintsFixed/positionForLowerBound:upperBound:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>_CPTConstraintsFixed.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)positionForLowerBound:(CGFloat)lowerBound upperBound:(CGFloat)upperBound</Declaration>
+			
+			
+			<Anchor>//api/name/positionForLowerBound:upperBound:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

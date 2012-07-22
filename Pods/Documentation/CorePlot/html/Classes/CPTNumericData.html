@@ -1,0 +1,901 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTNumericData Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTNumericData Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/byteOrder">&nbsp;&nbsp;&nbsp;&nbsp;byteOrder</option>
+	
+	<option value="//api/name/bytes">&nbsp;&nbsp;&nbsp;&nbsp;bytes</option>
+	
+	<option value="//api/name/data">&nbsp;&nbsp;&nbsp;&nbsp;data</option>
+	
+	<option value="//api/name/dataType">&nbsp;&nbsp;&nbsp;&nbsp;dataType</option>
+	
+	<option value="//api/name/dataTypeFormat">&nbsp;&nbsp;&nbsp;&nbsp;dataTypeFormat</option>
+	
+	<option value="//api/name/length">&nbsp;&nbsp;&nbsp;&nbsp;length</option>
+	
+	<option value="//api/name/numberOfDimensions">&nbsp;&nbsp;&nbsp;&nbsp;numberOfDimensions</option>
+	
+	<option value="//api/name/numberOfSamples">&nbsp;&nbsp;&nbsp;&nbsp;numberOfSamples</option>
+	
+	<option value="//api/name/sampleBytes">&nbsp;&nbsp;&nbsp;&nbsp;sampleBytes</option>
+	
+	<option value="//api/name/shape">&nbsp;&nbsp;&nbsp;&nbsp;shape</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/numericDataWithArray:dataType:shape:">&nbsp;&nbsp;&nbsp;&nbsp;+ numericDataWithArray:dataType:shape:</option>
+	
+	<option value="//api/name/numericDataWithArray:dataTypeString:shape:">&nbsp;&nbsp;&nbsp;&nbsp;+ numericDataWithArray:dataTypeString:shape:</option>
+	
+	<option value="//api/name/numericDataWithData:dataType:shape:">&nbsp;&nbsp;&nbsp;&nbsp;+ numericDataWithData:dataType:shape:</option>
+	
+	<option value="//api/name/numericDataWithData:dataTypeString:shape:">&nbsp;&nbsp;&nbsp;&nbsp;+ numericDataWithData:dataTypeString:shape:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/convertData:dataType:toData:dataType:">&nbsp;&nbsp;&nbsp;&nbsp;- convertData:dataType:toData:dataType:</option>
+	
+	<option value="//api/name/dataByConvertingToDataType:">&nbsp;&nbsp;&nbsp;&nbsp;- dataByConvertingToDataType:</option>
+	
+	<option value="//api/name/dataByConvertingToType:sampleBytes:byteOrder:">&nbsp;&nbsp;&nbsp;&nbsp;- dataByConvertingToType:sampleBytes:byteOrder:</option>
+	
+	<option value="//api/name/initWithArray:dataType:shape:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithArray:dataType:shape:</option>
+	
+	<option value="//api/name/initWithArray:dataTypeString:shape:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithArray:dataTypeString:shape:</option>
+	
+	<option value="//api/name/initWithData:dataType:shape:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithData:dataType:shape:</option>
+	
+	<option value="//api/name/initWithData:dataTypeString:shape:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithData:dataTypeString:shape:</option>
+	
+	<option value="//api/name/sampleArray">&nbsp;&nbsp;&nbsp;&nbsp;- sampleArray</option>
+	
+	<option value="//api/name/samplePointer:">&nbsp;&nbsp;&nbsp;&nbsp;- samplePointer:</option>
+	
+	<option value="//api/name/sampleValue:">&nbsp;&nbsp;&nbsp;&nbsp;- sampleValue:</option>
+	
+	<option value="//api/name/swapByteOrderForData:sampleSize:">&nbsp;&nbsp;&nbsp;&nbsp;- swapByteOrderForData:sampleSize:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Data Buffer">Data Buffer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Data Format">Data Format</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Dimensions">Dimensions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Factory Methods">Factory Methods</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Initialization">Initialization</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Samples">Samples</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_TypeConversion Methods">TypeConversion Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/byteOrder">byteOrder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bytes">bytes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/data">data</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataType">dataType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataTypeFormat">dataTypeFormat</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/length">length</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfDimensions">numberOfDimensions</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numberOfSamples">numberOfSamples</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sampleBytes">sampleBytes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shape">shape</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numericDataWithArray:dataType:shape:">numericDataWithArray:dataType:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numericDataWithArray:dataTypeString:shape:">numericDataWithArray:dataTypeString:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numericDataWithData:dataType:shape:">numericDataWithData:dataType:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/numericDataWithData:dataTypeString:shape:">numericDataWithData:dataTypeString:shape:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/convertData:dataType:toData:dataType:">convertData:dataType:toData:dataType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataByConvertingToDataType:">dataByConvertingToDataType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataByConvertingToType:sampleBytes:byteOrder:">dataByConvertingToType:sampleBytes:byteOrder:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithArray:dataType:shape:">initWithArray:dataType:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithArray:dataTypeString:shape:">initWithArray:dataTypeString:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithData:dataType:shape:">initWithData:dataType:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithData:dataTypeString:shape:">initWithData:dataTypeString:shape:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sampleArray">sampleArray</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/samplePointer:">samplePointer:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sampleValue:">sampleValue:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/swapByteOrderForData:sampleSize:">swapByteOrderForData:sampleSize:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTNumericData Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTNumericData Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">NSCoding<br />NSCopying<br />NSMutableCopying</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTNumericData.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<pre><code>@category CPTNumericData(TypeConversion)
+@brief Type conversion methods for CPTNumericData.
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						<a title="Data Buffer" name="task_Data Buffer"></a>
+						<h3 class="subsubtitle task-title">Data Buffer</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/data">&nbsp;&nbsp;data</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bytes">&nbsp;&nbsp;bytes</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/length">&nbsp;&nbsp;length</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Data Format" name="task_Data Format"></a>
+						<h3 class="subsubtitle task-title">Data Format</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataType">&nbsp;&nbsp;dataType</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataTypeFormat">&nbsp;&nbsp;dataTypeFormat</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sampleBytes">&nbsp;&nbsp;sampleBytes</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/byteOrder">&nbsp;&nbsp;byteOrder</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Dimensions" name="task_Dimensions"></a>
+						<h3 class="subsubtitle task-title">Dimensions</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shape">&nbsp;&nbsp;shape</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfDimensions">&nbsp;&nbsp;numberOfDimensions</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numberOfSamples">&nbsp;&nbsp;numberOfSamples</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="Factory Methods" name="task_Factory Methods"></a>
+						<h3 class="subsubtitle task-title">Factory Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numericDataWithData:dataType:shape:">+&nbsp;numericDataWithData:dataType:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numericDataWithData:dataTypeString:shape:">+&nbsp;numericDataWithData:dataTypeString:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numericDataWithArray:dataType:shape:">+&nbsp;numericDataWithArray:dataType:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/numericDataWithArray:dataTypeString:shape:">+&nbsp;numericDataWithArray:dataTypeString:shape:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Initialization" name="task_Initialization"></a>
+						<h3 class="subsubtitle task-title">Initialization</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithData:dataType:shape:">&ndash;&nbsp;initWithData:dataType:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithData:dataTypeString:shape:">&ndash;&nbsp;initWithData:dataTypeString:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithArray:dataType:shape:">&ndash;&nbsp;initWithArray:dataType:shape:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithArray:dataTypeString:shape:">&ndash;&nbsp;initWithArray:dataTypeString:shape:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Samples" name="task_Samples"></a>
+						<h3 class="subsubtitle task-title">Samples</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/samplePointer:">&ndash;&nbsp;samplePointer:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sampleValue:">&ndash;&nbsp;sampleValue:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sampleArray">&ndash;&nbsp;sampleArray</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="TypeConversion Methods" name="task_TypeConversion Methods"></a>
+						<h3 class="subsubtitle task-title">TypeConversion Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataByConvertingToDataType:">&ndash;&nbsp;dataByConvertingToDataType:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataByConvertingToType:sampleBytes:byteOrder:">&ndash;&nbsp;dataByConvertingToType:sampleBytes:byteOrder:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/convertData:dataType:toData:dataType:">&ndash;&nbsp;convertData:dataType:toData:dataType:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/swapByteOrderForData:sampleSize:">&ndash;&nbsp;swapByteOrderForData:sampleSize:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/byteOrder" title="byteOrder"></a>
+	<h3 class="subsubtitle method-title">byteOrder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) CFByteOrder byteOrder</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/bytes" title="bytes"></a>
+	<h3 class="subsubtitle method-title">bytes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) const void *bytes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/data" title="data"></a>
+	<h3 class="subsubtitle method-title">data</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (copy, readonly) NSData *data</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataType" title="dataType"></a>
+	<h3 class="subsubtitle method-title">dataType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (assign, readonly) CPTNumericDataType dataType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataTypeFormat" title="dataTypeFormat"></a>
+	<h3 class="subsubtitle method-title">dataTypeFormat</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) CPTDataTypeFormat dataTypeFormat</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/length" title="length"></a>
+	<h3 class="subsubtitle method-title">length</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) NSUInteger length</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfDimensions" title="numberOfDimensions"></a>
+	<h3 class="subsubtitle method-title">numberOfDimensions</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) NSUInteger numberOfDimensions</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numberOfSamples" title="numberOfSamples"></a>
+	<h3 class="subsubtitle method-title">numberOfSamples</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) NSUInteger numberOfSamples</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sampleBytes" title="sampleBytes"></a>
+	<h3 class="subsubtitle method-title">sampleBytes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (readonly) size_t sampleBytes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shape" title="shape"></a>
+	<h3 class="subsubtitle method-title">shape</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (copy, readonly) NSArray *shape</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/numericDataWithArray:dataType:shape:" title="numericDataWithArray:dataType:shape:"></a>
+	<h3 class="subsubtitle method-title">numericDataWithArray:dataType:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTNumericData *)numericDataWithArray:(NSArray *)<em>newData</em> dataType:(CPTNumericDataType)<em>newDataType</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numericDataWithArray:dataTypeString:shape:" title="numericDataWithArray:dataTypeString:shape:"></a>
+	<h3 class="subsubtitle method-title">numericDataWithArray:dataTypeString:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTNumericData *)numericDataWithArray:(NSArray *)<em>newData</em> dataTypeString:(NSString *)<em>newDataTypeString</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numericDataWithData:dataType:shape:" title="numericDataWithData:dataType:shape:"></a>
+	<h3 class="subsubtitle method-title">numericDataWithData:dataType:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTNumericData *)numericDataWithData:(NSData *)<em>newData</em> dataType:(CPTNumericDataType)<em>newDataType</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/numericDataWithData:dataTypeString:shape:" title="numericDataWithData:dataTypeString:shape:"></a>
+	<h3 class="subsubtitle method-title">numericDataWithData:dataTypeString:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (CPTNumericData *)numericDataWithData:(NSData *)<em>newData</em> dataTypeString:(NSString *)<em>newDataTypeString</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/convertData:dataType:toData:dataType:" title="convertData:dataType:toData:dataType:"></a>
+	<h3 class="subsubtitle method-title">convertData:dataType:toData:dataType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)convertData:(NSData *)<em>sourceData</em> dataType:(CPTNumericDataType *)<em>sourceDataType</em> toData:(NSMutableData *)<em>destData</em> dataType:(CPTNumericDataType *)<em>destDataType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataByConvertingToDataType:" title="dataByConvertingToDataType:"></a>
+	<h3 class="subsubtitle method-title">dataByConvertingToDataType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTNumericData *)dataByConvertingToDataType:(CPTNumericDataType)<em>newDataType</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataByConvertingToType:sampleBytes:byteOrder:" title="dataByConvertingToType:sampleBytes:byteOrder:"></a>
+	<h3 class="subsubtitle method-title">dataByConvertingToType:sampleBytes:byteOrder:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTNumericData *)dataByConvertingToType:(CPTDataTypeFormat)<em>newDataType</em> sampleBytes:(size_t)<em>newSampleBytes</em> byteOrder:(CFByteOrder)<em>newByteOrder</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithArray:dataType:shape:" title="initWithArray:dataType:shape:"></a>
+	<h3 class="subsubtitle method-title">initWithArray:dataType:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithArray:(NSArray *)<em>newData</em> dataType:(CPTNumericDataType)<em>newDataType</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithArray:dataTypeString:shape:" title="initWithArray:dataTypeString:shape:"></a>
+	<h3 class="subsubtitle method-title">initWithArray:dataTypeString:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithArray:(NSArray *)<em>newData</em> dataTypeString:(NSString *)<em>newDataTypeString</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithData:dataType:shape:" title="initWithData:dataType:shape:"></a>
+	<h3 class="subsubtitle method-title">initWithData:dataType:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithData:(NSData *)<em>newData</em> dataType:(CPTNumericDataType)<em>newDataType</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithData:dataTypeString:shape:" title="initWithData:dataTypeString:shape:"></a>
+	<h3 class="subsubtitle method-title">initWithData:dataTypeString:shape:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithData:(NSData *)<em>newData</em> dataTypeString:(NSString *)<em>newDataTypeString</em> shape:(NSArray *)<em>shapeArray</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sampleArray" title="sampleArray"></a>
+	<h3 class="subsubtitle method-title">sampleArray</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)sampleArray</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/samplePointer:" title="samplePointer:"></a>
+	<h3 class="subsubtitle method-title">samplePointer:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void *)samplePointer:(NSUInteger)<em>sample</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sampleValue:" title="sampleValue:"></a>
+	<h3 class="subsubtitle method-title">sampleValue:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSNumber *)sampleValue:(NSUInteger)<em>sample</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/swapByteOrderForData:sampleSize:" title="swapByteOrderForData:sampleSize:"></a>
+	<h3 class="subsubtitle method-title">swapByteOrderForData:sampleSize:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)swapByteOrderForData:(NSMutableData *)<em>sourceData</em> sampleSize:(size_t)<em>sampleSize</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

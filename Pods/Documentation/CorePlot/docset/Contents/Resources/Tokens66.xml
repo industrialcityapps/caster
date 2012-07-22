@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/CALayer+CPTExtensions.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/CALayer(CPTExtensions)</TokenIdentifier>
+			<Abstract type="html">	@cond</Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>
+			
+			<NodeRef refid="66"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CALayer(CPTExtensions)/setContentsScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite) CGFloat contentsScale</Declaration>
+			
+			
+			<Anchor>//api/name/contentsScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfp/CALayer(CPTExtensions)/contentsScale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite) CGFloat contentsScale</Declaration>
+			
+			
+			<Anchor>//api/name/contentsScale</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

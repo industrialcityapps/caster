@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTPieChartDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTPieChartDataSource</TokenIdentifier>
+			<Abstract type="html">	@brief A pie chart data source.</Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>
+			
+			<NodeRef refid="76"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPieChartDataSource/sliceFillForPieChart:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a fill for the given pie chart slice.</Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>- (CPTFill *)sliceFillForPieChart:(CPTPieChart *)pieChart recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pieChart</Name>
+					<Abstract type="html">The pie chart.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The pie slice fill for the slice with the given index.</Abstract></ReturnValue>
+			<Anchor>//api/name/sliceFillForPieChart:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPieChartDataSource/radialOffsetForPieChart:recordIndex:</TokenIdentifier>
+			<Abstract type="html">@brief (Optional) Offsets the slice radially from the center point. Can be used to &quot;explode&quot; the chart.</Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>- (CGFloat)radialOffsetForPieChart:(CPTPieChart *)pieChart recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pieChart</Name>
+					<Abstract type="html">The pie chart.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The radial offset in view coordinates. Zero is no offset.</Abstract></ReturnValue>
+			<Anchor>//api/name/radialOffsetForPieChart:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTPieChartDataSource/legendTitleForPieChart:recordIndex:</TokenIdentifier>
+			<Abstract type="html">@brief (Optional) Gets the legend title for the given pie chart slice.</Abstract>
+			<DeclaredIn>CPTPieChart.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)legendTitleForPieChart:(CPTPieChart *)pieChart recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>pieChart</Name>
+					<Abstract type="html">The pie chart.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The title text for the legend entry for the point with the given index.</Abstract></ReturnValue>
+			<Anchor>//api/name/legendTitleForPieChart:recordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

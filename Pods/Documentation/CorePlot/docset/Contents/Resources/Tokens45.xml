@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTShadow.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTShadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTShadow/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTShadow/shadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTShadow/setShadowBlurRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTShadow/shadowBlurRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat shadowBlurRadius</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlurRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTShadow/setShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTShadow/shadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, retain) CPTColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTShadow/shadow</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>+ (id)shadow</Declaration>
+			
+			
+			<Anchor>//api/name/shadow</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTShadow/setShadowInContext:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTShadow.h</DeclaredIn>			
+			
+			<Declaration>- (void)setShadowInContext:(CGContextRef)theContext</Declaration>
+			
+			
+			<Anchor>//api/name/setShadowInContext:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

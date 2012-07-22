@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTBarPlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTBarPlot</TokenIdentifier>
+			<Abstract type="html">	@}</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarWidthsAreInViewCoordinates:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barWidthsAreInViewCoordinates</Declaration>
+			
+			
+			<Anchor>//api/name/barWidthsAreInViewCoordinates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barWidthsAreInViewCoordinates</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barWidthsAreInViewCoordinates</Declaration>
+			
+			
+			<Anchor>//api/name/barWidthsAreInViewCoordinates</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal barWidth</Declaration>
+			
+			
+			<Anchor>//api/name/barWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal barWidth</Declaration>
+			
+			
+			<Anchor>//api/name/barWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarWidthScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barWidthScale</Declaration>
+			
+			
+			<Anchor>//api/name/barWidthScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barWidthScale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barWidthScale</Declaration>
+			
+			
+			<Anchor>//api/name/barWidthScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal barOffset</Declaration>
+			
+			
+			<Anchor>//api/name/barOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal barOffset</Declaration>
+			
+			
+			<Anchor>//api/name/barOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarOffsetScale:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barOffsetScale</Declaration>
+			
+			
+			<Anchor>//api/name/barOffsetScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barOffsetScale</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barOffsetScale</Declaration>
+			
+			
+			<Anchor>//api/name/barOffsetScale</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarCornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/barCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barCornerRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/barCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/lineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/fill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *fill</Declaration>
+			
+			
+			<Anchor>//api/name/fill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarsAreHorizontal:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barsAreHorizontal</Declaration>
+			
+			
+			<Anchor>//api/name/barsAreHorizontal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barsAreHorizontal</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barsAreHorizontal</Declaration>
+			
+			
+			<Anchor>//api/name/barsAreHorizontal</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBaseValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal baseValue</Declaration>
+			
+			
+			<Anchor>//api/name/baseValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/baseValue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) NSDecimal baseValue</Declaration>
+			
+			
+			<Anchor>//api/name/baseValue</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setBarBasesVary:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barBasesVary</Declaration>
+			
+			
+			<Anchor>//api/name/barBasesVary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/barBasesVary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) BOOL barBasesVary</Declaration>
+			
+			
+			<Anchor>//api/name/barBasesVary</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTBarPlot/setPlotRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *plotRange</Declaration>
+			
+			
+			<Anchor>//api/name/plotRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTBarPlot/plotRange</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTPlotRange *plotRange</Declaration>
+			
+			
+			<Anchor>//api/name/plotRange</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/CPTBarPlot/tubularBarPlotWithColor:horizontalBars:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>+ (CPTBarPlot *)tubularBarPlotWithColor:(CPTColor *)color horizontalBars:(BOOL)horizontal</Declaration>
+			
+			
+			<Anchor>//api/name/tubularBarPlotWithColor:horizontalBars:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

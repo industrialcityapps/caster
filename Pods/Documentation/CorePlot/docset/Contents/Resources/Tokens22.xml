@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTLayerAnnotation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTLayerAnnotation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayerAnnotation/setAnchorLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTLayer *anchorLayer</Declaration>
+			
+			
+			<Anchor>//api/name/anchorLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayerAnnotation/anchorLayer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, cpt_weak_property) __cpt_weak CPTLayer *anchorLayer</Declaration>
+			
+			
+			<Anchor>//api/name/anchorLayer</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayerAnnotation/setRectAnchor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor rectAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/rectAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTLayerAnnotation/rectAnchor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTRectAnchor rectAnchor</Declaration>
+			
+			
+			<Anchor>//api/name/rectAnchor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTLayerAnnotation/initWithAnchorLayer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTLayerAnnotation.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAnchorLayer:(CPTLayer *)anchorLayer</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAnchorLayer:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/CPTBarPlotDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/CPTBarPlotDataSource</TokenIdentifier>
+			<Abstract type="html">	@brief A bar plot data source.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTBarPlotDataSource/barFillForBarPlot:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a bar fill for the given bar plot.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTFill *)barFillForBarPlot:(CPTBarPlot *)barPlot recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>barPlot</Name>
+					<Abstract type="html">The bar plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bar fill for the bar with the given index. If the data source returns nil, the default fill is used.
+	If the data source returns an NSNull object, no fill is drawn.</Abstract></ReturnValue>
+			<Anchor>//api/name/barFillForBarPlot:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTBarPlotDataSource/barLineStyleForBarPlot:recordIndex:</TokenIdentifier>
+			<Abstract type="html">	@brief (Optional) Gets a bar line style for the given bar plot.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>- (CPTLineStyle *)barLineStyleForBarPlot:(CPTBarPlot *)barPlot recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>barPlot</Name>
+					<Abstract type="html">The bar plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bar line style for the bar with the given index. If the data source returns nil, the default line style is used.
+	If the data source returns an NSNull object, no line is drawn.</Abstract></ReturnValue>
+			<Anchor>//api/name/barLineStyleForBarPlot:recordIndex:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/CPTBarPlotDataSource/legendTitleForBarPlot:recordIndex:</TokenIdentifier>
+			<Abstract type="html">@brief (Optional) Gets the legend title for the given bar plot bar.</Abstract>
+			<DeclaredIn>CPTBarPlot.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)legendTitleForBarPlot:(CPTBarPlot *)barPlot recordIndex:(NSUInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>barPlot</Name>
+					<Abstract type="html">The bar plot.</Abstract>
+				</Parameter><Parameter>
+					<Name>index</Name>
+					<Abstract type="html">The data index of interest.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The title text for the legend entry for the point with the given index.</Abstract></ReturnValue>
+			<Anchor>//api/name/legendTitleForBarPlot:recordIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,596 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>CPTPlotSpace Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.0.5 (build 789)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">CorePlot 1.0 </a></h1>
+				<a id="developerHome" href="../index.html">Barry Wark, Brad Larson, Drew McCormack, Eric Skroch</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">CPTPlotSpace Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/allowsUserInteraction">&nbsp;&nbsp;&nbsp;&nbsp;allowsUserInteraction</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/graph">&nbsp;&nbsp;&nbsp;&nbsp;graph</option>
+	
+	<option value="//api/name/identifier">&nbsp;&nbsp;&nbsp;&nbsp;identifier</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/doublePrecisionPlotPoint:forPlotAreaViewPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- doublePrecisionPlotPoint:forPlotAreaViewPoint:</option>
+	
+	<option value="//api/name/plotAreaViewPointForDoublePrecisionPlotPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotAreaViewPointForDoublePrecisionPlotPoint:</option>
+	
+	<option value="//api/name/plotAreaViewPointForPlotPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotAreaViewPointForPlotPoint:</option>
+	
+	<option value="//api/name/plotPoint:forPlotAreaViewPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- plotPoint:forPlotAreaViewPoint:</option>
+	
+	<option value="//api/name/plotRangeForCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- plotRangeForCoordinate:</option>
+	
+	<option value="//api/name/scaleBy:aboutPoint:">&nbsp;&nbsp;&nbsp;&nbsp;- scaleBy:aboutPoint:</option>
+	
+	<option value="//api/name/scaleToFitPlots:">&nbsp;&nbsp;&nbsp;&nbsp;- scaleToFitPlots:</option>
+	
+	<option value="//api/name/scaleTypeForCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- scaleTypeForCoordinate:</option>
+	
+	<option value="//api/name/setPlotRange:forCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- setPlotRange:forCoordinate:</option>
+	
+	<option value="//api/name/setScaleType:forCoordinate:">&nbsp;&nbsp;&nbsp;&nbsp;- setScaleType:forCoordinate:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_AbstractMethods Methods">AbstractMethods Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/allowsUserInteraction">allowsUserInteraction</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/graph">graph</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/identifier">identifier</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/doublePrecisionPlotPoint:forPlotAreaViewPoint:">doublePrecisionPlotPoint:forPlotAreaViewPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotAreaViewPointForDoublePrecisionPlotPoint:">plotAreaViewPointForDoublePrecisionPlotPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotAreaViewPointForPlotPoint:">plotAreaViewPointForPlotPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotPoint:forPlotAreaViewPoint:">plotPoint:forPlotAreaViewPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/plotRangeForCoordinate:">plotRangeForCoordinate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scaleBy:aboutPoint:">scaleBy:aboutPoint:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scaleToFitPlots:">scaleToFitPlots:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scaleTypeForCoordinate:">scaleTypeForCoordinate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPlotRange:forCoordinate:">setPlotRange:forCoordinate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setScaleType:forCoordinate:">setScaleType:forCoordinate:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="CPTPlotSpace Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">CPTPlotSpace Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/CPTResponder.html">CPTResponder</a><br />NSCoding</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">CPTPlotSpace.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@}</p>
+
+<pre><code>@category CPTPlotSpace(AbstractMethods)
+@brief CPTPlotSpace abstract methods—must be overridden by subclasses
+</code></pre>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/identifier">&nbsp;&nbsp;identifier</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/allowsUserInteraction">&nbsp;&nbsp;allowsUserInteraction</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/graph">&nbsp;&nbsp;graph</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+						
+						<a title="AbstractMethods Methods" name="task_AbstractMethods Methods"></a>
+						<h3 class="subsubtitle task-title">AbstractMethods Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotAreaViewPointForPlotPoint:">&ndash;&nbsp;plotAreaViewPointForPlotPoint:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotAreaViewPointForDoublePrecisionPlotPoint:">&ndash;&nbsp;plotAreaViewPointForDoublePrecisionPlotPoint:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotPoint:forPlotAreaViewPoint:">&ndash;&nbsp;plotPoint:forPlotAreaViewPoint:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/doublePrecisionPlotPoint:forPlotAreaViewPoint:">&ndash;&nbsp;doublePrecisionPlotPoint:forPlotAreaViewPoint:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPlotRange:forCoordinate:">&ndash;&nbsp;setPlotRange:forCoordinate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/plotRangeForCoordinate:">&ndash;&nbsp;plotRangeForCoordinate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setScaleType:forCoordinate:">&ndash;&nbsp;setScaleType:forCoordinate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scaleTypeForCoordinate:">&ndash;&nbsp;scaleTypeForCoordinate:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scaleToFitPlots:">&ndash;&nbsp;scaleToFitPlots:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scaleBy:aboutPoint:">&ndash;&nbsp;scaleBy:aboutPoint:</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/allowsUserInteraction" title="allowsUserInteraction"></a>
+	<h3 class="subsubtitle method-title">allowsUserInteraction</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, assign) BOOL allowsUserInteraction</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak id&lt;&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/graph" title="graph"></a>
+	<h3 class="subsubtitle method-title">graph</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, cpt_weak_property) __cpt_weak CPTGraph *graph</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/identifier" title="identifier"></a>
+	<h3 class="subsubtitle method-title">identifier</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readwrite, copy) id&lt;,NSCoding,NSObject&gt; identifier</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/doublePrecisionPlotPoint:forPlotAreaViewPoint:" title="doublePrecisionPlotPoint:forPlotAreaViewPoint:"></a>
+	<h3 class="subsubtitle method-title">doublePrecisionPlotPoint:forPlotAreaViewPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)doublePrecisionPlotPoint:(double *)<em>plotPoint</em> forPlotAreaViewPoint:(CGPoint)<em>point</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotAreaViewPointForDoublePrecisionPlotPoint:" title="plotAreaViewPointForDoublePrecisionPlotPoint:"></a>
+	<h3 class="subsubtitle method-title">plotAreaViewPointForDoublePrecisionPlotPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)plotAreaViewPointForDoublePrecisionPlotPoint:(double *)<em>plotPoint</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotAreaViewPointForPlotPoint:" title="plotAreaViewPointForPlotPoint:"></a>
+	<h3 class="subsubtitle method-title">plotAreaViewPointForPlotPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CGPoint)plotAreaViewPointForPlotPoint:(NSDecimal *)<em>plotPoint</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotPoint:forPlotAreaViewPoint:" title="plotPoint:forPlotAreaViewPoint:"></a>
+	<h3 class="subsubtitle method-title">plotPoint:forPlotAreaViewPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)plotPoint:(NSDecimal *)<em>plotPoint</em> forPlotAreaViewPoint:(CGPoint)<em>point</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/plotRangeForCoordinate:" title="plotRangeForCoordinate:"></a>
+	<h3 class="subsubtitle method-title">plotRangeForCoordinate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTPlotRange *)plotRangeForCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scaleBy:aboutPoint:" title="scaleBy:aboutPoint:"></a>
+	<h3 class="subsubtitle method-title">scaleBy:aboutPoint:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scaleBy:(CGFloat)<em>interactionScale</em> aboutPoint:(CGPoint)<em>interactionPoint</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scaleToFitPlots:" title="scaleToFitPlots:"></a>
+	<h3 class="subsubtitle method-title">scaleToFitPlots:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scaleToFitPlots:(NSArray *)<em>plots</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scaleTypeForCoordinate:" title="scaleTypeForCoordinate:"></a>
+	<h3 class="subsubtitle method-title">scaleTypeForCoordinate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (CPTScaleType)scaleTypeForCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPlotRange:forCoordinate:" title="setPlotRange:forCoordinate:"></a>
+	<h3 class="subsubtitle method-title">setPlotRange:forCoordinate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPlotRange:(CPTPlotRange *)<em>newRange</em> forCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setScaleType:forCoordinate:" title="setScaleType:forCoordinate:"></a>
+	<h3 class="subsubtitle method-title">setScaleType:forCoordinate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setScaleType:(CPTScaleType)<em>newType</em> forCoordinate:(CPTCoordinate)<em>coordinate</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2012 Barry Wark, Brad Larson, Drew McCormack, Eric Skroch. All rights reserved. (Last updated: 2012-07-22)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.0.5 (build 789)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

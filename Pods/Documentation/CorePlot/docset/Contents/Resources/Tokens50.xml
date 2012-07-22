@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTTradingRangePlot.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTTradingRangePlot</TokenIdentifier>
+			<Abstract type="html">&lt; Close values.</Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/lineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *lineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/lineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setIncreaseLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *increaseLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/increaseLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/increaseLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *increaseLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/increaseLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setDecreaseLineStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *decreaseLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/decreaseLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/decreaseLineStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTLineStyle *decreaseLineStyle</Declaration>
+			
+			
+			<Anchor>//api/name/decreaseLineStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setIncreaseFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *increaseFill</Declaration>
+			
+			
+			<Anchor>//api/name/increaseFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/increaseFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *increaseFill</Declaration>
+			
+			
+			<Anchor>//api/name/increaseFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setDecreaseFill:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *decreaseFill</Declaration>
+			
+			
+			<Anchor>//api/name/decreaseFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/decreaseFill</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, copy) CPTFill *decreaseFill</Declaration>
+			
+			
+			<Anchor>//api/name/decreaseFill</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setPlotStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTTradingRangePlotStyle plotStyle</Declaration>
+			
+			
+			<Anchor>//api/name/plotStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/plotStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CPTTradingRangePlotStyle plotStyle</Declaration>
+			
+			
+			<Anchor>//api/name/plotStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setBarWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barWidth</Declaration>
+			
+			
+			<Anchor>//api/name/barWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/barWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barWidth</Declaration>
+			
+			
+			<Anchor>//api/name/barWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setStickLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat stickLength</Declaration>
+			
+			
+			<Anchor>//api/name/stickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/stickLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat stickLength</Declaration>
+			
+			
+			<Anchor>//api/name/stickLength</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTradingRangePlot/setBarCornerRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/barCornerRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTradingRangePlot/barCornerRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTradingRangePlot.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readwrite, assign) CGFloat barCornerRadius</Declaration>
+			
+			
+			<Anchor>//api/name/barCornerRadius</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

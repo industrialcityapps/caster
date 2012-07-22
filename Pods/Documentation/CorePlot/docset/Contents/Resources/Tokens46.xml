@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/CPTTextLayer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/CPTTextLayer</TokenIdentifier>
+			<Abstract type="html">&lt; Margin width around the text.</Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextLayer/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, copy, nonatomic) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/setTextStyle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, retain, nonatomic) CPTTextStyle *textStyle</Declaration>
+			
+			
+			<Anchor>//api/name/textStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/CPTTextLayer/textStyle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>@property (readwrite, retain, nonatomic) CPTTextStyle *textStyle</Declaration>
+			
+			
+			<Anchor>//api/name/textStyle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/initWithText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithText:(NSString *)newText</Declaration>
+			
+			
+			<Anchor>//api/name/initWithText:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/initWithText:style:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithText:(NSString *)newText style:(CPTTextStyle *)newStyle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithText:style:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/sizeThatFits</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>- (CGSize)sizeThatFits</Declaration>
+			
+			
+			<Anchor>//api/name/sizeThatFits</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/CPTTextLayer/sizeToFit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>CPTTextLayer.h</DeclaredIn>			
+			
+			<Declaration>- (void)sizeToFit</Declaration>
+			
+			
+			<Anchor>//api/name/sizeToFit</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
