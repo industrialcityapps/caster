@@ -113,7 +113,7 @@
     CGFloat xMin = 0.0f;
     CGFloat xMax = 5;
     CGFloat yMin = 0.0f;
-    CGFloat yMax = 16.0f;
+    CGFloat yMax = 8.0f;
     CPTXYPlotSpace *plotSpace = (CPTXYPlotSpace *) xGraph.defaultPlotSpace;
     plotSpace.xRange = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat(xMin) length:CPTDecimalFromFloat(xMax)];
     plotSpace.yRange = [CPTPlotRange plotRangeWithLocation:CPTDecimalFromFloat(yMin) length:CPTDecimalFromFloat(yMax)];
