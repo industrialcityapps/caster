@@ -30,7 +30,21 @@
 
 - (NSArray *)paths
 {
-    return [self.touchPaths copy];
+    NSMutableArray *paths = [NSMutableArray arrayWithCapacity:[self.touchPaths count]];
+    for (NSArray *path in self.touchPaths) {
+        UIBezierPath *bezierPath = [[UIBezierPath alloc] init];
+        for (NSString *pointString in path) {
+            CGPoint point = CGPointFromString(pointString);
+            if ([bezierPath isEmpty]) {
+                [bezierPath moveToPoint:point];
+            }
+            else {
+                [bezierPath addLineToPoint:point];
+            }
+        }
+        [paths addObject:bezierPath];
+    }
+    return paths;
 }
 
 #pragma mark - UIGestureRecognizer methods
@@ -44,10 +58,13 @@
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
     for (UITouch *touch in touches) {
+        NSString *previousPointString = NSStringFromCGPoint([touch previousLocationInView:self.view]);
+        NSString *currentPointString = NSStringFromCGPoint([touch locationInView:self.view]);
+        
         // find the path for this touch, if any
-        UIBezierPath *path = nil;
-        for (UIBezierPath *currentPath in self.touchPaths) {
-            if (CGPointEqualToPoint(currentPath.currentPoint, [touch previousLocationInView:self.view])) {
+        NSMutableArray *path = nil;
+        for (NSMutableArray *currentPath in self.touchPaths) {
+            if ([[currentPath lastObject] isEqualToString:previousPointString]) {
                 path = currentPath;
                 break;
             }
@@ -55,13 +72,13 @@
         
         // create a new path if no path was found for this point
         if (nil == path) {
-            path = [[UIBezierPath alloc] init];        
-            [path moveToPoint:[touch locationInView:self.view]];
+            path = [NSMutableArray array];        
+            [path addObject:currentPointString];
             [self.touchPaths addObject:path];
         }
         else {
             // add the new touch location to its path
-            [path addLineToPoint:[touch locationInView:self.view]];
+            [path addObject:currentPointString];
         }
     }   
     
