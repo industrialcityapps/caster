@@ -26,6 +26,7 @@
 - (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer 
 {
     self.pathView.paths = [(ICGestureRecognizer *)gestureRecognizer paths];
+    [(ICGestureRecognizer *)gestureRecognizer fft];
 }
 
 #pragma mark -

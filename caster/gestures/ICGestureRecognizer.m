@@ -8,6 +8,7 @@
 
 #import "ICGestureRecognizer.h"
 #import "UIKit/UIGestureRecognizerSubclass.h"
+#import <Accelerate/Accelerate.h>
 
 @interface ICGestureRecognizer ()
 
@@ -45,6 +46,23 @@
         [paths addObject:bezierPath];
     }
     return paths;
+}
+
+- (void)fft
+{
+    NSArray *touches = [self.touchPaths objectAtIndex:0];
+    CGFloat yValues [[touches count]];
+    for (NSUInteger i = 0; i < [touches count]; i++) {
+        yValues[i] = CGPointFromString([touches objectAtIndex:i]).y;
+    }
+    
+    FFTSetup setup;
+    setup = vDSP_create_fftsetup( 11, 0 );
+    if (setup == 0) {
+        NSLog(@"Failed to setup DSP!");
+        return;
+    }
+    
 }
 
 #pragma mark - UIGestureRecognizer methods

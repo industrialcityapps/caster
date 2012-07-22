@@ -24,6 +24,9 @@
 		8C19FA9F15BB3F340096B5B1 /* casterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FA9E15BB3F340096B5B1 /* casterTests.m */; };
 		8C19FAD115BB69C30096B5B1 /* ICPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FAD015BB69C30096B5B1 /* ICPathView.m */; };
 		8C19FAD415BB6CBC0096B5B1 /* ICGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FAD315BB6CBC0096B5B1 /* ICGestureRecognizer.m */; };
+		8C19FAD615BB7F560096B5B1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C19FAD515BB7F560096B5B1 /* Accelerate.framework */; };
+		8C19FAD815BB9E460096B5B1 /* ICGestureRecognizerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C19FAD715BB9E460096B5B1 /* ICGestureRecognizerSpec.m */; };
+		8C19FAD915BB9EDD0096B5B1 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C19FAD515BB7F560096B5B1 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +59,13 @@
 		8C19FA9115BB3F340096B5B1 /* SenTestingKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8C19FA9915BB3F340096B5B1 /* casterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "casterTests-Info.plist"; sourceTree = "<group>"; };
 		8C19FA9B15BB3F340096B5B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8C19FA9D15BB3F340096B5B1 /* casterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = casterTests.h; sourceTree = "<group>"; };
 		8C19FA9E15BB3F340096B5B1 /* casterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = casterTests.m; sourceTree = "<group>"; };
 		8C19FACF15BB69C30096B5B1 /* ICPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICPathView.h; sourceTree = "<group>"; };
 		8C19FAD015BB69C30096B5B1 /* ICPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICPathView.m; sourceTree = "<group>"; };
 		8C19FAD215BB6CBC0096B5B1 /* ICGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGestureRecognizer.h; sourceTree = "<group>"; };
 		8C19FAD315BB6CBC0096B5B1 /* ICGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGestureRecognizer.m; sourceTree = "<group>"; };
+		8C19FAD515BB7F560096B5B1 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8C19FAD715BB9E460096B5B1 /* ICGestureRecognizerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGestureRecognizerSpec.m; sourceTree = "<group>"; };
 		B830F169D6014513B04D8335 /* libPods-casterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-casterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C19FAD615BB7F560096B5B1 /* Accelerate.framework in Frameworks */,
 				8C19FA7115BB3F340096B5B1 /* UIKit.framework in Frameworks */,
 				8C19FA7315BB3F340096B5B1 /* Foundation.framework in Frameworks */,
 				8C19FA7515BB3F340096B5B1 /* CoreGraphics.framework in Frameworks */,
@@ -80,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C19FAD915BB9EDD0096B5B1 /* Accelerate.framework in Frameworks */,
 				8C19FA9215BB3F340096B5B1 /* SenTestingKit.framework in Frameworks */,
 				8C19FA9315BB3F340096B5B1 /* UIKit.framework in Frameworks */,
 				8C19FA9415BB3F340096B5B1 /* Foundation.framework in Frameworks */,
@@ -113,6 +119,7 @@
 		8C19FA6F15BB3F340096B5B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C19FAD515BB7F560096B5B1 /* Accelerate.framework */,
 				8C19FA7015BB3F340096B5B1 /* UIKit.framework */,
 				8C19FA7215BB3F340096B5B1 /* Foundation.framework */,
 				8C19FA7415BB3F340096B5B1 /* CoreGraphics.framework */,
@@ -152,8 +159,8 @@
 		8C19FA9715BB3F340096B5B1 /* casterTests */ = {
 			isa = PBXGroup;
 			children = (
-				8C19FA9D15BB3F340096B5B1 /* casterTests.h */,
 				8C19FA9E15BB3F340096B5B1 /* casterTests.m */,
+				8C19FAD715BB9E460096B5B1 /* ICGestureRecognizerSpec.m */,
 				8C19FA9815BB3F340096B5B1 /* Supporting Files */,
 			);
 			path = casterTests;
@@ -323,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C19FA9F15BB3F340096B5B1 /* casterTests.m in Sources */,
+				8C19FAD815BB9E460096B5B1 /* ICGestureRecognizerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

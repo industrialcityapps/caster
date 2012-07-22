@@ -12,4 +12,6 @@
 
 - (NSArray *)paths;
 
+- (void)fft;
+
 @end
